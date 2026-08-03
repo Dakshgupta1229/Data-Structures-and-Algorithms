@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0053-maximum-subarray) |
 | [0209-minimum-size-subarray-sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0238-product-of-array-except-self) |
 | [0713-subarray-product-less-than-k](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0713-subarray-product-less-than-k) |
@@ -32,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0053-maximum-subarray) |
 | [1402-reducing-dishes](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1402-reducing-dishes) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 ## Greedy
@@ -59,4 +61,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1004-max-consecutive-ones-iii](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1004-max-consecutive-ones-iii) |
 | [1052-grumpy-bookstore-owner](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1052-grumpy-bookstore-owner) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0053-maximum-subarray](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0053-maximum-subarray) |
 <!---LeetCode Topics End-->
