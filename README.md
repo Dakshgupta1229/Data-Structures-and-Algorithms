@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0713-subarray-product-less-than-k](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0713-subarray-product-less-than-k) |
 | [1004-max-consecutive-ones-iii](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1004-max-consecutive-ones-iii) |
 | [1052-grumpy-bookstore-owner](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1052-grumpy-bookstore-owner) |
+| [1299-replace-elements-with-greatest-element-on-right-side](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1299-replace-elements-with-greatest-element-on-right-side) |
 | [1402-reducing-dishes](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1402-reducing-dishes) |
 | [1413-minimum-value-to-get-positive-step-by-step-sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1413-minimum-value-to-get-positive-step-by-step-sum) |
 | [1480-running-sum-of-1d-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1480-running-sum-of-1d-array) |
