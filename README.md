@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2389-longest-subsequence-with-limited-sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2389-longest-subsequence-with-limited-sum) |
+| [2799-count-complete-subarrays-in-an-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2799-count-complete-subarrays-in-an-array) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -68,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1004-max-consecutive-ones-iii](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1004-max-consecutive-ones-iii) |
 | [1052-grumpy-bookstore-owner](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1052-grumpy-bookstore-owner) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
+| [2799-count-complete-subarrays-in-an-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2799-count-complete-subarrays-in-an-array) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -85,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0128-longest-consecutive-sequence) |
 | [0560-subarray-sum-equals-k](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0560-subarray-sum-equals-k) |
+| [2799-count-complete-subarrays-in-an-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2799-count-complete-subarrays-in-an-array) |
 ## Union-Find
 |  |
 | ------- |
