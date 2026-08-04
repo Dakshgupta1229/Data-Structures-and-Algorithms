@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2149-rearrange-array-elements-by-sign](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2221-find-triangular-sum-of-an-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2221-find-triangular-sum-of-an-array) |
 | [2389-longest-subsequence-with-limited-sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2389-longest-subsequence-with-limited-sum) |
+| [2614-prime-in-diagonal](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2614-prime-in-diagonal) |
 | [2799-count-complete-subarrays-in-an-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2799-count-complete-subarrays-in-an-array) |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
 | [3731-find-missing-elements](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3731-find-missing-elements) |
@@ -132,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1248-count-number-of-nice-subarrays](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1248-count-number-of-nice-subarrays) |
 | [1588-sum-of-all-odd-length-subarrays](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1588-sum-of-all-odd-length-subarrays) |
 | [2221-find-triangular-sum-of-an-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2221-find-triangular-sum-of-an-array) |
+| [2614-prime-in-diagonal](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2614-prime-in-diagonal) |
 ## Segment Tree
 |  |
 | ------- |
@@ -153,8 +155,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2221-find-triangular-sum-of-an-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2221-find-triangular-sum-of-an-array) |
+| [2614-prime-in-diagonal](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2614-prime-in-diagonal) |
 ## Bit Manipulation
 |  |
 | ------- |
 | [0078-subsets](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0078-subsets) |
+## Matrix
+|  |
+| ------- |
+| [2614-prime-in-diagonal](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2614-prime-in-diagonal) |
 <!---LeetCode Topics End-->
