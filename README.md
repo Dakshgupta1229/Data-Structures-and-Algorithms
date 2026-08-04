@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0238-product-of-array-except-self) |
 | [0560-subarray-sum-equals-k](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0560-subarray-sum-equals-k) |
+| [0594-longest-harmonious-subsequence](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0594-longest-harmonious-subsequence) |
 | [0713-subarray-product-less-than-k](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0713-subarray-product-less-than-k) |
 | [0930-binary-subarrays-with-sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0930-binary-subarrays-with-sum) |
 | [1004-max-consecutive-ones-iii](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1004-max-consecutive-ones-iii) |
@@ -65,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0594-longest-harmonious-subsequence](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0594-longest-harmonious-subsequence) |
 | [1402-reducing-dishes](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1402-reducing-dishes) |
 | [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1984-minimum-difference-between-highest-and-lowest-of-k-scores) |
 | [2389-longest-subsequence-with-limited-sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2389-longest-subsequence-with-limited-sum) |
@@ -80,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0209-minimum-size-subarray-sum) |
+| [0594-longest-harmonious-subsequence](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0594-longest-harmonious-subsequence) |
 | [0713-subarray-product-less-than-k](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0713-subarray-product-less-than-k) |
 | [0930-binary-subarrays-with-sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0930-binary-subarrays-with-sum) |
 | [1004-max-consecutive-ones-iii](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1004-max-consecutive-ones-iii) |
@@ -107,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0128-longest-consecutive-sequence) |
 | [0560-subarray-sum-equals-k](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0560-subarray-sum-equals-k) |
+| [0594-longest-harmonious-subsequence](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0594-longest-harmonious-subsequence) |
 | [0930-binary-subarrays-with-sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0930-binary-subarrays-with-sum) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1248-count-number-of-nice-subarrays) |
 | [2799-count-complete-subarrays-in-an-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2799-count-complete-subarrays-in-an-array) |
@@ -125,4 +129,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
+## Counting
+|  |
+| ------- |
+| [0594-longest-harmonious-subsequence](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0594-longest-harmonious-subsequence) |
 <!---LeetCode Topics End-->
