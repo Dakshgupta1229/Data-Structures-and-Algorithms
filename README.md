@@ -130,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0507-perfect-number](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0507-perfect-number) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1248-count-number-of-nice-subarrays) |
 | [1588-sum-of-all-odd-length-subarrays](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1588-sum-of-all-odd-length-subarrays) |
 | [2221-find-triangular-sum-of-an-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2221-find-triangular-sum-of-an-array) |
