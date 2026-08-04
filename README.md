@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1980-find-unique-binary-string](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1980-find-unique-binary-string) |
 | [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1984-minimum-difference-between-highest-and-lowest-of-k-scores) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2149-rearrange-array-elements-by-sign) |
+| [2221-find-triangular-sum-of-an-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2221-find-triangular-sum-of-an-array) |
 | [2389-longest-subsequence-with-limited-sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2389-longest-subsequence-with-limited-sum) |
 | [2799-count-complete-subarrays-in-an-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2799-count-complete-subarrays-in-an-array) |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
@@ -107,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2149-rearrange-array-elements-by-sign) |
+| [2221-find-triangular-sum-of-an-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2221-find-triangular-sum-of-an-array) |
 ## Hash Table
 |  |
 | ------- |
@@ -128,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1248-count-number-of-nice-subarrays](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1248-count-number-of-nice-subarrays) |
 | [1588-sum-of-all-odd-length-subarrays](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1588-sum-of-all-odd-length-subarrays) |
+| [2221-find-triangular-sum-of-an-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2221-find-triangular-sum-of-an-array) |
 ## Segment Tree
 |  |
 | ------- |
@@ -140,4 +143,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1980-find-unique-binary-string](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1980-find-unique-binary-string) |
+## Combinatorics
+|  |
+| ------- |
+| [2221-find-triangular-sum-of-an-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2221-find-triangular-sum-of-an-array) |
+## Number Theory
+|  |
+| ------- |
+| [2221-find-triangular-sum-of-an-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2221-find-triangular-sum-of-an-array) |
 <!---LeetCode Topics End-->
