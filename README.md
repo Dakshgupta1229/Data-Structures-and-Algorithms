@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0078-subsets) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0128-longest-consecutive-sequence) |
+| [0204-count-primes](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0204-count-primes) |
 | [0209-minimum-size-subarray-sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0238-product-of-array-except-self) |
 | [0560-subarray-sum-equals-k](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0560-subarray-sum-equals-k) |
@@ -134,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0204-count-primes) |
 | [0507-perfect-number](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0507-perfect-number) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1248-count-number-of-nice-subarrays) |
 | [1588-sum-of-all-odd-length-subarrays](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1588-sum-of-all-odd-length-subarrays) |
@@ -162,6 +164,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Number Theory
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0204-count-primes) |
 | [2221-find-triangular-sum-of-an-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2221-find-triangular-sum-of-an-array) |
 | [2507-smallest-value-after-replacing-with-sum-of-prime-factors](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2507-smallest-value-after-replacing-with-sum-of-prime-factors) |
 | [2521-distinct-prime-factors-of-product-of-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2521-distinct-prime-factors-of-product-of-array) |
@@ -183,17 +186,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Primality Test
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0204-count-primes) |
 | [2507-smallest-value-after-replacing-with-sum-of-prime-factors](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2507-smallest-value-after-replacing-with-sum-of-prime-factors) |
 | [2521-distinct-prime-factors-of-product-of-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2521-distinct-prime-factors-of-product-of-array) |
 | [3115-maximum-prime-difference](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3115-maximum-prime-difference) |
 ## Sieve Theory
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0204-count-primes) |
 | [2507-smallest-value-after-replacing-with-sum-of-prime-factors](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2507-smallest-value-after-replacing-with-sum-of-prime-factors) |
 | [2521-distinct-prime-factors-of-product-of-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2521-distinct-prime-factors-of-product-of-array) |
 ## Prime Number Sieve
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0204-count-primes) |
 | [2507-smallest-value-after-replacing-with-sum-of-prime-factors](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2507-smallest-value-after-replacing-with-sum-of-prime-factors) |
 | [2521-distinct-prime-factors-of-product-of-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2521-distinct-prime-factors-of-product-of-array) |
 ## Euclidean Algorithm
@@ -204,4 +210,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2521-distinct-prime-factors-of-product-of-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2521-distinct-prime-factors-of-product-of-array) |
+## Enumeration
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0204-count-primes) |
 <!---LeetCode Topics End-->
