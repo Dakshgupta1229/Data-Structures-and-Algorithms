@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0169-majority-element) |
 | [0204-count-primes](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0204-count-primes) |
 | [0209-minimum-size-subarray-sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0209-minimum-size-subarray-sum) |
+| [0229-majority-element-ii](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0229-majority-element-ii) |
 | [0238-product-of-array-except-self](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0238-product-of-array-except-self) |
 | [0560-subarray-sum-equals-k](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0560-subarray-sum-equals-k) |
 | [0594-longest-harmonious-subsequence](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0594-longest-harmonious-subsequence) |
@@ -79,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0229-majority-element-ii) |
 | [0594-longest-harmonious-subsequence](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0594-longest-harmonious-subsequence) |
 | [1402-reducing-dishes](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1402-reducing-dishes) |
 | [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1984-minimum-difference-between-highest-and-lowest-of-k-scores) |
@@ -126,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0128-longest-consecutive-sequence) |
 | [0169-majority-element](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0229-majority-element-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0560-subarray-sum-equals-k) |
 | [0594-longest-harmonious-subsequence](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0594-longest-harmonious-subsequence) |
 | [0930-binary-subarrays-with-sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0930-binary-subarrays-with-sum) |
@@ -163,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0229-majority-element-ii) |
 | [0594-longest-harmonious-subsequence](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0594-longest-harmonious-subsequence) |
 ## Backtracking
 |  |
@@ -237,4 +241,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0229-majority-element-ii) |
 <!---LeetCode Topics End-->
