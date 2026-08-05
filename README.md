@@ -111,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2221-find-triangular-sum-of-an-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2221-find-triangular-sum-of-an-array) |
+| [2507-smallest-value-after-replacing-with-sum-of-prime-factors](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2507-smallest-value-after-replacing-with-sum-of-prime-factors) |
 ## Hash Table
 |  |
 | ------- |
@@ -134,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1248-count-number-of-nice-subarrays](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1248-count-number-of-nice-subarrays) |
 | [1588-sum-of-all-odd-length-subarrays](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1588-sum-of-all-odd-length-subarrays) |
 | [2221-find-triangular-sum-of-an-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2221-find-triangular-sum-of-an-array) |
+| [2507-smallest-value-after-replacing-with-sum-of-prime-factors](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2507-smallest-value-after-replacing-with-sum-of-prime-factors) |
 | [2614-prime-in-diagonal](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2614-prime-in-diagonal) |
 ## Segment Tree
 |  |
@@ -156,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2221-find-triangular-sum-of-an-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2221-find-triangular-sum-of-an-array) |
+| [2507-smallest-value-after-replacing-with-sum-of-prime-factors](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2507-smallest-value-after-replacing-with-sum-of-prime-factors) |
 | [2614-prime-in-diagonal](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2614-prime-in-diagonal) |
 ## Bit Manipulation
 |  |
@@ -165,4 +168,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2614-prime-in-diagonal](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2614-prime-in-diagonal) |
+## Prime Factorization
+|  |
+| ------- |
+| [2507-smallest-value-after-replacing-with-sum-of-prime-factors](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2507-smallest-value-after-replacing-with-sum-of-prime-factors) |
+## Primality Test
+|  |
+| ------- |
+| [2507-smallest-value-after-replacing-with-sum-of-prime-factors](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2507-smallest-value-after-replacing-with-sum-of-prime-factors) |
+## Sieve Theory
+|  |
+| ------- |
+| [2507-smallest-value-after-replacing-with-sum-of-prime-factors](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2507-smallest-value-after-replacing-with-sum-of-prime-factors) |
+## Prime Number Sieve
+|  |
+| ------- |
+| [2507-smallest-value-after-replacing-with-sum-of-prime-factors](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2507-smallest-value-after-replacing-with-sum-of-prime-factors) |
 <!---LeetCode Topics End-->
