@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1984-minimum-difference-between-highest-and-lowest-of-k-scores) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2221-find-triangular-sum-of-an-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2221-find-triangular-sum-of-an-array) |
+| [2326-spiral-matrix-iv](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2326-spiral-matrix-iv) |
 | [2389-longest-subsequence-with-limited-sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2389-longest-subsequence-with-limited-sum) |
 | [2521-distinct-prime-factors-of-product-of-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2521-distinct-prime-factors-of-product-of-array) |
 | [2614-prime-in-diagonal](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2614-prime-in-diagonal) |
@@ -137,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2221-find-triangular-sum-of-an-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2221-find-triangular-sum-of-an-array) |
+| [2326-spiral-matrix-iv](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2326-spiral-matrix-iv) |
 | [2507-smallest-value-after-replacing-with-sum-of-prime-factors](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2507-smallest-value-after-replacing-with-sum-of-prime-factors) |
 ## Hash Table
 |  |
@@ -215,6 +217,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [2326-spiral-matrix-iv](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2326-spiral-matrix-iv) |
 | [2614-prime-in-diagonal](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2614-prime-in-diagonal) |
 ## Prime Factorization
 |  |
@@ -274,6 +277,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0237-delete-node-in-a-linked-list](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0237-delete-node-in-a-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0876-middle-of-the-linked-list) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
+| [2326-spiral-matrix-iv](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2326-spiral-matrix-iv) |
 ## Floyd's Cycle Finding Algorithm
 |  |
 | ------- |
