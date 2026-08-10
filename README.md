@@ -182,6 +182,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2523-closest-prime-numbers-in-range](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2523-closest-prime-numbers-in-range) |
 | [2614-prime-in-diagonal](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2614-prime-in-diagonal) |
 | [2761-prime-pairs-with-target-sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2761-prime-pairs-with-target-sum) |
+| [2816-double-a-number-represented-as-a-linked-list](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2816-double-a-number-represented-as-a-linked-list) |
 | [3115-maximum-prime-difference](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3115-maximum-prime-difference) |
 | [3345-smallest-divisible-digit-product-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3345-smallest-divisible-digit-product-i) |
 | [3618-split-array-by-prime-indices](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3618-split-array-by-prime-indices) |
@@ -294,6 +295,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1721-swapping-nodes-in-a-linked-list](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1721-swapping-nodes-in-a-linked-list) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 | [2326-spiral-matrix-iv](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2326-spiral-matrix-iv) |
+| [2816-double-a-number-represented-as-a-linked-list](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2816-double-a-number-represented-as-a-linked-list) |
 ## Floyd's Cycle Finding Algorithm
 |  |
 | ------- |
@@ -324,4 +326,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0143-reorder-list](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0143-reorder-list) |
 | [0234-palindrome-linked-list](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0234-palindrome-linked-list) |
+| [2816-double-a-number-represented-as-a-linked-list](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2816-double-a-number-represented-as-a-linked-list) |
 <!---LeetCode Topics End-->
