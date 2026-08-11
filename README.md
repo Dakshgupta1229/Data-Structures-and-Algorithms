@@ -332,4 +332,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0143-reorder-list](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0143-reorder-list) |
 | [0234-palindrome-linked-list](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0234-palindrome-linked-list) |
 | [2816-double-a-number-represented-as-a-linked-list](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2816-double-a-number-represented-as-a-linked-list) |
+## Tree
+|  |
+| ------- |
+| [0543-diameter-of-binary-tree](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0543-diameter-of-binary-tree) |
+## Depth-First Search
+|  |
+| ------- |
+| [0543-diameter-of-binary-tree](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0543-diameter-of-binary-tree) |
+## Binary Tree
+|  |
+| ------- |
+| [0543-diameter-of-binary-tree](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0543-diameter-of-binary-tree) |
+## DP on Trees
+|  |
+| ------- |
+| [0543-diameter-of-binary-tree](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0543-diameter-of-binary-tree) |
 <!---LeetCode Topics End-->
