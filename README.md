@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2761-prime-pairs-with-target-sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2761-prime-pairs-with-target-sum) |
 | [2799-count-complete-subarrays-in-an-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2799-count-complete-subarrays-in-an-array) |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
+| [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3115-maximum-prime-difference](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3115-maximum-prime-difference) |
 | [3618-split-array-by-prime-indices](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3618-split-array-by-prime-indices) |
 | [3731-find-missing-elements](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3731-find-missing-elements) |
@@ -92,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1402-reducing-dishes](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1402-reducing-dishes) |
 | [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1984-minimum-difference-between-highest-and-lowest-of-k-scores) |
 | [2389-longest-subsequence-with-limited-sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2389-longest-subsequence-with-limited-sum) |
+| [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3731-find-missing-elements](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3731-find-missing-elements) |
 ## Binary Search
 |  |
@@ -162,6 +164,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2521-distinct-prime-factors-of-product-of-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2521-distinct-prime-factors-of-product-of-array) |
 | [2799-count-complete-subarrays-in-an-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2799-count-complete-subarrays-in-an-array) |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
+| [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3731-find-missing-elements](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3731-find-missing-elements) |
 ## Union-Find
 |  |
