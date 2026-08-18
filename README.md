@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3115-maximum-prime-difference](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3115-maximum-prime-difference) |
+| [3471-find-the-largest-almost-missing-integer](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3471-find-the-largest-almost-missing-integer) |
 | [3618-split-array-by-prime-indices](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3618-split-array-by-prime-indices) |
 | [3731-find-missing-elements](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3731-find-missing-elements) |
 ## Prefix Sum
@@ -165,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2799-count-complete-subarrays-in-an-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2799-count-complete-subarrays-in-an-array) |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
+| [3471-find-the-largest-almost-missing-integer](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3471-find-the-largest-almost-missing-integer) |
 | [3731-find-missing-elements](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3731-find-missing-elements) |
 ## Union-Find
 |  |
