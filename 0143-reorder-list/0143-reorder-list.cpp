@@ -27,8 +27,8 @@ public:
             prev = curr;
             curr = temp;
         }
-        ListNode* newHead = new ListNode(10);
-        ListNode* nh = newHead;
+        ListNode* newHead = new ListNode(1000);
+        ListNode* t = newHead;
         while(head!=NULL && prev!=NULL){
             newHead->next = head;
             newHead = newHead->next;
@@ -39,7 +39,6 @@ public:
         }
         if(head!=NULL) newHead->next = head;
         if(prev!=NULL) newHead->next = prev;
-        head = nh->next;
-
+        head = t->next;
     }
 };
