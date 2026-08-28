@@ -10,12 +10,12 @@ class Solution {
 public:
 
     int size(ListNode* head){
-        int cnt = 0;
+        int count = 0;
         while(head!=NULL){
+            count++;
             head = head->next;
-            cnt++;
         }
-        return cnt;
+        return count;
     }
 
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
