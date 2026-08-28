@@ -16,33 +16,33 @@ public:
         int max_row = m-1;
         int min_column = 0;
         int max_column = n-1;
-        ListNode* temp = head;
         while(min_row<=max_row && min_column<=max_column){
+            // right
             for(int i=min_column;i<=max_column;i++){
-                if(temp==NULL) break;
-                v[min_row][i] = temp->val;
-                temp = temp->next;
+                if(head==NULL) break;
+                v[min_row][i] = head->val;
+                head = head->next;
             }
             min_row++;
-            if(min_row>max_row || min_column>max_column) break;
+            //down
             for(int i=min_row;i<=max_row;i++){
-                if(temp==NULL) break;
-                v[i][max_column] = temp->val;
-                temp = temp->next;
+                if(head==NULL) break;
+                v[i][max_column] = head->val;
+                head = head->next;
             }
             max_column--;
-            if(min_row>max_row || min_column>max_column) break;
+            //left
             for(int i=max_column;i>=min_column;i--){
-                if(temp==NULL) break;
-                v[max_row][i] = temp->val;
-                temp = temp->next;
+                if(head==NULL) break;
+                v[max_row][i] = head->val;
+                head = head->next;
             }
             max_row--;
-            if(min_row>max_row || min_column>max_column) break;
+            //up
             for(int i=max_row;i>=min_row;i--){
-                if(temp==NULL) break;
-                v[i][min_column] = temp->val;
-                temp = temp->next;
+                if(head==NULL) break;
+                v[i][min_column] = head->val;
+                head = head->next;
             }
             min_column++;
         }
