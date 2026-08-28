@@ -17,21 +17,22 @@ public:
             ListNode* temp2 = lists[lists.size()-2];
             lists.pop_back();
             lists.pop_back();
-            ListNode* newHead = new ListNode(10);
-            ListNode* t = newHead;
+            ListNode* temp = new ListNode(1000);
+            ListNode* t = temp;
             while(temp1!=NULL && temp2!=NULL){
-                if(temp1->val<temp2->val){
-                    newHead->next = temp1;
+                if(temp1->val<=temp2->val){
+                    temp->next = temp1;
+                    temp = temp->next;
                     temp1 = temp1->next;
                 }
                 else{
-                    newHead->next = temp2;
+                    temp->next = temp2;
+                    temp = temp->next;
                     temp2 = temp2->next;
                 }
-                newHead = newHead->next;
             }
-            if(temp1!=NULL) newHead->next = temp1;
-            if(temp2!=NULL) newHead->next = temp2;
+            if(temp1!=NULL) temp->next = temp1;
+            if(temp2!=NULL) temp->next = temp2;
             lists.push_back(t->next);
         }
         return lists[0];
