@@ -10,7 +10,6 @@
  */
 class Solution {
 public:
-
     int size(ListNode* head){
         int count = 0;
         while(head!=NULL){
@@ -20,19 +19,23 @@ public:
         return count;
     }
 
-    ListNode* swapNodes(ListNode* head, int k) {
-        int n = size(head);
+    ListNode* check(ListNode* head,int k){
         int count = 1;
-        ListNode* temp1;
-        ListNode* temp2;
-        ListNode* temp = head;
-        while(temp!=NULL){
-            if(count==k) temp1 = temp;
-            if(count==n-k+1) temp2 = temp;
-            temp = temp->next;
+        while(head!=NULL){
+            if(count==k) return head;
+            head = head->next;
             count++;
         }
-        swap(temp1->val,temp2->val);
+        return NULL;
+    }
+
+    ListNode* swapNodes(ListNode* head, int k) {
+        int n = size(head);
+        ListNode* l1 = check(head,k);
+        ListNode* l2 = check(head,n-k+1);
+        int temp = l1->val;
+        l1->val = l2->val;
+        l2->val = temp;
         return head;
     }
 };
