@@ -24,39 +24,40 @@ public:
         vector<ListNode*> v;
         int n = size(head);
         if(n<=k){
-            ListNode* temp = head;
-            while(temp!=NULL){
-                ListNode* t = new ListNode(temp->val);
-                v.push_back(t);
-                temp = temp->next;
-            }
-            while(v.size()!=k){
-                v.push_back(NULL);
-            }
-            return v;
-        }
-        int parts = n/k;
-        int extra = n%k;
-        ListNode * temp = head;
-        int count = 1;
-        ListNode* t = head;
-        int pt = 0;
-        while(temp!=NULL){
-            if(extra>0) pt = parts + 1;
-            else pt = parts;
-            if(count==1) t = temp;
-            if(count==pt){
-                ListNode* tt = temp->next;
+            while(head!=NULL){
+                ListNode* temp = head;
+                head = head->next;
                 temp->next = NULL;
-                temp = tt;
-                count = 1;
-                v.push_back(t);
-                t = temp;
-                if(extra>0) extra--;
+                v.push_back(temp);
             }
-            else{
-                temp = temp->next;
-                count++;
+            while(v.size()!=k) v.push_back(NULL);
+        }
+        else{
+            int parts = n/k;
+            int extra = n%k;
+            int count = 1;
+            ListNode* start = NULL;
+            while(head!=NULL){
+                if(count==1) start = head;
+                if(extra>0 && count==(parts+1)){
+                    ListNode* t = head;
+                    head = head->next;
+                    t->next = NULL;
+                    v.push_back(start);
+                    count = 1;
+                    extra--;
+                }
+                else if(extra<=0 && count==parts){
+                        ListNode* t = head;
+                        head = head->next;
+                        t->next = NULL;
+                        v.push_back(start);
+                    count = 1;
+                }
+                else{
+                    head = head->next;
+                    count++;
+                }
             }
         }
         return v;
