@@ -181,6 +181,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0002-add-two-numbers) |
 | [0204-count-primes](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0204-count-primes) |
+| [0382-linked-list-random-node](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0382-linked-list-random-node) |
 | [0507-perfect-number](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0507-perfect-number) |
 | [0650-2-keys-keyboard](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0650-2-keys-keyboard) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1248-count-number-of-nice-subarrays) |
@@ -301,6 +302,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0234-palindrome-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0237-delete-node-in-a-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0328-odd-even-linked-list) |
+| [0382-linked-list-random-node](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0382-linked-list-random-node) |
 | [0725-split-linked-list-in-parts](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0725-split-linked-list-in-parts) |
 | [0876-middle-of-the-linked-list](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0876-middle-of-the-linked-list) |
 | [1721-swapping-nodes-in-a-linked-list](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1721-swapping-nodes-in-a-linked-list) |
@@ -355,4 +357,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0543-diameter-of-binary-tree](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0543-diameter-of-binary-tree) |
+## Reservoir Sampling
+|  |
+| ------- |
+| [0382-linked-list-random-node](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0382-linked-list-random-node) |
+## Randomized
+|  |
+| ------- |
+| [0382-linked-list-random-node](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0382-linked-list-random-node) |
 <!---LeetCode Topics End-->
