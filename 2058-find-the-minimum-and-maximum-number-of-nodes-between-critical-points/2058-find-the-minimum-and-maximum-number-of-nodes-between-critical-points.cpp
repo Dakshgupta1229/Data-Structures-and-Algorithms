@@ -12,27 +12,24 @@ class Solution {
 public:
     vector<int> nodesBetweenCriticalPoints(ListNode* head) {
         vector<int> v;
-        ListNode* temp = head;
-        int count = 1;
-        int val1 = temp->val;
-        temp = temp->next;
-        while(temp->next!=NULL){
-            int val2 = temp->val;
-            int val3 = temp->next->val;
-            if(val2>val1 && val2>val3) v.push_back(count+1);
-            if(val2<val1 && val2<val3) v.push_back(count+1);
-            val1 = temp->val;
-            temp = temp->next;
+        int count = 2;
+        int first = head->val;
+        head = head->next;
+        while(head->next!=NULL){
+            int second = head->val;
+            int third = head->next->val;
+            if(second>first && second>third) v.push_back(count);
+            else if(second<first && second<third) v.push_back(count);
+            first = second;
+            head = head->next;
             count++;
         }
-        if(v.size()==0 || v.size()==1) return {-1,-1};
-        sort(v.begin(),v.end());
-        int max_dist = v[v.size()-1] - v[0];
-        int min_dist = INT_MAX;
-        for(int i=0;i<v.size()-1;i++){
-            if(min_dist>(v[i+1] - v[i])) min_dist = v[i+1] - v[i];
+        if(v.size()<2) return {-1,-1};
+        int min_distance = INT_MAX;
+        for(int i=1;i<v.size();i++){
+            if(min_distance>v[i]-v[i-1]) min_distance = v[i] - v[i-1];
         }
-        return {min_dist,max_dist};
-
+        
+        return {min_distance,v[v.size()-1]-v[0]};
     }
 };
