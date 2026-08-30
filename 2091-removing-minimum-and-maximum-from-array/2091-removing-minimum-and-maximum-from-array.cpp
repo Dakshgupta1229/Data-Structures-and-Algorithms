@@ -31,8 +31,6 @@ public:
         if(idx1<=idx2) third_min = nums.size()-idx1;
         else third_min = nums.size()-idx2;
 
-        cout<<first_min<<" "<<second_min<<" "<<third_min;
-
         return min(first_min,min(second_min,third_min));
     }
 };
