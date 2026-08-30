@@ -359,15 +359,18 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Tree
 |  |
 | ------- |
+| [0100-same-tree](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0100-same-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0543-diameter-of-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
+| [0100-same-tree](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0100-same-tree) |
 | [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0430-flatten-a-multilevel-doubly-linked-list) |
 | [0543-diameter-of-binary-tree](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0543-diameter-of-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
+| [0100-same-tree](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0100-same-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0543-diameter-of-binary-tree) |
 ## DP on Trees
 |  |
@@ -394,4 +397,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1472-design-browser-history](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1472-design-browser-history) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0100-same-tree](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0100-same-tree) |
 <!---LeetCode Topics End-->
