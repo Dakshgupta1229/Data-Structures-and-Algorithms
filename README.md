@@ -353,6 +353,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0143-reorder-list](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0143-reorder-list) |
+| [0144-binary-tree-preorder-traversal](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0144-binary-tree-preorder-traversal) |
 | [0234-palindrome-linked-list](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0234-palindrome-linked-list) |
 | [1472-design-browser-history](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1472-design-browser-history) |
 | [2816-double-a-number-represented-as-a-linked-list](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2816-double-a-number-represented-as-a-linked-list) |
@@ -361,6 +362,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0100-same-tree](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0100-same-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0102-binary-tree-level-order-traversal) |
+| [0144-binary-tree-preorder-traversal](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0144-binary-tree-preorder-traversal) |
 | [0226-invert-binary-tree](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0226-invert-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0543-diameter-of-binary-tree) |
 | [0872-leaf-similar-trees](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0872-leaf-similar-trees) |
@@ -370,6 +372,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0100-same-tree](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0100-same-tree) |
+| [0144-binary-tree-preorder-traversal](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0144-binary-tree-preorder-traversal) |
 | [0226-invert-binary-tree](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0226-invert-binary-tree) |
 | [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0430-flatten-a-multilevel-doubly-linked-list) |
 | [0543-diameter-of-binary-tree](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0543-diameter-of-binary-tree) |
@@ -381,6 +384,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0100-same-tree](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0100-same-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0102-binary-tree-level-order-traversal) |
+| [0144-binary-tree-preorder-traversal](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0144-binary-tree-preorder-traversal) |
 | [0226-invert-binary-tree](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0226-invert-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0543-diameter-of-binary-tree) |
 | [0872-leaf-similar-trees](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0872-leaf-similar-trees) |
