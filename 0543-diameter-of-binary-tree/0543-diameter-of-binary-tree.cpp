@@ -17,18 +17,19 @@ public:
         return 1 + max(level(root->left),level(root->right));
     }
 
-    void traverse(TreeNode* root,int &max_depth){
+    void check(TreeNode* root,int &max_val){
         if(root==NULL) return;
         int left_tree = level(root->left);
         int right_tree = level(root->right);
-        if(max_depth<(left_tree+right_tree)) max_depth = left_tree + right_tree;
-        traverse(root->left,max_depth);
-        traverse(root->right,max_depth);
+        int sum = left_tree + right_tree;
+        if(max_val<sum) max_val = sum;
+        check(root->left,max_val);
+        check(root->right,max_val);
     }
 
     int diameterOfBinaryTree(TreeNode* root) {
-        int max_depth = 0;
-        traverse(root,max_depth);
-        return max_depth;
+        int max_val = 0;
+        check(root,max_val);
+        return max_val;
     }
 };
