@@ -15,10 +15,9 @@ public:
         if(p==NULL && q==NULL) return true;
         if(p==NULL || q==NULL) return false;
         if(p->val!=q->val) return false;
-        bool result1 = isSameTree(p->left,q->left);
-        if(result1==false) return false;
-        bool result2 = isSameTree(p->right,q->right);
-        if(result2==false) return false;
-        return true;
+        bool flag1 = isSameTree(p->left,q->left);
+        if(flag1==false) return false;
+        bool flag2 = isSameTree(p->right,q->right);
+        return flag2;
     }
 };
