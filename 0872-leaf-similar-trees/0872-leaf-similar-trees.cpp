@@ -12,22 +12,19 @@
 class Solution {
 public:
 
-    void traverse(TreeNode* root,string &str){
+    void check(TreeNode* root,string &str){
         if(root==NULL) return;
         if(root->left==NULL && root->right==NULL){
             str = str + to_string(root->val) + "->";
-            return;
         }
-        traverse(root->left,str);
-        traverse(root->right,str);
+        check(root->left,str);
+        check(root->right,str);
     }
 
     bool leafSimilar(TreeNode* root1, TreeNode* root2) {
-        string str1 = "";
-        string str2 = "";
-        traverse(root1,str1);
-        traverse(root2,str2);
-        cout<<str1<<" "<<str2<<endl;
+        string str1,str2;
+        check(root1,str1);
+        check(root2,str2);
         if(str1==str2) return true;
         return false;
     }
