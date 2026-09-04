@@ -11,30 +11,39 @@
  */
 class Solution {
 public:
-
-    void traverse(TreeNode* root,int vertical,int level,map<int,map<int,vector<int>>> &m){
-        if(root==NULL) return;
-        m[vertical][level].push_back(root->val);
-        traverse(root->left,vertical-1,level+1,m);
-        traverse(root->right,vertical+1,level+1,m);
-    }
-
     vector<vector<int>> verticalTraversal(TreeNode* root) {
         vector<vector<int>> v;
+        queue<pair<TreeNode*,int>> q;
+        q.push({root,0});
         map<int,map<int,vector<int>>> m;
-        traverse(root,0,0,m);
+        m[0][0].push_back(root->val);
+        int level = 0;
+        while(q.size()>0){
+            int n = q.size();
+            for(int i=0;i<n;i++){
+                auto it = q.front();
+                q.pop();
+                TreeNode* temp = it.first;
+                int cnt = it.second;
+                if(temp->left!=NULL){
+                    q.push({temp->left,cnt-1});
+                    m[cnt-1][level].push_back(temp->left->val);
+                    
+                }
+                if(temp->right!=NULL){
+                    q.push({temp->right,cnt+1});
+                    m[cnt+1][level].push_back(temp->right->val);
+                }
+            }
+            level++;
+        }
         for(auto p:m){
-            int vertical = p.first;
             map<int,vector<int>> m1 = p.second;
-            // cout<<vertical<<" -> "<<endl;
             vector<int> v2;
             for(auto p1:m1){
-                // cout<<"Level: "<<p1.first<<endl;
                 vector<int> v1 = p1.second;
                 sort(v1.begin(),v1.end());
-                for(int i=0;i<v1.size();i++){
-                    v2.push_back(v1[i]);
-                }
+                for(int j=0;j<v1.size();j++) v2.push_back(v1[j]);
             }
             v.push_back(v2);
         }
