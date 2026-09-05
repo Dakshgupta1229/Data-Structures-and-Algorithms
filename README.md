@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1413-minimum-value-to-get-positive-step-by-step-sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1413-minimum-value-to-get-positive-step-by-step-sum) |
 | [1472-design-browser-history](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1472-design-browser-history) |
 | [1480-running-sum-of-1d-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1480-running-sum-of-1d-array) |
+| [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [1588-sum-of-all-odd-length-subarrays](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1588-sum-of-all-odd-length-subarrays) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
@@ -136,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1004-max-consecutive-ones-iii](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1004-max-consecutive-ones-iii) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
+| [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [2389-longest-subsequence-with-limited-sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2389-longest-subsequence-with-limited-sum) |
 ## Sliding Window
 |  |
