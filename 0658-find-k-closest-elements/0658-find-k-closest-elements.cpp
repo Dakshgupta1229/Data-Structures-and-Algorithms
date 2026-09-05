@@ -1,10 +1,10 @@
 class Solution {
 public:
     vector<int> findClosestElements(vector<int>& arr, int k, int x) {
+        vector<int> v;
+        int pivot_idx = -1;
         int low = 0;
         int high = arr.size()-1;
-        int pivot_idx = -1;
-        vector<int> result;
         while(low<=high){
             int mid = low + (high-low)/2;
             if(arr[mid]==x){
@@ -14,56 +14,44 @@ public:
             else if(arr[mid]>x) high = mid - 1;
             else low = mid + 1;
         }
-        if(pivot_idx==-1){
-            while(high>=0 && low<arr.size() && result.size()!=k){
-                int diff1 = abs(arr[high] - x);
-                int diff2 = abs(arr[low] - x);
-                if(diff1<=diff2){
-                    result.push_back(arr[high]);
-                    high--;
-                }
-                else{
-                    result.push_back(arr[low]);
-                    low++;
-                }
-            }
-            while(result.size()!=k && high>=0){
-                result.push_back(arr[high]);
-                high--;
-            }
-            while(result.size()!=k && low<arr.size()){
-                result.push_back(arr[low]);
-                low++;
-            }
-            sort(result.begin(),result.end());
+        if(pivot_idx==-1) pivot_idx = high;
 
+        if(pivot_idx==-1){
+            int idx = 0;
+            while(v.size()<k){
+                v.push_back(arr[idx]);
+                idx++;
+            }
         }
         else{
-            result.push_back(arr[pivot_idx]);
-            low = pivot_idx-1;
-            high = pivot_idx+1;
-            while(result.size()!=k && low>=0 && high<arr.size()){
-                int diff1 = abs(arr[low] - x);
-                int diff2 = abs(arr[high] - x);
-                if(diff1<=diff2){
-                    result.push_back(arr[low]);
-                    low--;
+            int i=pivot_idx;
+            int j=pivot_idx+1;
+            while(i>=0 && j<arr.size() && v.size()<k){
+                int dist1 = abs(arr[i]-x);
+                int dist2 = abs(arr[j]-x);
+                if(dist1<dist2){
+                    v.push_back(arr[i]);
+                    i--;
+                }
+                else if(dist1>dist2){
+                    v.push_back(arr[j]);
+                    j++;
                 }
                 else{
-                    result.push_back(arr[high]);
-                    high++;
+                    v.push_back(arr[i]);
+                    i--;
                 }
             }
-            while(result.size()!=k && low>=0){
-                result.push_back(arr[low]);
-                low--;
+            while(v.size()<k && i>=0){
+                v.push_back(arr[i]);
+                i--;
             }
-            while(result.size()!=k && high<arr.size()){
-                result.push_back(arr[high]);
-                high++;
+            while(v.size()<k && j<arr.size()){
+                v.push_back(arr[j]);
+                j++;
             }
-            sort(result.begin(),result.end());
         }
-        return result;
+        sort(v.begin(),v.end());
+        return v;
     }
 };
