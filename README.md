@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0128-longest-consecutive-sequence) |
 | [0152-maximum-product-subarray](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0152-maximum-product-subarray) |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0169-majority-element](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0169-majority-element) |
 | [0204-count-primes](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0204-count-primes) |
 | [0209-minimum-size-subarray-sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0209-minimum-size-subarray-sum) |
@@ -120,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0033-search-in-rotated-sorted-array) |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0209-minimum-size-subarray-sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0209-minimum-size-subarray-sum) |
 | [0633-sum-of-square-numbers](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0633-sum-of-square-numbers) |
 | [0658-find-k-closest-elements](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0658-find-k-closest-elements) |
