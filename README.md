@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0930-binary-subarrays-with-sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0930-binary-subarrays-with-sum) |
 | [1004-max-consecutive-ones-iii](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1004-max-consecutive-ones-iii) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1011-capacity-to-ship-packages-within-d-days) |
+| [1013-partition-array-into-three-parts-with-equal-sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1013-partition-array-into-three-parts-with-equal-sum) |
 | [1052-grumpy-bookstore-owner](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1052-grumpy-bookstore-owner) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1248-count-number-of-nice-subarrays) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
@@ -107,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [1013-partition-array-into-three-parts-with-equal-sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1013-partition-array-into-three-parts-with-equal-sum) |
 | [1402-reducing-dishes](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1402-reducing-dishes) |
 | [2091-removing-minimum-and-maximum-from-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2091-removing-minimum-and-maximum-from-array) |
 | [2389-longest-subsequence-with-limited-sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2389-longest-subsequence-with-limited-sum) |
