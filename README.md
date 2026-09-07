@@ -238,6 +238,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0128-longest-consecutive-sequence) |
+| [0547-number-of-provinces](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0547-number-of-provinces) |
 ## Math
 |  |
 | ------- |
@@ -518,6 +519,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0543-diameter-of-binary-tree) |
+| [0547-number-of-provinces](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0547-number-of-provinces) |
 | [0563-binary-tree-tilt](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0563-binary-tree-tilt) |
 | [0572-subtree-of-another-tree](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0572-subtree-of-another-tree) |
 | [0589-n-ary-tree-preorder-traversal](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0589-n-ary-tree-preorder-traversal) |
@@ -646,6 +648,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0513-find-bottom-left-tree-value](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0513-find-bottom-left-tree-value) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0530-minimum-absolute-difference-in-bst) |
+| [0547-number-of-provinces](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0662-maximum-width-of-binary-tree) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0783-minimum-distance-between-bst-nodes) |
@@ -702,4 +705,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0572-subtree-of-another-tree) |
+## Graph Theory
+|  |
+| ------- |
+| [0547-number-of-provinces](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0547-number-of-provinces) |
 <!---LeetCode Topics End-->
