@@ -63,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3069-distribute-elements-into-two-arrays-i) |
 | [3115-maximum-prime-difference](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3115-maximum-prime-difference) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3471-find-the-largest-almost-missing-integer) |
+| [3483-unique-3-digit-even-numbers](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3483-unique-3-digit-even-numbers) |
 | [3618-split-array-by-prime-indices](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3618-split-array-by-prime-indices) |
 | [3718-smallest-missing-multiple-of-k](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3718-smallest-missing-multiple-of-k) |
 | [3731-find-missing-elements](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3731-find-missing-elements) |
@@ -232,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3471-find-the-largest-almost-missing-integer) |
+| [3483-unique-3-digit-even-numbers](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3483-unique-3-digit-even-numbers) |
 | [3718-smallest-missing-multiple-of-k](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3718-smallest-missing-multiple-of-k) |
 | [3731-find-missing-elements](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3731-find-missing-elements) |
 ## Union-Find
@@ -350,6 +352,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0204-count-primes](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0204-count-primes) |
 | [2761-prime-pairs-with-target-sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2761-prime-pairs-with-target-sum) |
 | [3345-smallest-divisible-digit-product-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3345-smallest-divisible-digit-product-i) |
+| [3483-unique-3-digit-even-numbers](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3483-unique-3-digit-even-numbers) |
 ## Boyer–Moore Majority Vote Algorithm
 |  |
 | ------- |
@@ -402,6 +405,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0143-reorder-list](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0234-palindrome-linked-list) |
+| [3483-unique-3-digit-even-numbers](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3483-unique-3-digit-even-numbers) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
