@@ -434,6 +434,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0143-reorder-list](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0143-reorder-list) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0145-binary-tree-postorder-traversal) |
+| [0173-binary-search-tree-iterator](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0173-binary-search-tree-iterator) |
 | [0234-palindrome-linked-list](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0234-palindrome-linked-list) |
 | [0589-n-ary-tree-preorder-traversal](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0589-n-ary-tree-preorder-traversal) |
 | [0590-n-ary-tree-postorder-traversal](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0590-n-ary-tree-postorder-traversal) |
@@ -460,6 +461,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0129-sum-root-to-leaf-numbers](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0145-binary-tree-postorder-traversal) |
+| [0173-binary-search-tree-iterator](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0173-binary-search-tree-iterator) |
 | [0199-binary-tree-right-side-view](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0230-kth-smallest-element-in-a-bst) |
@@ -578,6 +580,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0129-sum-root-to-leaf-numbers](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0145-binary-tree-postorder-traversal) |
+| [0173-binary-search-tree-iterator](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0173-binary-search-tree-iterator) |
 | [0199-binary-tree-right-side-view](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0230-kth-smallest-element-in-a-bst) |
@@ -634,6 +637,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0173-binary-search-tree-iterator](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0173-binary-search-tree-iterator) |
 | [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1261-find-elements-in-a-contaminated-binary-tree) |
 | [1472-design-browser-history](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1472-design-browser-history) |
 ## Doubly-Linked List
@@ -688,6 +692,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0098-validate-binary-search-tree) |
+| [0173-binary-search-tree-iterator](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0173-binary-search-tree-iterator) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0501-find-mode-in-binary-search-tree](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0501-find-mode-in-binary-search-tree) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0530-minimum-absolute-difference-in-bst) |
@@ -723,4 +728,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0547-number-of-provinces) |
+## Iterator
+|  |
+| ------- |
+| [0173-binary-search-tree-iterator](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0173-binary-search-tree-iterator) |
 <!---LeetCode Topics End-->
