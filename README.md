@@ -68,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3718-smallest-missing-multiple-of-k](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3718-smallest-missing-multiple-of-k) |
 | [3731-find-missing-elements](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3731-find-missing-elements) |
 | [3903-smallest-stable-index-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3903-smallest-stable-index-i) |
+| [3982-sum-of-integers-with-maximum-digit-range](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3982-sum-of-integers-with-maximum-digit-range) |
 | [4014-minimum-total-price-after-applying-discounts](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4014-minimum-total-price-after-applying-discounts) |
 | [4020-elevator-requests-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4020-elevator-requests-i) |
 ## Prefix Sum
@@ -270,6 +271,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3618-split-array-by-prime-indices](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3618-split-array-by-prime-indices) |
 | [3622-check-divisibility-by-digit-sum-and-product](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3622-check-divisibility-by-digit-sum-and-product) |
 | [3870-count-commas-in-range](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3870-count-commas-in-range) |
+| [3982-sum-of-integers-with-maximum-digit-range](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3982-sum-of-integers-with-maximum-digit-range) |
 ## Segment Tree
 |  |
 | ------- |
