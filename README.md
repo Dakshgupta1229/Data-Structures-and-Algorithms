@@ -99,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [1980-find-unique-binary-string](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1980-find-unique-binary-string) |
+| [2062-count-vowel-substrings-of-a-string](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2062-count-vowel-substrings-of-a-string) |
 | [2483-minimum-penalty-for-a-shop](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2483-minimum-penalty-for-a-shop) |
 | [4006-count-valid-prefixes](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4006-count-valid-prefixes) |
 ## Dynamic Programming
@@ -234,6 +235,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1248-count-number-of-nice-subarrays](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1248-count-number-of-nice-subarrays) |
 | [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1261-find-elements-in-a-contaminated-binary-tree) |
 | [1980-find-unique-binary-string](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1980-find-unique-binary-string) |
+| [2062-count-vowel-substrings-of-a-string](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2062-count-vowel-substrings-of-a-string) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 | [2521-distinct-prime-factors-of-product-of-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2521-distinct-prime-factors-of-product-of-array) |
 | [2799-count-complete-subarrays-in-an-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2799-count-complete-subarrays-in-an-array) |
