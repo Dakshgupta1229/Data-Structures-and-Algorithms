@@ -14,10 +14,8 @@ public:
 
     void traverse(TreeNode* root,int &sum){
         if(root==NULL) return;
-        if(root->left!=NULL){
-            if(root->left->left==NULL && root->left->right==NULL){
-                sum = sum + root->left->val;
-            }
+        if(root->left!=NULL && root->left->left==NULL && root->left->right==NULL){
+            sum = sum + root->left->val;
         }
         traverse(root->left,sum);
         traverse(root->right,sum);
