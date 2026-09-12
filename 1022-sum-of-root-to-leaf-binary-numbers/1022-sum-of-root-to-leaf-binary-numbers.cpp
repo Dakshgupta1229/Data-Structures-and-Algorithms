@@ -12,32 +12,27 @@
 class Solution {
 public:
 
-    void check(TreeNode* root,vector<string> &v,string str){
+    void traverse(TreeNode* root,string str,int &sum){
         if(root==NULL) return;
         if(root->left==NULL && root->right==NULL){
             str = str + to_string(root->val);
-            v.push_back(str);
+            int num = 0;
+            int idx = 0;
+            for(int i=str.size()-1;i>=0;i--){
+                num = num + (pow(2,idx) * (int)(str[i]-48));
+                idx++;
+            }
+            sum = sum + num;
             return;
         }
         str = str + to_string(root->val);
-        check(root->left,v,str);
-        check(root->right,v,str);
+        traverse(root->left,str,sum);
+        traverse(root->right,str,sum);
     }
 
     int sumRootToLeaf(TreeNode* root) {
-        vector<string> v;
-        check(root,v,"");
-        int result = 0;
-        for(int i=0;i<v.size();i++){
-            string str = v[i];
-            int num = 0;
-            int idx = 0;
-            for(int j=str.size()-1;j>=0;j--){
-                num = num + (pow(2,idx) * (str[j]-48));
-                idx++;
-            }
-            result = result + num;
-        }
-        return result;
+        int sum = 0;
+        traverse(root,"",sum);
+        return sum;
     }
 };
