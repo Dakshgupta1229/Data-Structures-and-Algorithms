@@ -17,14 +17,23 @@ public:
         return 1 + max(height(root->left),height(root->right));
     }
 
+    void traverse(TreeNode* root,bool &flag){
+        if(root==NULL) return;
+        int diff = abs(height(root->left) - height(root->right));
+        if(diff>1){
+            flag = false;
+            return;
+        }
+        if(flag==false) return;
+        traverse(root->left,flag);
+        traverse(root->right,flag);
+    }
+
     bool isBalanced(TreeNode* root) {
         if(root==NULL) return true;
-        int left_tree = height(root->left);
-        int right_tree = height(root->right);
-        if(abs(left_tree - right_tree)>1) return false;
-        bool result1 = isBalanced(root->left);
-        if(result1==false) return false;
-        bool result2 = isBalanced(root->right);
-        return result2;
+        bool flag = true;
+        traverse(root,flag);
+        return flag;
+
     }
 };
