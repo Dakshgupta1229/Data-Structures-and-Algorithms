@@ -18,7 +18,7 @@ public:
         q.push(root);
         while(q.size()>0){
             int n = q.size();
-            int value = INT_MIN;
+            int value = -1;
             for(int i=0;i<n;i++){
                 TreeNode* temp = q.front();
                 q.pop();
