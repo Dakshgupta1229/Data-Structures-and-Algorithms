@@ -20,15 +20,15 @@ public:
     }
 
     vector<int> findMode(TreeNode* root) {
-        vector<int> v;
         map<int,int> m;
+        vector<int> v;
         traverse(root,m);
-        int freq = INT_MIN;
+        int max_freq = 0;
         for(auto p:m){
-            if(freq<p.second) freq = p.second;
+            if(max_freq<p.second) max_freq = p.second;
         }
         for(auto p:m){
-            if(p.second==freq) v.push_back(p.first);
+            if(p.second==max_freq) v.push_back(p.first);
         }
         return v;
     }
