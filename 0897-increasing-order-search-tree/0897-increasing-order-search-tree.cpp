@@ -12,28 +12,27 @@
 class Solution {
 public:
 
-    void traverse(TreeNode* root,queue<TreeNode*> &q){
+    void traverse(TreeNode* root,vector<TreeNode*> &v){
         if(root==NULL) return;
-        traverse(root->left,q);
-        q.push(root);
-        traverse(root->right,q);
+        traverse(root->left,v);
+        v.push_back(root);
+        traverse(root->right,v);
     }
 
     TreeNode* increasingBST(TreeNode* root) {
-        queue<TreeNode*> q;
-        traverse(root,q);
-        TreeNode* temp = q.front();
-        temp->left = NULL;
-        root = temp;
-        q.pop();
-        while(q.size()>0){
-            TreeNode* t = q.front();
-            q.pop();
-            t->left = NULL;
-            t->right = NULL;
-            temp->right = t;
-            temp = t;
+        if(root==NULL) return root;
+        vector<TreeNode*> v;
+        traverse(root,v);
+        root = v[0];
+        for(int i=0;i<v.size()-1;i++){
+            TreeNode* temp = v[i];
+            TreeNode* temp2 = v[i+1];
+            temp2->left = NULL;
+            temp2->right = NULL;
+            temp->left = NULL;
+            temp->right = temp2;
         }
         return root;
+
     }
 };
