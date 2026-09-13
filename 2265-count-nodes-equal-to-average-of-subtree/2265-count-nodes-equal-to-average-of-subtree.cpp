@@ -12,18 +12,20 @@
 class Solution {
 public:
 
-    int sum(TreeNode* root,int &count){
-        if(root==NULL) return 0;
-        count++;
-        return root->val + sum(root->left,count) + sum(root->right,count);
+    void check(TreeNode* root,int &sum,int &cnt){
+        if(root==NULL) return;
+        sum = sum + root->val;
+        cnt++;
+        check(root->left,sum,cnt);
+        check(root->right,sum,cnt);
     }
 
     void traverse(TreeNode* root,int &count){
         if(root==NULL) return;
-        int result = 0;
+        int sum = 0;
         int cnt = 0;
-        int sum_tree = sum(root,cnt);
-        if((sum_tree/cnt)==root->val) count++;
+        check(root,sum,cnt);
+        if(root->val==(sum/cnt)) count++;
         traverse(root->left,count);
         traverse(root->right,count);
     }
