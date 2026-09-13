@@ -12,26 +12,23 @@
 class Solution {
 public:
 
-    void check(TreeNode* root,int targetSum,vector<int> v1,vector<vector<int>> &v,int sum){
+    void traverse(TreeNode* root,int target,int sum,vector<int> v1,vector<vector<int>> &v){
         if(root==NULL) return;
         if(root->left==NULL && root->right==NULL){
-            sum = sum + root->val;
             v1.push_back(root->val);
-            if(sum==targetSum){
-                v.push_back(v1);
-                return;
-            }
+            sum = sum + root->val;
+            if(sum==target) v.push_back(v1);
+            return;
         }
-        sum = sum + root->val;
         v1.push_back(root->val);
-        check(root->left,targetSum,v1,v,sum);
-        check(root->right,targetSum,v1,v,sum);
+        traverse(root->left,target,sum+root->val,v1,v);
+        traverse(root->right,target,sum+root->val,v1,v);
     }
 
     vector<vector<int>> pathSum(TreeNode* root, int targetSum) {
         vector<vector<int>> v;
         vector<int> v1;
-        check(root,targetSum,v1,v,0);
+        traverse(root,targetSum,0,v1,v);
         return v;
     }
 };
