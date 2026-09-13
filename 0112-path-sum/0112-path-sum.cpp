@@ -12,23 +12,23 @@
 class Solution {
 public:
 
-    void check(TreeNode* root,int sum,int targetSum,bool &flag){
+    void traverse(TreeNode* root,int target,int sum,bool &flag){
         if(root==NULL) return;
         if(root->left==NULL && root->right==NULL){
             sum = sum + root->val;
-            if(sum==targetSum){
+            if(sum==target){
                 flag = true;
                 return;
             }
         }
-        sum = sum + root->val;
-        check(root->left,sum,targetSum,flag);
-        check(root->right,sum,targetSum,flag);
+        if(flag==true) return;
+        traverse(root->left,target,sum+root->val,flag);
+        traverse(root->right,target,sum+root->val,flag);
     }
 
     bool hasPathSum(TreeNode* root, int targetSum) {
         bool flag = false;
-        check(root,0,targetSum,flag);
+        traverse(root,targetSum,0,flag);
         return flag;
     }
 };
