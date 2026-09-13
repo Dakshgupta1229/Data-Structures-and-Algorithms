@@ -12,24 +12,20 @@
 class Solution {
 public:
 
-    void check(TreeNode* root,string str,vector<string> &v){
+    void traverse(TreeNode* root,string str,int &sum){
         if(root==NULL) return;
         if(root->left==NULL && root->right==NULL){
-            str = str + to_string(root->val);
-            v.push_back(str);
+            str += to_string(root->val);
+            sum = sum + stoi(str);
             return;
         }
-        check(root->left,str+to_string(root->val),v);
-        check(root->right,str+to_string(root->val),v);
+        traverse(root->left,str+to_string(root->val),sum);
+        traverse(root->right,str+to_string(root->val),sum);
     }
 
     int sumNumbers(TreeNode* root) {
-        vector<string> v;
-        check(root,"",v);
         int sum = 0;
-        for(int i=0;i<v.size();i++){
-            sum = sum + stoi(v[i]);
-        }
+        traverse(root,"",sum);
         return sum;
     }
 };
