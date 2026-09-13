@@ -9,53 +9,43 @@
  */
 class Solution {
 public:
+
+    void traverse(TreeNode* root,map<TreeNode*,TreeNode*> &m){
+        if(root==NULL) return;
+        if(root->left!=NULL) m[root->left] = root;
+        if(root->right!=NULL) m[root->right] = root;
+        traverse(root->left,m);
+        traverse(root->right,m);
+    }
+
     vector<int> distanceK(TreeNode* root, TreeNode* target, int k) {
-        if(k==0) return {target->val};
-        map<TreeNode*,TreeNode*> m;
-        queue<TreeNode*> q;
-        q.push(root);
-        while(q.size()>0){
-            TreeNode* temp = q.front();
-            q.pop();
-            if(temp->left!=NULL){
-                m[temp->left] = temp;
-                q.push(temp->left);
-            }
-            if(temp->right!=NULL){
-                m[temp->right] = temp;
-                q.push(temp->right);
-            }
-        }
+        vector<int> v;
         set<TreeNode*> s;
-        queue<pair<TreeNode*,int>> q1;
-        q1.push({target,0});
+        map<TreeNode*,TreeNode*> m;
+        traverse(root,m);
+        queue<pair<TreeNode*,int>> q;
+        q.push({target,0});
         s.insert(target);
-        while(q1.size()>0){
-            auto it = q1.front();
+        while(q.size()>0){
+            auto it = q.front();
+            q.pop();
             TreeNode* temp = it.first;
-            int cnt = it.second;
-            if(cnt==k) break;
-            q1.pop();
-            if(m[temp]!=NULL && s.find(m[temp])==s.end()){
-                q1.push({m[temp],cnt+1});
-                s.insert(m[temp]);
-            }
+            int value = temp->val;
+            int distance = it.second;
+            if(distance==k) v.push_back(value);
             if(temp->left!=NULL && s.find(temp->left)==s.end()){
-                q1.push({temp->left,cnt+1});
+                q.push({temp->left,distance+1});
                 s.insert(temp->left);
             }
             if(temp->right!=NULL && s.find(temp->right)==s.end()){
-                q1.push({temp->right,cnt+1});
+                q.push({temp->right,distance+1});
                 s.insert(temp->right);
             }
+            if(m.find(temp)!=m.end() && s.find(m[temp])==s.end()){
+                q.push({m[temp],distance+1});
+                s.insert(m[temp]);
+            }
         }
-        vector<int> v;
-        while(q1.size()>0){
-            auto it = q1.front();
-            q1.pop();
-            if (it.second==k) v.push_back(it.first->val);
-        }
-
         return v;
     }
 };
