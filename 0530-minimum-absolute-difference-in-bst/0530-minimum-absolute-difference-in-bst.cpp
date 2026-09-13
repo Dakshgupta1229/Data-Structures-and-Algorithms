@@ -20,11 +20,12 @@ public:
     }
 
     int getMinimumDifference(TreeNode* root) {
+        if(root==NULL) return 0;
         vector<int> v;
         traverse(root,v);
         int diff = INT_MAX;
-        for(int i=1;i<v.size();i++){
-            if(diff>v[i]-v[i-1]) diff = v[i] - v[i-1];
+        for(int i=0;i<v.size()-1;i++){
+            if(diff>(v[i+1]-v[i])) diff = v[i+1] - v[i];
         }
         return diff;
     }
