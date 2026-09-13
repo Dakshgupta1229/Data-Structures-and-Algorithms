@@ -11,29 +11,32 @@
  */
 class FindElements {
 public:
-    set<int> s;
-
     void traverse(TreeNode* root){
         if(root==NULL) return;
-        if(root->left!=NULL){
-            root->left->val = (2 * root->val) + 1;
-        }
-        if(root->right!=NULL){
-            root->right->val = (2 * root->val) + 2;
-        }
+        int parent = root->val;
+        if(root->left!=NULL) root->left->val = 2 * parent + 1;
+        if(root->right!=NULL) root->right->val = 2 * parent + 2;
         traverse(root->left);
-        s.insert(root->val);
         traverse(root->right);
     }
 
+    TreeNode* root;
     FindElements(TreeNode* root) {
         root->val = 0;
+        this->root = root;
         traverse(root);
+    }
+    bool check(TreeNode* root,int target){
+        if(root==NULL) return false;
+        if(root->val==target) return true;
+        bool left_tree = check(root->left,target);
+        if(left_tree==true) return left_tree;
+        return check(root->right,target);
     }
     
     bool find(int target) {
-        if(s.find(target)!=s.end()) return true;
-        return false;
+        bool result = check(root,target);
+        return result;
     }
 };
 
