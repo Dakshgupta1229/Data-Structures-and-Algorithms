@@ -25,10 +25,10 @@ public:
         int i=0;
         int j=v.size()-1;
         while(i<j){
-            int sum = v[i] + v[j];
+            int sum = v[i]+v[j];
             if(sum==k) return true;
-            if(sum>k) j--;
-            if(sum<k) i++;
+            else if(sum>k) j--;
+            else i++;
         }
         return false;
     }
