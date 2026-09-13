@@ -12,7 +12,7 @@
 class Solution {
 public:
 
-    void check(TreeNode* root,string str,vector<string> &v){
+    void traverse(TreeNode* root,string str,vector<string> &v){
         if(root==NULL) return;
         if(root->left==NULL && root->right==NULL){
             str = str + (char)(root->val+97);
@@ -20,13 +20,13 @@ public:
             v.push_back(str);
             return;
         }
-        check(root->left,str+(char)(root->val+97),v);
-        check(root->right,str+(char)(root->val+97),v);
+        traverse(root->left,str+(char)(root->val+97),v);
+        traverse(root->right,str+(char)(root->val+97),v);
     }
 
     string smallestFromLeaf(TreeNode* root) {
         vector<string> v;
-        check(root,"",v);
+        traverse(root,"",v);
         sort(v.begin(),v.end());
         return v[0];
     }
