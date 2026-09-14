@@ -22,17 +22,18 @@ public:
 
     ListNode* rotateRight(ListNode* head, int k) {
         int n = size(head);
-        if(k==0 || n==0) return head;
+        if(n==0 || k==0) return head;
         k = k%n;
         if(k==0) return head;
         ListNode* temp = head;
-        for(int i=0;i<n-k-1;i++) temp = temp->next;
+        for(int i=0;i<n-k-1;i++){
+            temp = temp->next;
+        }
         ListNode* newHead = temp->next;
         temp->next = NULL;
-        ListNode* tt = newHead;
-        while(tt->next!=NULL) tt = tt->next;
-        tt->next = head;
+        ListNode* t = newHead;
+        while(t->next!=NULL) t = t->next;
+        t->next = head;
         return newHead;
-        
     }
 };
