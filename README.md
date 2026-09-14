@@ -99,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0168-excel-sheet-column-title](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0168-excel-sheet-column-title) |
 | [0171-excel-sheet-column-number](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0171-excel-sheet-column-number) |
 | [0257-binary-tree-paths](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0257-binary-tree-paths) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0459-repeated-substring-pattern](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0459-repeated-substring-pattern) |
 | [0988-smallest-string-starting-from-leaf](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0988-smallest-string-starting-from-leaf) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
@@ -494,6 +495,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0257-binary-tree-paths) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0404-sum-of-left-leaves](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0404-sum-of-left-leaves) |
 | [0437-path-sum-iii](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0437-path-sum-iii) |
 | [0501-find-mode-in-binary-search-tree](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0501-find-mode-in-binary-search-tree) |
@@ -557,6 +559,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0257-binary-tree-paths) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0404-sum-of-left-leaves](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0404-sum-of-left-leaves) |
 | [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0430-flatten-a-multilevel-doubly-linked-list) |
 | [0437-path-sum-iii](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0437-path-sum-iii) |
@@ -624,6 +627,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0257-binary-tree-paths) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0404-sum-of-left-leaves](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0404-sum-of-left-leaves) |
 | [0437-path-sum-iii](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0437-path-sum-iii) |
 | [0501-find-mode-in-binary-search-tree](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0501-find-mode-in-binary-search-tree) |
@@ -679,6 +683,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0173-binary-search-tree-iterator](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0173-binary-search-tree-iterator) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1261-find-elements-in-a-contaminated-binary-tree) |
 | [1472-design-browser-history](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1472-design-browser-history) |
 ## Doubly-Linked List
@@ -705,6 +710,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0199-binary-tree-right-side-view](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0226-invert-binary-tree) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0404-sum-of-left-leaves](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0404-sum-of-left-leaves) |
 | [0513-find-bottom-left-tree-value](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0513-find-bottom-left-tree-value) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0515-find-largest-value-in-each-tree-row) |
