@@ -24,18 +24,15 @@ public:
     void traverse(Node* root,vector<int> &v){
         if(root==NULL) return;
         v.push_back(root->val);
-        vector<Node*> children = root->children;
-        for(int i=0;i<children.size();i++){
-            traverse(children[i],v);
+        vector<Node*> v1 = root->children;
+        for(int i=0;i<v1.size();i++){
+            traverse(v1[i],v);
         }
     }
 
     vector<int> preorder(Node* root) {
         vector<int> v;
         traverse(root,v);
-        for(int i=0;i<v.size();i++){
-            cout<<v[i]<<" ";
-        }
         return v;
     }
 };
