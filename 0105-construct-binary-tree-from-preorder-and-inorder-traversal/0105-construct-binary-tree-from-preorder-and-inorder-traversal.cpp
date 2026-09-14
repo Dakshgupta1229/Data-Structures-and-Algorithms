@@ -12,7 +12,7 @@
 class Solution {
 public:
 
-    TreeNode* build(vector<int> &preorder,int pre_start,int pre_end,vector<int> &inorder,int in_start,int in_end,map<int,int>& m){
+    TreeNode* build(vector<int> &preorder,int pre_start,int pre_end,vector<int> &inorder,int in_start,int in_end,map<int,int> &m){
         if(pre_start>pre_end || in_start>in_end) return NULL;
         TreeNode* root = new TreeNode(preorder[pre_start]);
         int in_value = m[root->val];
@@ -27,7 +27,7 @@ public:
         for(int i=0;i<inorder.size();i++){
             m[inorder[i]] = i;
         }
-        int n = preorder.size();
+        int n = inorder.size();
         TreeNode* root = build(preorder,0,n-1,inorder,0,n-1,m);
         return root;
     }
