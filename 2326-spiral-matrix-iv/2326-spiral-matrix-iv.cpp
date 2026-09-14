@@ -17,28 +17,24 @@ public:
         int min_column = 0;
         int max_column = n-1;
         while(min_row<=max_row && min_column<=max_column){
-            // right
             for(int i=min_column;i<=max_column;i++){
                 if(head==NULL) break;
                 v[min_row][i] = head->val;
                 head = head->next;
             }
             min_row++;
-            //down
             for(int i=min_row;i<=max_row;i++){
                 if(head==NULL) break;
                 v[i][max_column] = head->val;
                 head = head->next;
             }
             max_column--;
-            //left
             for(int i=max_column;i>=min_column;i--){
                 if(head==NULL) break;
                 v[max_row][i] = head->val;
                 head = head->next;
             }
             max_row--;
-            //up
             for(int i=max_row;i>=min_row;i--){
                 if(head==NULL) break;
                 v[i][min_column] = head->val;
@@ -47,5 +43,6 @@ public:
             min_column++;
         }
         return v;
+
     }
 };
