@@ -11,9 +11,9 @@
 class Solution {
 public:
     ListNode* partition(ListNode* head, int x) {
-        ListNode* less = new ListNode(1000);
+        ListNode* less = new ListNode(10);
         ListNode* l = less;
-        ListNode* greater = new ListNode(1000);
+        ListNode* greater = new ListNode(10);
         ListNode* g = greater;
         while(head!=NULL){
             if(head->val<x){
@@ -26,8 +26,9 @@ public:
             }
             head = head->next;
         }
-        greater->next = NULL;
         less->next = g->next;
+        greater->next = NULL;
         return l->next;
+
     }
 };
