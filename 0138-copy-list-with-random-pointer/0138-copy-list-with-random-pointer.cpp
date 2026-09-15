@@ -17,54 +17,50 @@ public:
 class Solution {
 public:
     Node* copyRandomList(Node* head) {
-        Node* newHead = new Node(10);
-        Node* t = newHead;
         Node* temp = head;
+        Node* copy = new Node(10);
+        Node* t = copy;
         while(temp!=NULL){
             Node* tt = new Node(temp->val);
-            newHead->next = tt;
-            newHead = newHead->next;
+            copy->next = tt;
+            copy = copy->next;
             temp = temp->next;
         }
         t = t->next;
-        Node* newHead2 = new Node(10);
-        Node* t2 = newHead2;
-        while(head!=NULL && t!=NULL){
-            newHead2->next = head;
-            newHead2 = newHead2->next;
-            head = head->next;
-            newHead2->next = t;
-            newHead2 = newHead2->next;
-            t = t->next;
-        }
-        t2 = t2->next;
-        Node* t3 = t2;
-        while(t3!=NULL){
-            Node* original_random = t3->random;
-            if(original_random==NULL){
-                t3->next->random = NULL;
-            }
-            else{
-                t3->next->random = original_random->next;
-            }
-            t3 = t3->next->next;
-        }
-        Node* result1 = new Node(10);
-        Node* r1 = result1;
-        Node* result2 = new Node(10);
-        Node* r2 = result2;
-        while(t2!=NULL){
-            result1->next = t2;
-            result1 = result1->next;
-            t2 = t2->next;
-            result2->next = t2;
-            result2 = result2->next;
-            t2 = t2->next;
-        }
-        if(result1!=NULL) result1->next = NULL;
-        if(result2!=NULL) result2->next = NULL;
-        head = r1->next;
 
-        return r2->next;
+        Node* temp2 = new Node(10);
+        Node* temp3 = temp2;
+        while(head!=NULL && t!=NULL){
+            temp2->next = head;
+            head = head->next;
+            temp2 = temp2->next;
+            temp2->next = t;
+            t = t->next;
+            temp2 = temp2->next;
+        }
+        temp3 = temp3->next;
+        Node* temp8 = temp3;
+        while(temp3!=NULL){
+            Node* r = temp3->random;
+            if(r==NULL) temp3->next->random = r;
+            else temp3->next->random = r->next;
+            temp3 = temp3->next->next;
+        }
+        Node* temp4 = new Node(10);
+        Node* temp5 = temp4;
+        Node* temp6 = new Node(10);
+        Node* temp7 = temp6;
+        while(temp8!=NULL){
+            temp4->next = temp8;
+            temp8 = temp8->next;
+            temp4 = temp4->next;
+            temp6->next = temp8;
+            temp8 = temp8->next;
+            temp6 = temp6->next;
+        }
+        temp4->next = NULL;
+        temp6->next = NULL;
+        head = temp5->next;
+        return temp7->next;
     }
 };
