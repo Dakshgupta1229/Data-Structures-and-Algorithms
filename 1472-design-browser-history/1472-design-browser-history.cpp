@@ -1,9 +1,8 @@
-
 class Node{
 public:
     string val;
     Node* next;
-    Node* prev;
+    Node* prev = NULL;
     Node(string val){
         this->val = val;
         this->next = NULL;
@@ -13,32 +12,45 @@ public:
 
 class BrowserHistory {
 public:
-    Node* curr = NULL;
+    Node* head;
+    Node* tail;
+    int size;
     BrowserHistory(string homepage) {
-        curr = new Node(homepage);
+        Node* t = new Node(homepage);
+        head = t;
+        tail = t;
+        size = 0;
+
     }
     
     void visit(string url) {
         Node* t = new Node(url);
-        curr->next = t;
-        t->prev = curr;
-        curr = t;
+        tail->next = t;
+        t->prev = tail;
+        tail = t;
+        size++;
     }
     
     string back(int steps) {
-        while(curr->prev!=NULL && steps>0){
-            curr = curr->prev;
+        Node* temp = tail;
+        int count = size;
+        while(steps>0 && temp->prev!=NULL){
+            temp = temp->prev;
             steps--;
+            count--;
         }
-        return curr->val;
+        tail = temp;
+        return temp->val;
     }
     
     string forward(int steps) {
-        while(curr->next!=NULL && steps>0){
-            curr = curr->next;
+        Node* temp = tail;
+        while(steps>0 && temp->next!=NULL){
+            temp = temp->next;
             steps--;
         }
-        return curr->val;
+        tail = temp;
+        return tail->val;
     }
 };
 
