@@ -11,55 +11,56 @@
 class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-        ListNode* newHead = new ListNode(1000);
-        ListNode* t = newHead;
+        ListNode* t = new ListNode(10);
+        ListNode* temp = t;
         int carry = 0;
         while(l1!=NULL && l2!=NULL){
             int sum = l1->val + l2->val + carry;
-            int last_digit = sum%10;
+            int digit = sum%10;
             if(sum>=10){
                 sum = sum/10;
-                carry = sum;
+                carry = sum%10;
             }
             else carry = 0;
-            ListNode* tt = new ListNode(last_digit);
-            newHead->next = tt;
-            newHead = newHead->next;
+            ListNode* tt = new ListNode(digit);
+            t->next = tt;
+            t = t->next;
             l1 = l1->next;
             l2 = l2->next;
         }
         while(l1!=NULL){
             int sum = l1->val + carry;
-            int last_digit = sum%10;
+            int digit = sum%10;
             if(sum>=10){
                 sum = sum/10;
-                carry = sum;
+                carry = sum%10;
             }
             else carry = 0;
-            ListNode* tt = new ListNode(last_digit);
-            newHead->next = tt;
-            newHead = newHead->next;
+            ListNode* tt = new ListNode(digit);
+            t->next = tt;
+            t = t->next;
             l1 = l1->next;
         }
         while(l2!=NULL){
             int sum = l2->val + carry;
-            int last_digit = sum%10;
+            int digit = sum%10;
             if(sum>=10){
                 sum = sum/10;
-                carry = sum;
+                carry = sum%10;
             }
             else carry = 0;
-            ListNode* tt = new ListNode(last_digit);
-            newHead->next = tt;
-            newHead = newHead->next;
+            ListNode* tt = new ListNode(digit);
+            t->next = tt;
+            t = t->next;
             l2 = l2->next;
         }
         if(carry!=0){
             ListNode* tt = new ListNode(carry);
-            newHead->next = tt;
-            newHead = newHead->next;
+            t->next = tt;
         }
-        if(newHead->next!=NULL) newHead->next = NULL;
-        return t->next;
+        return temp->next;
+
+
+
     }
 };
