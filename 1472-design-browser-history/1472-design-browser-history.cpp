@@ -33,11 +33,9 @@ public:
     
     string back(int steps) {
         Node* temp = tail;
-        int count = size;
         while(steps>0 && temp->prev!=NULL){
             temp = temp->prev;
             steps--;
-            count--;
         }
         tail = temp;
         return temp->val;
