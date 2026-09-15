@@ -27,12 +27,12 @@ public:
             prev = curr;
             curr = temp;
         }
-        ListNode* newHead = new ListNode(1000);
+        ListNode* newHead = new ListNode(10);
         ListNode* t = newHead;
         while(head!=NULL && prev!=NULL){
             newHead->next = head;
-            newHead = newHead->next;
             head = head->next;
+            newHead = newHead->next;
             newHead->next = prev;
             prev = prev->next;
             newHead = newHead->next;
