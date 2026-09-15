@@ -11,8 +11,6 @@
 class Solution {
 public:
     ListNode* doubleIt(ListNode* head) {
-        ListNode* newHead = new ListNode(1000);
-        ListNode* t = newHead;
         ListNode* prev = NULL;
         ListNode* curr = head;
         ListNode* temp = head;
@@ -23,32 +21,34 @@ public:
             curr = temp;
         }
         int carry = 0;
+        ListNode* t = NULL;
+        ListNode* newHead = prev;
         while(prev!=NULL){
+            if(prev->next==NULL) t = prev;
             int sum = 2 * prev->val + carry;
-            int last_digit = sum%10;
+            int digit = sum%10;
             if(sum>=10){
                 sum = sum/10;
-                carry = sum;
+                carry = sum%10;
             }
             else carry = 0;
-            ListNode* t = new ListNode(last_digit);
-            newHead->next = t;
-            newHead = newHead->next;
+            prev->val = digit;
             prev = prev->next;
         }
         if(carry!=0){
-            ListNode* t = new ListNode(carry);
-            newHead->next = t;
+            ListNode* tt = new ListNode(carry);
+            t->next = tt;
         }
         prev = NULL;
-        curr = t->next;
-        temp = t->next;
+        curr = newHead;
+        temp = newHead;
         while(curr!=NULL){
             temp = curr->next;
             curr->next = prev;
             prev = curr;
             curr = temp;
         }
+
         return prev;
     }
 };
