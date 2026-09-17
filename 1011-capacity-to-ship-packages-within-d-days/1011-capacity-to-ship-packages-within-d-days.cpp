@@ -1,7 +1,7 @@
 class Solution {
 public:
 
-    int check(vector<int> &weights,int days,int mid){
+    bool check(vector<int> &weights,int mid,int days){
         int sum = 0;
         int count = 0;
         for(int i=0;i<weights.size();i++){
@@ -9,12 +9,13 @@ public:
                 sum = sum + weights[i];
             }
             else{
-                sum = weights[i];
                 count++;
+                sum = weights[i];
             }
         }
         if(sum!=0) count++;
-        return count;
+        if(count<=days) return true;
+        return false;
     }
 
     int shipWithinDays(vector<int>& weights, int days) {
@@ -24,13 +25,12 @@ public:
             if(max_ele<weights[i]) max_ele = weights[i];
             sum = sum + weights[i];
         }
-        long long low = max_ele;
-        long long high = sum;
+        int low = max_ele;
+        int high = sum;
         int ans = -1;
         while(low<=high){
-            long long mid = low + (high-low)/2;
-            int count = check(weights,days,(int)mid);
-            if(count<=days){
+            int mid = low + (high-low)/2;
+            if(check(weights,mid,days)){
                 ans = mid;
                 high = mid - 1;
             }
