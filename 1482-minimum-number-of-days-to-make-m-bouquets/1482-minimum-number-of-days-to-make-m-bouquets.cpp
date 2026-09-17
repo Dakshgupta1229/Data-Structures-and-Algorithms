@@ -1,19 +1,17 @@
 class Solution {
 public:
     int minDays(vector<int>& bloomDay, int m, int k) {
-        int min_ele = INT_MAX;
         int max_ele = INT_MIN;
         for(int i=0;i<bloomDay.size();i++){
-            if(min_ele>bloomDay[i]) min_ele = bloomDay[i];
             if(max_ele<bloomDay[i]) max_ele = bloomDay[i];
         }
-
-        int low = min_ele;
+        int low = 1;
         int high = max_ele;
         int ans = -1;
         while(low<=high){
             int mid = low + (high-low)/2;
             int count = 0;
+            int n = bloomDay.size();
             int pairs = 0;
             for(int i=0;i<bloomDay.size();i++){
                 if(bloomDay[i]<=mid){
@@ -31,7 +29,6 @@ public:
             }
             else low = mid + 1;
         }
-
         return ans;
     }
 };
