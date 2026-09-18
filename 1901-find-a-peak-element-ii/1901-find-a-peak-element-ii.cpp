@@ -5,7 +5,7 @@ public:
         int high = mat[0].size()-1;
         while(low<=high){
             int mid = low + (high-low)/2;
-            int max_ele = INT_MIN;
+            int max_ele = -1;
             int r = -1;
             int c = -1;
             for(int i=0;i<mat.size();i++){
