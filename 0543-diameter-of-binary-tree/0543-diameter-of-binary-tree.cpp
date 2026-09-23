@@ -17,17 +17,17 @@ public:
         return 1 + max(level(root->left),level(root->right));
     }
 
-    void traverse(TreeNode* root,int &max_len){
+    void traverse(TreeNode* root,int &max_length){
         if(root==NULL) return;
-        int sum = level(root->left) + level(root->right);
-        if(max_len<sum) max_len = sum;
-        traverse(root->left,max_len);
-        traverse(root->right,max_len);
+        int length = level(root->left) + level(root->right);
+        if(max_length<length) max_length = length;
+        traverse(root->left,max_length);
+        traverse(root->right,max_length);
     }
 
     int diameterOfBinaryTree(TreeNode* root) {
-        int max_len = 0;
-        traverse(root,max_len);
-        return max_len;
+        int max_length = 0;
+        traverse(root,max_length);
+        return max_length;
     }
 };
