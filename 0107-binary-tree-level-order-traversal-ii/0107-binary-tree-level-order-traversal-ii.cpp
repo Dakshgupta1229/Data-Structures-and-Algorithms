@@ -12,8 +12,8 @@
 class Solution {
 public:
     vector<vector<int>> levelOrderBottom(TreeNode* root) {
-        if(root==NULL) return {};
         vector<vector<int>> v;
+        if(root==NULL) return v;
         queue<TreeNode*> q;
         q.push(root);
         while(q.size()>0){
