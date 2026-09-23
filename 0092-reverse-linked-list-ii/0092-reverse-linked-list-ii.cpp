@@ -12,53 +12,53 @@ class Solution {
 public:
     ListNode* reverseBetween(ListNode* head, int left, int right) {
         if(left==right) return head;
-        ListNode* newHead = head;
         ListNode* first = NULL;
         ListNode* second = NULL;
         ListNode* third = NULL;
         ListNode* fourth = NULL;
+        ListNode* t = head;
         int count = 1;
-        while(head!=NULL){
-            if(count==left-1) first = head;
-            if(count==left) second = head;
-            if(count==right) third = head;
-            if(count==right+1) fourth = head;
+        while(t!=NULL){
+            if(count==left-1) first = t;
+            if(count==left) second = t;
+            if(count==right) third = t;
+            if(count==right+1) fourth = t;
+            t = t->next;
             count++;
-            head = head->next;
         }
         if(left==1){
-            third->next = NULL;
-            ListNode* tt = second;
             ListNode* prev = NULL;
-            ListNode* curr = second;
             ListNode* temp = second;
+            ListNode* curr = second;
+            third->next = NULL;
             while(curr!=NULL){
                 temp = curr->next;
                 curr->next = prev;
                 prev = curr;
                 curr = temp;
             }
-            tt->next = fourth;
+            ListNode* temp2 = prev;
+            while(temp2->next!=NULL) temp2 = temp2->next;
+            temp2->next = fourth;
             return prev;
         }
+
         first->next = NULL;
         third->next = NULL;
-        ListNode* prev = NULL;
+        ListNode*prev = NULL;
         ListNode* curr = second;
-        ListNode* temp = second;
+        ListNode* temp = NULL;
         while(curr!=NULL){
             temp = curr->next;
             curr->next = prev;
             prev = curr;
             curr = temp;
         }
+        ListNode* temp2 = prev;
+        while(temp2->next!=NULL) temp2 = temp2->next;
         first->next = prev;
-        ListNode* t = prev;
-        while(t->next!=NULL){
-            t = t->next;
-        }
-        t->next = fourth;
-        return newHead;
+        temp2->next = fourth;
+        return head;
 
     }
 };
