@@ -17,28 +17,28 @@ public:
             slow = slow->next;
             fast = fast->next->next;
         }
-        ListNode* prev = NULL;
         ListNode* curr = slow->next;
-        ListNode* temp = slow->next;
         slow->next = NULL;
+        ListNode* temp = slow->next;
+        ListNode* prev = NULL;
         while(curr!=NULL){
             temp = curr->next;
             curr->next = prev;
             prev = curr;
             curr = temp;
         }
-        ListNode* newHead = new ListNode(10);
-        ListNode* t = newHead;
+        ListNode* tt = new ListNode(10);
+        ListNode* t = tt;
         while(head!=NULL && prev!=NULL){
-            newHead->next = head;
+            tt->next = head;
+            tt = tt->next;
             head = head->next;
-            newHead = newHead->next;
-            newHead->next = prev;
+            tt->next = prev;
+            tt = tt->next;
             prev = prev->next;
-            newHead = newHead->next;
         }
-        if(head!=NULL) newHead->next = head;
-        if(prev!=NULL) newHead->next = prev;
+        if(head!=NULL) tt->next = head;
+        if(prev!=NULL) tt->next = prev;
         head = t->next;
     }
 };
