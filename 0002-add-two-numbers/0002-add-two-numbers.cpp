@@ -11,56 +11,47 @@
 class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-        ListNode* t = new ListNode(10);
-        ListNode* temp = t;
+        ListNode* temp = new ListNode(10);
+        ListNode* t = temp;
         int carry = 0;
         while(l1!=NULL && l2!=NULL){
             int sum = l1->val + l2->val + carry;
             int digit = sum%10;
-            if(sum>=10){
-                sum = sum/10;
-                carry = sum%10;
-            }
+            sum = sum/10;
+            if(sum!=0) carry = sum;
             else carry = 0;
             ListNode* tt = new ListNode(digit);
-            t->next = tt;
-            t = t->next;
+            temp->next = tt;
+            temp = temp->next;
             l1 = l1->next;
             l2 = l2->next;
         }
         while(l1!=NULL){
             int sum = l1->val + carry;
             int digit = sum%10;
-            if(sum>=10){
-                sum = sum/10;
-                carry = sum%10;
-            }
+            sum = sum/10;
+            if(sum!=0) carry = sum;
             else carry = 0;
             ListNode* tt = new ListNode(digit);
-            t->next = tt;
-            t = t->next;
+            temp->next = tt;
+            temp = temp->next;
             l1 = l1->next;
         }
         while(l2!=NULL){
             int sum = l2->val + carry;
             int digit = sum%10;
-            if(sum>=10){
-                sum = sum/10;
-                carry = sum%10;
-            }
+            sum = sum/10;
+            if(sum!=0) carry = sum;
             else carry = 0;
             ListNode* tt = new ListNode(digit);
-            t->next = tt;
-            t = t->next;
+            temp->next = tt;
+            temp = temp->next;
             l2 = l2->next;
         }
         if(carry!=0){
             ListNode* tt = new ListNode(carry);
-            t->next = tt;
+            temp->next = tt;
         }
-        return temp->next;
-
-
-
+        return t->next;
     }
 };
