@@ -12,27 +12,26 @@
 class Solution {
 public:
 
-    void traverse(TreeNode* root,string str,int &sum){
+    void traverse(TreeNode* root,vector<int> v,int &sum){
         if(root==NULL) return;
         if(root->left==NULL && root->right==NULL){
-            str = str + to_string(root->val);
-            int num = 0;
+            v.push_back(root->val);
             int idx = 0;
-            for(int i=str.size()-1;i>=0;i--){
-                num = num + (pow(2,idx) * (int)(str[i]-48));
+            for(int i=v.size()-1;i>=0;i--){
+                sum = sum + (pow(2,idx) * v[i]);
                 idx++;
             }
-            sum = sum + num;
             return;
         }
-        str = str + to_string(root->val);
-        traverse(root->left,str,sum);
-        traverse(root->right,str,sum);
+        v.push_back(root->val);
+        traverse(root->left,v,sum);
+        traverse(root->right,v,sum);
     }
 
     int sumRootToLeaf(TreeNode* root) {
         int sum = 0;
-        traverse(root,"",sum);
+        vector<int> v;
+        traverse(root,v,sum);
         return sum;
     }
 };
