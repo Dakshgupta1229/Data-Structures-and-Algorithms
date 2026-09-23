@@ -22,19 +22,19 @@ public:
 
     ListNode* swapNodes(ListNode* head, int k) {
         int n = size(head);
-        ListNode* temp = head;
+        ListNode* temp1 = NULL;
+        ListNode* temp2 = NULL;
         int count = 1;
-        ListNode* first = NULL;
-        ListNode* second = NULL;
-        for(int i=0;i<n;i++){
-            if(count==k) first = temp;
-            if(count==n-k+1) second = temp;
+        ListNode* temp = head;
+        while(temp!=NULL){
+            if(count==k) temp1 = temp;
+            if(count==n-k+1) temp2 = temp;
             temp = temp->next;
             count++;
         }
-        int value = first->val;
-        first->val = second->val;
-        second->val = value;
+        int value = temp1->val;
+        temp1->val = temp2->val;
+        temp2->val = value;
         return head;
     }
 };
