@@ -12,28 +12,26 @@
 class Solution {
 public:
 
-    int height(TreeNode* root){
+    int level(TreeNode* root){
         if(root==NULL) return 0;
-        return 1 + max(height(root->left),height(root->right));
+        return 1 + max(level(root->left),level(root->right));
     }
 
     void traverse(TreeNode* root,bool &flag){
         if(root==NULL) return;
-        int diff = abs(height(root->left) - height(root->right));
-        if(diff>1){
+        int left_tree = level(root->left);
+        int right_tree = level(root->right);
+        if(abs(left_tree-right_tree)>1){
             flag = false;
             return;
         }
-        if(flag==false) return;
         traverse(root->left,flag);
         traverse(root->right,flag);
     }
 
     bool isBalanced(TreeNode* root) {
-        if(root==NULL) return true;
         bool flag = true;
         traverse(root,flag);
         return flag;
-
     }
 };
