@@ -12,8 +12,8 @@
 class Solution {
 public:
     vector<int> preorderTraversal(TreeNode* root) {
-        if(root==NULL) return {};
         vector<int> v;
+        if(root==NULL) return v;
         stack<TreeNode*> st;
         st.push(root);
         while(st.size()>0){
