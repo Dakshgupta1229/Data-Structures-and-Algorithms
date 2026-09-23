@@ -20,35 +20,33 @@ public:
             prev = curr;
             curr = temp;
         }
+        ListNode* newHead = new ListNode(10);
+        ListNode* t = newHead;
         int carry = 0;
-        ListNode* t = NULL;
-        ListNode* newHead = prev;
         while(prev!=NULL){
-            if(prev->next==NULL) t = prev;
-            int sum = 2 * prev->val + carry;
+            int sum = (2 * prev->val) + carry;
             int digit = sum%10;
-            if(sum>=10){
-                sum = sum/10;
-                carry = sum%10;
-            }
+            sum = sum/10;
+            if(sum!=0) carry = sum;
             else carry = 0;
-            prev->val = digit;
+            ListNode* tt = new ListNode(digit);
+            newHead->next = tt;
+            newHead = newHead->next;
             prev = prev->next;
         }
         if(carry!=0){
             ListNode* tt = new ListNode(carry);
-            t->next = tt;
+            newHead->next = tt;
         }
         prev = NULL;
-        curr = newHead;
-        temp = newHead;
+        curr = t->next;
+        temp = t->next;
         while(curr!=NULL){
             temp = curr->next;
             curr->next = prev;
             prev = curr;
             curr = temp;
         }
-
         return prev;
     }
 };
