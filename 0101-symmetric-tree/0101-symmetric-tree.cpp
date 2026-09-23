@@ -12,24 +12,24 @@
 class Solution {
 public:
 
-    void check(TreeNode* root1,TreeNode* root2,bool &flag){
+    void traverse(TreeNode* root1,TreeNode* root2,bool &result){
         if(root1==NULL && root2==NULL) return;
         if(root1==NULL || root2==NULL){
-            flag = false;
+            result = false;
             return;
         }
         if(root1->val!=root2->val){
-            flag = false;
+            result = false;
             return;
         }
-        if(flag==false) return;
-        check(root1->left,root2->right,flag);
-        check(root1->right,root2->left,flag);
+        if(result==false) return;
+        traverse(root1->left,root2->right,result);
+        traverse(root1->right,root2->left,result);
     }
 
     bool isSymmetric(TreeNode* root) {
-        bool flag = true;
-        check(root->left,root->right,flag);
-        return flag;
+        bool result = true;
+        traverse(root->left,root->right,result);
+        return result;
     }
 };
