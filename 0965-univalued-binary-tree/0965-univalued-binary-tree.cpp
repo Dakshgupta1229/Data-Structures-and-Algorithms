@@ -12,20 +12,20 @@
 class Solution {
 public:
 
-    void traverse(TreeNode* root,int value,bool &flag){
+    void traverse(TreeNode* root,int val,bool &result){
         if(root==NULL) return;
-        if(root->val!=value){
-            flag = false;
+        if(root->val!=val){
+            result = false;
             return;
         }
-        traverse(root->left,value,flag);
-        traverse(root->right,value,flag);
+        if(result==false) return;
+        traverse(root->left,val,result);
+        traverse(root->right,val,result);
     }
 
     bool isUnivalTree(TreeNode* root) {
-        int value = root->val;
-        bool flag = true;
-        traverse(root,value,flag);
-        return flag;
+        bool result = true;
+        traverse(root,root->val,result);
+        return result;
     }
 };
