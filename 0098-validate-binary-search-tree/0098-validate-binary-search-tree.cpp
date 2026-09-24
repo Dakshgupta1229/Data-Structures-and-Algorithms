@@ -12,20 +12,20 @@
 class Solution {
 public:
 
-    void check(TreeNode* root,long long min_ele,long long max_ele,bool &flag){
+    void traverse(TreeNode* root,long long min_val,long long max_val,bool &flag){
         if(root==NULL) return;
-        if(root->val<=min_ele || root->val>=max_ele){
+        if(root->val>=max_val || root->val<=min_val){
             flag = false;
             return;
         }
         if(flag==false) return;
-        check(root->left,min_ele,root->val,flag);
-        check(root->right,root->val,max_ele,flag);
+        traverse(root->left,min_val,root->val,flag);
+        traverse(root->right,root->val,max_val,flag);
     }
 
     bool isValidBST(TreeNode* root) {
         bool flag = true;
-        check(root,LLONG_MIN,LLONG_MAX,flag);
+        traverse(root,LLONG_MIN,LLONG_MAX,flag);
         return flag;
     }
 };
