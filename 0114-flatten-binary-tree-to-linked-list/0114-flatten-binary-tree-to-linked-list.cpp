@@ -11,23 +11,24 @@
  */
 class Solution {
 public:
-
-    void traverse(TreeNode* root,vector<TreeNode*> &v){
-        if(root==NULL) return;
-        v.push_back(root);
-        traverse(root->left,v);
-        traverse(root->right,v);
-    }
-
     void flatten(TreeNode* root) {
         if(root==NULL) return;
+        stack<TreeNode*> st;
+        st.push(root);
         vector<TreeNode*> v;
-        traverse(root,v);
-        for(int i=0;i<v.size()-1;i++){
-            TreeNode* temp = v[i];
-            TreeNode* temp2 = v[i+1];
+        while(st.size()>0){
+            TreeNode* temp = st.top();
+            st.pop();
+            v.push_back(temp);
+            if(temp->right!=NULL) st.push(temp->right);
+            if(temp->left!=NULL) st.push(temp->left);
+        }
+        TreeNode* temp = v[0];
+        root = temp;
+        for(int i=1;i<v.size();i++){
+            temp->right = v[i];
             temp->left = NULL;
-            temp->right = temp2;
+            temp = v[i];
         }
     }
 };
