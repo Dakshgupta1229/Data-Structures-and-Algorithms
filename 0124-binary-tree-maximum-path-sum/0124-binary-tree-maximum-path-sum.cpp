@@ -12,17 +12,17 @@
 class Solution {
 public:
 
-    int max_path(TreeNode* root,int &max_sum){
+    int max_depth(TreeNode* root,int &max_val){
         if(root==NULL) return 0;
-        int left_tree = max(0,max_path(root->left,max_sum));
-        int right_tree = max(0,max_path(root->right,max_sum));
-        max_sum = max(max_sum,root->val+left_tree+right_tree);
+        int left_tree = max(0,max_depth(root->left,max_val));
+        int right_tree = max(0,max_depth(root->right,max_val));
+        max_val = max(max_val,root->val + left_tree + right_tree);
         return root->val + max(left_tree,right_tree);
     }
 
     int maxPathSum(TreeNode* root) {
-        int max_sum = INT_MIN;
-        max_path(root,max_sum);
-        return max_sum;
+        int max_val = INT_MIN;
+        max_depth(root,max_val);
+        return max_val;
     }
 };
