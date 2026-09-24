@@ -12,22 +12,22 @@
 class Solution {
 public:
 
-    void check(TreeNode* root,int target,int &count,long long sum){
+    void traverse2(TreeNode* root,int targetSum,long long sum,int &count){
         if(root==NULL) return;
         sum = sum + root->val;
-        if(sum==target){
+        if(sum==targetSum){
             count++;
         }
-        check(root->left,target,count,sum);
-        check(root->right,target,count,sum);
-
+        traverse2(root->left,targetSum,sum,count);
+        traverse2(root->right,targetSum,sum,count);
     }
 
-    void traverse(TreeNode* root,int target,int &count){
+    void traverse(TreeNode* root,int targetSum,int &count){
         if(root==NULL) return;
-        check(root,target,count,0);
-        traverse(root->left,target,count);
-        traverse(root->right,target,count);
+        int sum = 0;
+        traverse2(root,targetSum,sum,count);
+        traverse(root->left,targetSum,count);
+        traverse(root->right,targetSum,count);
     }
 
     int pathSum(TreeNode* root, int targetSum) {
