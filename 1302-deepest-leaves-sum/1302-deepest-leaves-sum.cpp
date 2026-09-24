@@ -17,14 +17,15 @@ public:
         q.push(root);
         while(q.size()>0){
             int n = q.size();
-            sum = 0;
+            int sum2 = 0;
             for(int i=0;i<n;i++){
                 TreeNode* temp = q.front();
                 q.pop();
-                sum = sum + temp->val;
+                sum2 = sum2 + temp->val;
                 if(temp->left!=NULL) q.push(temp->left);
                 if(temp->right!=NULL) q.push(temp->right);
             }
+            sum = sum2;
         }
         return sum;
     }
