@@ -19,19 +19,15 @@ public:
         while(q.size()>0){
             int n = q.size();
             int max_val = INT_MIN;
-            bool flag = false;
             for(int i=0;i<n;i++){
                 TreeNode* temp = q.front();
                 q.pop();
-                if(temp->val==INT_MAX) flag = true;
                 if(max_val<temp->val) max_val = temp->val;
                 if(temp->left!=NULL) q.push(temp->left);
                 if(temp->right!=NULL) q.push(temp->right);
             }
-            if(flag==true) v.push_back(INT_MAX);
-            else v.push_back(max_val);
+            v.push_back(max_val);
         }
         return v;
-
     }
 };
