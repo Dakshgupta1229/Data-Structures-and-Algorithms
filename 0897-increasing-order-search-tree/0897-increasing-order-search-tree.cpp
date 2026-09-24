@@ -12,27 +12,24 @@
 class Solution {
 public:
 
-    void traverse(TreeNode* root,vector<TreeNode*> &v){
+    void inorder(TreeNode* root,vector<TreeNode*> &v){
         if(root==NULL) return;
-        traverse(root->left,v);
+        inorder(root->left,v);
         v.push_back(root);
-        traverse(root->right,v);
+        inorder(root->right,v);
     }
 
     TreeNode* increasingBST(TreeNode* root) {
-        if(root==NULL) return root;
         vector<TreeNode*> v;
-        traverse(root,v);
-        root = v[0];
-        for(int i=0;i<v.size()-1;i++){
-            TreeNode* temp = v[i];
-            TreeNode* temp2 = v[i+1];
-            temp2->left = NULL;
-            temp2->right = NULL;
+        inorder(root,v);
+        TreeNode* temp = v[0];
+        for(int i=1;i<v.size();i++){
             temp->left = NULL;
-            temp->right = temp2;
+            temp->right = v[i];
+            temp = v[i];
         }
-        return root;
-
+        temp->left = NULL;
+        temp->right = NULL;
+        return v[0];
     }
 };
