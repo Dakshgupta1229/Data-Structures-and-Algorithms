@@ -15,7 +15,7 @@ public:
     void traverse(TreeNode* root,string str,vector<string> &v){
         if(root==NULL) return;
         if(root->left==NULL && root->right==NULL){
-            str = str + (char)(root->val+97);
+            str = str + (char)(root->val + 97);
             reverse(str.begin(),str.end());
             v.push_back(str);
             return;
