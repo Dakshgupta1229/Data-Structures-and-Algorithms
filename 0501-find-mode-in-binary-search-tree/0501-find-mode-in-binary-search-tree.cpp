@@ -12,23 +12,25 @@
 class Solution {
 public:
 
-    void traverse(TreeNode* root,map<int,int> &m){
+    void preorder_traversal(TreeNode* root,map<int,int> &m){
         if(root==NULL) return;
         m[root->val]++;
-        traverse(root->left,m);
-        traverse(root->right,m);
+        preorder_traversal(root->left,m);
+        preorder_traversal(root->right,m);
     }
 
     vector<int> findMode(TreeNode* root) {
         map<int,int> m;
         vector<int> v;
-        traverse(root,m);
+        preorder_traversal(root,m);
         int max_freq = 0;
         for(auto p:m){
             if(max_freq<p.second) max_freq = p.second;
         }
         for(auto p:m){
-            if(p.second==max_freq) v.push_back(p.first);
+            if(p.second==max_freq){
+                v.push_back(p.first);
+            }
         }
         return v;
     }
