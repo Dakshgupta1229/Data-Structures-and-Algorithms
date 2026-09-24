@@ -12,26 +12,27 @@
 class Solution {
 public:
 
-    void traverse(TreeNode* root,set<int> &s){
+    void preorder_traversal(TreeNode* root,vector<int> &v){
         if(root==NULL) return;
-        s.insert(root->val);
-        traverse(root->left,s);
-        traverse(root->right,s);
+        v.push_back(root->val);
+        preorder_traversal(root->left,v);
+        preorder_traversal(root->right,v);
     }
 
     int findSecondMinimumValue(TreeNode* root) {
-        if(root->left==NULL && root->right==NULL) return -1;
-        set<int> s;
-        traverse(root,s);
-        int count = 1;
-        int min = -1;
-        for(auto p:s){
-            if(count==2){
-                min = p;
-                break;
-            }
-            count++;
+        vector<int> v;
+        preorder_traversal(root,v);
+        long long min_value = LLONG_MAX;
+        for(int i=0;i<v.size();i++){
+            if(min_value>v[i]) min_value = v[i];
         }
-        return min;
+        long long min_value2 = LLONG_MAX;
+        for(int i=0;i<v.size();i++){
+            if(v[i]!=min_value && min_value2>v[i]){
+                min_value2 = v[i];
+            }
+        }
+        if(min_value2==LLONG_MAX) return -1;
+        return min_value2;
     }
 };
