@@ -15,8 +15,9 @@ public:
     void traverse(TreeNode* root,string str,int &sum){
         if(root==NULL) return;
         if(root->left==NULL && root->right==NULL){
-            str += to_string(root->val);
-            sum = sum + stoi(str);
+            str = str + to_string(root->val);
+            int num = stoi(str);
+            sum = sum + num;
             return;
         }
         traverse(root->left,str+to_string(root->val),sum);
