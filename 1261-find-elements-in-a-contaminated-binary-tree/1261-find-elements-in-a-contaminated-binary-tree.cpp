@@ -11,32 +11,37 @@
  */
 class FindElements {
 public:
+    
+    TreeNode* root = NULL;
+    FindElements(TreeNode* root) {
+        this->root = root;
+        root->val = 0;
+        traverse(root);
+    }
+
     void traverse(TreeNode* root){
         if(root==NULL) return;
-        int parent = root->val;
-        if(root->left!=NULL) root->left->val = 2 * parent + 1;
-        if(root->right!=NULL) root->right->val = 2 * parent + 2;
+        if(root->left!=NULL) root->left->val = 2 * root->val + 1;
+        if(root->right!=NULL) root->right->val = 2 * root->val + 2;
         traverse(root->left);
         traverse(root->right);
     }
 
-    TreeNode* root;
-    FindElements(TreeNode* root) {
-        root->val = 0;
-        this->root = root;
-        traverse(root);
-    }
-    bool check(TreeNode* root,int target){
-        if(root==NULL) return false;
-        if(root->val==target) return true;
-        bool left_tree = check(root->left,target);
-        if(left_tree==true) return left_tree;
-        return check(root->right,target);
+    void check(TreeNode* root,int target,bool &flag){
+        if(root==NULL) return;
+        if(root->val==target){
+            flag = true;
+            return;
+        }
+        if(flag==true) return;
+        check(root->left,target,flag);
+        check(root->right,target,flag);
     }
     
     bool find(int target) {
-        bool result = check(root,target);
-        return result;
+        bool flag = false;
+        check(root,target,flag);
+        return flag;
     }
 };
 
