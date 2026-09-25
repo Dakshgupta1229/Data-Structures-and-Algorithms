@@ -14,19 +14,19 @@ public:
     int findBottomLeftValue(TreeNode* root) {
         queue<TreeNode*> q;
         q.push(root);
-        vector<vector<int>> v;
+        int result = -1;
         while(q.size()>0){
             int n = q.size();
-            vector<int> v1;
+            long long value = LLONG_MIN;
             for(int i=0;i<n;i++){
                 TreeNode* temp = q.front();
                 q.pop();
-                v1.push_back(temp->val);
+                if(value==LLONG_MIN) value = temp->val;
                 if(temp->left!=NULL) q.push(temp->left);
                 if(temp->right!=NULL) q.push(temp->right);
             }
-            v.push_back(v1);
+            result = value;
         }
-        return v[v.size()-1][0];
+        return result;
     }
 };
