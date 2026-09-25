@@ -14,8 +14,8 @@ public:
 
     void traverse(TreeNode* root,vector<int> &v){
         if(root==NULL) return;
-        traverse(root->left,v);
         v.push_back(root->val);
+        traverse(root->left,v);
         traverse(root->right,v);
     }
 
