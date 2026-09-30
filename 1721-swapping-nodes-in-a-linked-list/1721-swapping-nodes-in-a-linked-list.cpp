@@ -32,9 +32,9 @@ public:
             temp = temp->next;
             count++;
         }
-        int value = temp1->val;
+        int val = temp1->val;
         temp1->val = temp2->val;
-        temp2->val = value;
+        temp2->val = val;
         return head;
     }
 };
