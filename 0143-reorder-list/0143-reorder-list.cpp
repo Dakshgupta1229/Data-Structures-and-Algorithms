@@ -13,13 +13,13 @@ public:
     void reorderList(ListNode* head) {
         ListNode* slow = head;
         ListNode* fast = head;
-        while(fast->next!=NULL && fast->next->next!=NULL){
+        while(fast!=NULL && fast->next!=NULL){
             slow = slow->next;
             fast = fast->next->next;
         }
-        ListNode* curr = slow->next;
-        slow->next = NULL;
         ListNode* temp = slow->next;
+        slow->next = NULL;
+        ListNode* curr = temp;
         ListNode* prev = NULL;
         while(curr!=NULL){
             temp = curr->next;
@@ -27,18 +27,18 @@ public:
             prev = curr;
             curr = temp;
         }
-        ListNode* tt = new ListNode(10);
-        ListNode* t = tt;
+        ListNode* result = new ListNode(10);
+        ListNode* r = result;
         while(head!=NULL && prev!=NULL){
-            tt->next = head;
-            tt = tt->next;
+            result->next = head;
+            result = result->next;
             head = head->next;
-            tt->next = prev;
-            tt = tt->next;
+            result->next = prev;
+            result = result->next;
             prev = prev->next;
         }
-        if(head!=NULL) tt->next = head;
-        if(prev!=NULL) tt->next = prev;
-        head = t->next;
+        if(head!=NULL) result->next = head;
+        if(prev!=NULL) result->next = prev;
+        head = r->next;
     }
 };
