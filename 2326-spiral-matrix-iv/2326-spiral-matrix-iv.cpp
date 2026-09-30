@@ -17,7 +17,7 @@ public:
         int min_column = 0;
         int max_column = n-1;
         while(min_row<=max_row && min_column<=max_column){
-            for(int i=min_column;i<=max_column;i++){
+            for(int i=min_row;i<=max_column;i++){
                 if(head==NULL) break;
                 v[min_row][i] = head->val;
                 head = head->next;
@@ -44,7 +44,6 @@ public:
                 head = head->next;
             }
             min_column++;
-            if(min_row>max_row || min_column>max_column) break;
         }
         return v;
     }
