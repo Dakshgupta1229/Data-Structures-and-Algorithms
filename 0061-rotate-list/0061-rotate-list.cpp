@@ -14,24 +14,24 @@ public:
     int size(ListNode* head){
         int count = 0;
         while(head!=NULL){
-            count++;
             head = head->next;
+            count++;
         }
         return count;
     }
 
     ListNode* rotateRight(ListNode* head, int k) {
         int n = size(head);
-        if(n==0) return head;
+        if(n==0) return NULL;
         k = k%n;
         if(k==0) return head;
         ListNode* temp = head;
         for(int i=0;i<n-k-1;i++) temp = temp->next;
-        ListNode* newHead = temp->next;
+        ListNode* temp2 = temp->next;
         temp->next = NULL;
-        ListNode* temp2 = newHead;
-        while(temp2->next!=NULL) temp2 = temp2->next;
-        temp2->next = head;
-        return newHead;
+        ListNode* temp3 = temp2;
+        while(temp3->next!=NULL) temp3 = temp3->next;
+        temp3->next = head;
+        return temp2;
     }
 };
