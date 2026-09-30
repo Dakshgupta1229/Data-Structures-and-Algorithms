@@ -11,8 +11,8 @@
 class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-        ListNode* temp = new ListNode(10);
-        ListNode* t = temp;
+        ListNode* result = new ListNode(10);
+        ListNode* r = result;
         int carry = 0;
         while(l1!=NULL && l2!=NULL){
             int sum = l1->val + l2->val + carry;
@@ -20,9 +20,9 @@ public:
             sum = sum/10;
             if(sum!=0) carry = sum;
             else carry = 0;
-            ListNode* tt = new ListNode(digit);
-            temp->next = tt;
-            temp = temp->next;
+            ListNode* t = new ListNode(digit);
+            result->next = t;
+            result = result->next;
             l1 = l1->next;
             l2 = l2->next;
         }
@@ -32,9 +32,9 @@ public:
             sum = sum/10;
             if(sum!=0) carry = sum;
             else carry = 0;
-            ListNode* tt = new ListNode(digit);
-            temp->next = tt;
-            temp = temp->next;
+            ListNode* t = new ListNode(digit);
+            result->next = t;
+            result = result->next;
             l1 = l1->next;
         }
         while(l2!=NULL){
@@ -43,15 +43,15 @@ public:
             sum = sum/10;
             if(sum!=0) carry = sum;
             else carry = 0;
-            ListNode* tt = new ListNode(digit);
-            temp->next = tt;
-            temp = temp->next;
+            ListNode* t = new ListNode(digit);
+            result->next = t;
+            result = result->next;
             l2 = l2->next;
         }
         if(carry!=0){
-            ListNode* tt = new ListNode(carry);
-            temp->next = tt;
+            ListNode* t = new ListNode(carry);
+            result->next = t;
         }
-        return t->next;
+        return r->next;
     }
 };
