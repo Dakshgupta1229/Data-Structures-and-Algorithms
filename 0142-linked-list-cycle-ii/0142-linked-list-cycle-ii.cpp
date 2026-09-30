@@ -23,7 +23,7 @@ public:
         if(flag==false) return NULL;
         ListNode* temp = head;
         while(true){
-            if(temp==slow) return slow;
+            if(slow==temp) return temp;
             slow = slow->next;
             temp = temp->next;
         }
