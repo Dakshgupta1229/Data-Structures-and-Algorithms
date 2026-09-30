@@ -17,10 +17,10 @@ public:
             slow = slow->next;
             fast = fast->next->next;
         }
-        ListNode* curr = slow->next;
+        ListNode* temp = slow->next;
         slow->next = NULL;
-        ListNode* temp = curr;
         ListNode* prev = NULL;
+        ListNode* curr = temp;
         while(curr!=NULL){
             temp = curr->next;
             curr->next = prev;
