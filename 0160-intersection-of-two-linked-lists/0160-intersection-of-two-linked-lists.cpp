@@ -30,7 +30,7 @@ public:
         while(headA!=NULL && headB!=NULL){
             if(headA==headB) return headA;
             headA = headA->next;
-            headB= headB->next;
+            headB = headB->next;
         }
         return NULL;
     }
