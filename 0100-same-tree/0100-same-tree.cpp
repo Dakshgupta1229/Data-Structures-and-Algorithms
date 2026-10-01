@@ -17,7 +17,6 @@ public:
         if(p->val!=q->val) return false;
         bool left_tree = isSameTree(p->left,q->left);
         if(left_tree==false) return false;
-        bool right_tree = isSameTree(p->right,q->right);
-        return right_tree;
+        return isSameTree(p->right,q->right);
     }
 };
