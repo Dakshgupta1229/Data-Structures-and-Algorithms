@@ -12,32 +12,33 @@ class Solution {
 public:
     ListNode* head;
     int n;
+
     Solution(ListNode* head) {
         this->head = head;
-        ListNode* temp = head;
-        int count = 0;
-        while(temp!=NULL){
-            count++;
-            temp = temp->next;
-        }
-        this->n = count;
+        this->n = size(head);
     }
 
-    int getAtIdx(ListNode* head,int idx){
-        int count = 1;
+    int size(ListNode* head){
+        int count = 0;
         while(head!=NULL){
-            if(idx==count) return head->val;
             head = head->next;
             count++;
         }
-        return -1;
+        return count;
     }
     
     int getRandom() {
         int low = 1;
         int high = n;
         int random = low + rand()%(high-low+1);
-        return getAtIdx(head,random);
+        int count = 1;
+        ListNode* temp = head;
+        while(temp!=NULL){
+            if(count==random) return temp->val;
+            temp = temp->next;
+            count++;
+        }
+        return -1;
     }
 };
 
