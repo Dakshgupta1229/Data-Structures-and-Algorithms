@@ -12,21 +12,22 @@
 class Solution {
 public:
 
-    void traverse(TreeNode* root,string &str){
+    void traverse(TreeNode* root,vector<int> &v){
         if(root==NULL) return;
         if(root->left==NULL && root->right==NULL){
-            str = str + to_string(root->val) + "->";
+            v.push_back(root->val);
+            return;
         }
-        traverse(root->left,str);
-        traverse(root->right,str);
+        traverse(root->left,v);
+        traverse(root->right,v);
     }
 
     bool leafSimilar(TreeNode* root1, TreeNode* root2) {
-        string str1 = "";
-        string str2 = "";
-        traverse(root1,str1);
-        traverse(root2,str2);
-        if(str1==str2) return true;
+        vector<int> v1;
+        vector<int> v2;
+        traverse(root1,v1);
+        traverse(root2,v2);
+        if(v1==v2) return true;
         return false;
     }
 };
