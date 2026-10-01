@@ -11,27 +11,29 @@
 class Solution {
 public:
     vector<int> nodesBetweenCriticalPoints(ListNode* head) {
-        vector<int> v;
-        int first = head->val;
+        if(head->next->next==NULL) return {-1,-1};
+        int val1 = head->val;
         head = head->next;
         int count = 2;
+        vector<int> v;
         while(head->next!=NULL){
-            int second = head->val;
-            int third = head->next->val;
-            if(second<first && second<third) v.push_back(count);
-            if(second>first && second>third) v.push_back(count);
-            count++;
-            first = second;
+            int val2 = head->val;
+            int val3 = head->next->val;
+            if(val2>val1 && val2>val3){
+                v.push_back(count);
+            }
+            if(val2<val1 && val2<val3){
+                v.push_back(count);
+            }
+            val1 = val2;
             head = head->next;
+            count++;
         }
-        if(v.size()==0 || v.size()==1) return {-1,-1};
-        int max_distance = v[v.size()-1] - v[0];
         int min_distance = INT_MAX;
         for(int i=1;i<v.size();i++){
-            if(min_distance>(v[i] - v[i-1])){
-                min_distance = v[i] - v[i-1];
-            }
+            if(min_distance>(v[i] - v[i-1])) min_distance = v[i] - v[i-1];
         }
-        return {min_distance,max_distance};
+        if(v.size()<=1) return {-1,-1};
+        return {min_distance,v[v.size()-1] - v[0]};
     }
 };
