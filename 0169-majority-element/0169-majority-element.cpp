@@ -5,10 +5,10 @@ public:
         int ele = -1;
         for(int i=0;i<nums.size();i++){
             if(count==0){
+                count++;
                 ele = nums[i];
-                count = 1;
             }
-            else if(ele==nums[i]) count++;
+            else if(nums[i]==ele) count++;
             else count--;
         }
         return ele;
