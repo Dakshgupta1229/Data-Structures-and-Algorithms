@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0004-median-of-two-sorted-arrays) |
 | [0011-container-with-most-water](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0011-container-with-most-water) |
+| [0014-longest-common-prefix](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0014-longest-common-prefix) |
 | [0015-3sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0018-4sum) |
 | [0031-next-permutation](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0031-next-permutation) |
@@ -106,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0020-valid-parentheses) |
 | [0168-excel-sheet-column-title](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0168-excel-sheet-column-title) |
 | [0171-excel-sheet-column-number](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0171-excel-sheet-column-number) |
@@ -845,4 +847,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0042-trapping-rain-water) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
