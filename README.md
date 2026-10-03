@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0018-4sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0018-4sum) |
 | [0031-next-permutation](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0031-next-permutation) |
 | [0033-search-in-rotated-sorted-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0033-search-in-rotated-sorted-array) |
+| [0042-trapping-rain-water](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0053-maximum-subarray) |
 | [0078-subsets](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0078-subsets) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0081-search-in-rotated-sorted-array-ii) |
@@ -118,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0053-maximum-subarray) |
 | [0118-pascals-triangle](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -211,6 +213,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0018-4sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0018-4sum) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0031-next-permutation](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0031-next-permutation) |
+| [0042-trapping-rain-water](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0042-trapping-rain-water) |
 | [0061-rotate-list](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0061-rotate-list) |
 | [0086-partition-list](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0086-partition-list) |
 | [0141-linked-list-cycle](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0141-linked-list-cycle) |
@@ -466,6 +469,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0020-valid-parentheses) |
+| [0042-trapping-rain-water](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0042-trapping-rain-water) |
 | [0094-binary-tree-inorder-traversal](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0094-binary-tree-inorder-traversal) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0143-reorder-list](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0143-reorder-list) |
@@ -821,4 +825,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0020-valid-parentheses) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0042-trapping-rain-water) |
 <!---LeetCode Topics End-->
