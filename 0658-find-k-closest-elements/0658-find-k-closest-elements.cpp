@@ -15,10 +15,8 @@ public:
             else low = mid + 1;
         }
         if(pivot_idx==-1){
-            while(v.size()<k && high>=0 && low<arr.size()){
-                int distance1 = abs(arr[high] - x);
-                int distance2 = abs(arr[low] - x);
-                if(distance1<=distance2){
+            while(high>=0 && low<arr.size() && v.size()<k){
+                if(abs(arr[high]-x)<=abs(arr[low]-x)){
                     v.push_back(arr[high]);
                     high--;
                 }
@@ -37,28 +35,26 @@ public:
             }
         }
         else{
-            int second = pivot_idx+1;
-            while(v.size()<k && pivot_idx>=0 && second<arr.size()){
-                int distance1 = abs(arr[pivot_idx] - x);
-                int distance2 = abs(arr[second] - x);
-                if(distance1<=distance2){
-                    v.push_back(arr[pivot_idx]);
-                    pivot_idx--;
+            low = pivot_idx;
+            high = pivot_idx+1;
+            while(low>=0 && high<arr.size() && v.size()<k){
+                if(abs(arr[low]-x)<=abs(arr[high]-x)){
+                    v.push_back(arr[low]);
+                    low--;
                 }
                 else{
-                    v.push_back(arr[second]);
-                    second++;
+                    v.push_back(arr[high]);
+                    high++;
                 }
             }
-            while(v.size()<k && pivot_idx>=0){
-                v.push_back(arr[pivot_idx]);
-                pivot_idx--;
+            while(v.size()<k && low>=0){
+                v.push_back(arr[low]);
+                low--;
             }
-            while(v.size()<k && second<arr.size()){
-                v.push_back(arr[second]);
-                second++;
+            while(v.size()<k && high<arr.size()){
+                v.push_back(arr[high]);
+                high++;
             }
-
         }
         sort(v.begin(),v.end());
         return v;
