@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0004-median-of-two-sorted-arrays](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0004-median-of-two-sorted-arrays) |
 | [0015-3sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0018-4sum) |
+| [0031-next-permutation](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0031-next-permutation) |
 | [0033-search-in-rotated-sorted-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0033-search-in-rotated-sorted-array) |
 | [0053-maximum-subarray](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0053-maximum-subarray) |
 | [0078-subsets](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0078-subsets) |
@@ -209,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0018-4sum) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0031-next-permutation](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0031-next-permutation) |
 | [0061-rotate-list](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0061-rotate-list) |
 | [0086-partition-list](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0086-partition-list) |
 | [0141-linked-list-cycle](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0141-linked-list-cycle) |
