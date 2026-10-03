@@ -1,12 +1,15 @@
 class Solution {
 public:
 
-    bool check(vector<int> &piles,long long mid,long long h){
+    bool check(vector<int>& piles,long long mid,int h){
         long long count = 0;
         for(int i=0;i<piles.size();i++){
-            if((long long)piles[i]<=mid) count++;
-            else if((long long)piles[i]%mid==0) count = count + ((long long)piles[i]/mid);
-            else count = count + ((long long)piles[i]/mid) + 1;
+            if(piles[i]<=mid) count++;
+            else{
+                count = count + (piles[i]/mid);
+                if(piles[i]%mid!=0) count++;
+            }
+
         }
         if(count<=h) return true;
         return false;
@@ -17,9 +20,9 @@ public:
         for(int i=0;i<piles.size();i++){
             if(max_ele<piles[i]) max_ele = piles[i];
         }
-        long long low = 1;
-        long long high = max_ele;
-        long long ans = -1;
+        int low = 1;
+        int high = max_ele;
+        int ans = -1;
         while(low<=high){
             long long mid = low + (high-low)/2;
             if(check(piles,mid,h)){
