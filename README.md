@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0713-subarray-product-less-than-k](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0713-subarray-product-less-than-k) |
 | [0733-flood-fill](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0733-flood-fill) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0852-peak-index-in-a-mountain-array) |
+| [0867-transpose-matrix](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0867-transpose-matrix) |
 | [0875-koko-eating-bananas](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0875-koko-eating-bananas) |
 | [0930-binary-subarrays-with-sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0930-binary-subarrays-with-sum) |
 | [1004-max-consecutive-ones-iii](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1004-max-consecutive-ones-iii) |
@@ -237,6 +238,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0867-transpose-matrix](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0867-transpose-matrix) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2221-find-triangular-sum-of-an-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2221-find-triangular-sum-of-an-array) |
 | [2326-spiral-matrix-iv](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2326-spiral-matrix-iv) |
@@ -354,6 +356,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0200-number-of-islands) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0240-search-a-2d-matrix-ii) |
 | [0733-flood-fill](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0733-flood-fill) |
+| [0867-transpose-matrix](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0867-transpose-matrix) |
 | [1901-find-a-peak-element-ii](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1901-find-a-peak-element-ii) |
 | [2326-spiral-matrix-iv](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2326-spiral-matrix-iv) |
 | [2614-prime-in-diagonal](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2614-prime-in-diagonal) |
