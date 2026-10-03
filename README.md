@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0031-next-permutation](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0031-next-permutation) |
 | [0033-search-in-rotated-sorted-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0033-search-in-rotated-sorted-array) |
 | [0042-trapping-rain-water](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0042-trapping-rain-water) |
+| [0048-rotate-image](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0053-maximum-subarray) |
 | [0078-subsets](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0078-subsets) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0081-search-in-rotated-sorted-array-ii) |
@@ -286,6 +287,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0002-add-two-numbers) |
+| [0048-rotate-image](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0048-rotate-image) |
 | [0168-excel-sheet-column-title](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0168-excel-sheet-column-title) |
 | [0171-excel-sheet-column-number](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0171-excel-sheet-column-number) |
 | [0204-count-primes](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0204-count-primes) |
@@ -353,6 +355,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0048-rotate-image) |
 | [0200-number-of-islands](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0200-number-of-islands) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0240-search-a-2d-matrix-ii) |
 | [0733-flood-fill](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0733-flood-fill) |
