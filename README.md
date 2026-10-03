@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0713-subarray-product-less-than-k](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0713-subarray-product-less-than-k) |
 | [0733-flood-fill](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0733-flood-fill) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0852-peak-index-in-a-mountain-array) |
+| [0861-score-after-flipping-matrix](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0861-score-after-flipping-matrix) |
 | [0867-transpose-matrix](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0867-transpose-matrix) |
 | [0875-koko-eating-bananas](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0875-koko-eating-bananas) |
 | [0930-binary-subarrays-with-sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0930-binary-subarrays-with-sum) |
@@ -136,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0011-container-with-most-water) |
+| [0861-score-after-flipping-matrix](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0861-score-after-flipping-matrix) |
 | [1013-partition-array-into-three-parts-with-equal-sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1013-partition-array-into-three-parts-with-equal-sum) |
 | [1402-reducing-dishes](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1402-reducing-dishes) |
 | [2091-removing-minimum-and-maximum-from-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2091-removing-minimum-and-maximum-from-array) |
@@ -354,6 +356,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0078-subsets](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0078-subsets) |
 | [0222-count-complete-tree-nodes](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0222-count-complete-tree-nodes) |
+| [0861-score-after-flipping-matrix](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0861-score-after-flipping-matrix) |
 ## Matrix
 |  |
 | ------- |
@@ -362,6 +365,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0200-number-of-islands) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0240-search-a-2d-matrix-ii) |
 | [0733-flood-fill](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0733-flood-fill) |
+| [0861-score-after-flipping-matrix](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0861-score-after-flipping-matrix) |
 | [0867-transpose-matrix](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0867-transpose-matrix) |
 | [1901-find-a-peak-element-ii](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1901-find-a-peak-element-ii) |
 | [2326-spiral-matrix-iv](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2326-spiral-matrix-iv) |
