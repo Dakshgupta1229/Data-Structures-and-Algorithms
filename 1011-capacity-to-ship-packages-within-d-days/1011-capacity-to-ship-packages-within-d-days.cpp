@@ -2,8 +2,8 @@ class Solution {
 public:
 
     bool check(vector<int> &weights,int mid,int days){
-        int sum = 0;
         int count = 0;
+        int sum = 0;
         for(int i=0;i<weights.size();i++){
             if(sum+weights[i]<=mid){
                 sum = sum + weights[i];
