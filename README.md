@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0229-majority-element-ii) |
 | [0238-product-of-array-except-self](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0238-product-of-array-except-self) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0240-search-a-2d-matrix-ii) |
+| [0268-missing-number](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0268-missing-number) |
 | [0455-assign-cookies](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0455-assign-cookies) |
 | [0560-subarray-sum-equals-k](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0560-subarray-sum-equals-k) |
 | [0594-longest-harmonious-subsequence](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0594-longest-harmonious-subsequence) |
@@ -161,6 +162,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0148-sort-list](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0229-majority-element-ii) |
+| [0268-missing-number](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0268-missing-number) |
 | [0455-assign-cookies](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0455-assign-cookies) |
 | [0594-longest-harmonious-subsequence](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0594-longest-harmonious-subsequence) |
 | [0658-find-k-closest-elements](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0658-find-k-closest-elements) |
@@ -186,6 +188,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0209-minimum-size-subarray-sum) |
 | [0222-count-complete-tree-nodes](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0222-count-complete-tree-nodes) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0240-search-a-2d-matrix-ii) |
+| [0268-missing-number](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0268-missing-number) |
 | [0633-sum-of-square-numbers](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0633-sum-of-square-numbers) |
 | [0658-find-k-closest-elements](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0658-find-k-closest-elements) |
 | [0713-subarray-product-less-than-k](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0713-subarray-product-less-than-k) |
@@ -278,6 +281,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0169-majority-element) |
 | [0205-isomorphic-strings](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0205-isomorphic-strings) |
 | [0229-majority-element-ii](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0229-majority-element-ii) |
+| [0268-missing-number](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0268-missing-number) |
 | [0560-subarray-sum-equals-k](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0560-subarray-sum-equals-k) |
 | [0594-longest-harmonious-subsequence](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0594-longest-harmonious-subsequence) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0653-two-sum-iv-input-is-a-bst) |
@@ -312,6 +316,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0168-excel-sheet-column-title](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0168-excel-sheet-column-title) |
 | [0171-excel-sheet-column-number](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0171-excel-sheet-column-number) |
 | [0204-count-primes](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0204-count-primes) |
+| [0268-missing-number](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0268-missing-number) |
 | [0382-linked-list-random-node](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0382-linked-list-random-node) |
 | [0507-perfect-number](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0507-perfect-number) |
 | [0633-sum-of-square-numbers](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0633-sum-of-square-numbers) |
@@ -373,6 +378,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0078-subsets](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0078-subsets) |
 | [0222-count-complete-tree-nodes](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0222-count-complete-tree-nodes) |
+| [0268-missing-number](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0268-missing-number) |
 | [0861-score-after-flipping-matrix](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0861-score-after-flipping-matrix) |
 ## Matrix
 |  |
