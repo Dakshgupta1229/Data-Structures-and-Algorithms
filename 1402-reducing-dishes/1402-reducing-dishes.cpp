@@ -3,24 +3,22 @@ public:
     int maxSatisfaction(vector<int>& satisfaction) {
         sort(satisfaction.begin(),satisfaction.end());
         vector<int> suffix = satisfaction;
-        int idx = -1;
-        for(int i=satisfaction.size()-2;i>=0;i--){
+        for(int i=suffix.size()-2;i>=0;i--){
             suffix[i] = suffix[i] + suffix[i+1];
         }
-        for(int i=0;i<satisfaction.size();i++){
-            if(suffix[i]>=0){
+        int idx = -1;
+        for(int i=suffix.size()-1;i>=0;i--){
+            if(suffix[i]<0){
                 idx = i;
                 break;
             }
         }
-        int n = 1;
         int sum = 0;
-        for(int i=idx;i<satisfaction.size();i++){
-            sum = sum + (satisfaction[i] * n);
-            n++;
+        int cnt = 1;
+        for(int i=idx+1;i<satisfaction.size();i++){
+            sum = sum + (satisfaction[i]*cnt);
+            cnt++;
         }
         return sum;
-
-        return 1;
     }
 };
