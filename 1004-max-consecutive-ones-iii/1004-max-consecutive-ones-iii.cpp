@@ -7,16 +7,18 @@ public:
         int max_len = INT_MIN;
         while(j<nums.size()){
             if(nums[j]==0) count++;
-            while(count>k && i<nums.size()){
-                if(max_len<(j-i)) max_len = j-i;
-                if(nums[i]==0){
-                    count--;
-                }
+            if(count>k){
+                if(max_len<j-i) max_len = j-i;
+                while(nums[i]!=0) i++;
                 i++;
+                count--;
             }
             j++;
         }
-        if(max_len<(j-i)) max_len = j - i;
+        if(count<=k){
+            if(max_len<j-i) max_len = j-i;
+        }
+        if(max_len==INT_MIN) return 0;
         return max_len;
     }
 };
