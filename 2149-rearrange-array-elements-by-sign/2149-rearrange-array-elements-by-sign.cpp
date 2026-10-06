@@ -2,19 +2,17 @@ class Solution {
 public:
     vector<int> rearrangeArray(vector<int>& nums) {
         vector<int> v(nums.size());
-        int i=0;
-        int j=1;
-        int idx = 0;
-        while(idx<nums.size()){
-            if(nums[idx]>=0){
-                v[i] = nums[idx];
-                i+=2;
+        int i1=0;
+        int j1=1;
+        for(int i=0;i<nums.size();i++){
+            if(nums[i]>=0){
+                v[i1] = nums[i];
+                i1+=2;
             }
             else{
-                v[j] = nums[idx];
-                j+=2;
+                v[j1] = nums[i];
+                j1+=2;
             }
-            idx++;
         }
         return v;
     }
