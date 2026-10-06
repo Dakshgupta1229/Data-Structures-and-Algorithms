@@ -1,31 +1,29 @@
 class Solution {
 public:
     int findLHS(vector<int>& nums) {
-        map<int,int> m;
+        sort(nums.begin(),nums.end());
+        int max_length = 0;
+        map<int,vector<int>> m;
         for(int i=0;i<nums.size();i++){
-            m[nums[i]]++;
+            m[nums[i]].push_back(i);
         }
-        int first = INT_MIN;
-        int second = INT_MIN;
-        int max_ele = 0;
-        int freq1 = 0;
-        int freq2 = 0;
+        int ele1 = -1;
+        int num1 = -1;
         for(auto p:m){
-            if(first==INT_MIN){
-                first = p.first;
-                freq1 = p.second;
+            vector<int> v = p.second;
+            if(ele1==-1 && num1==-1){
+                ele1 = v[0];
+                num1 = p.first;
             }
-            else if(second==INT_MIN){
-                second = p.first;
-                freq2 = p.second;
-                if(second-first==1){
-                    if(max_ele<(freq1+freq2)) max_ele = freq1 + freq2;
-                }
-                first = p.first;
-                freq1 = p.second;
-                second = INT_MIN;
+            else{
+                int ele2 = v[v.size()-1];
+                int length = ele2 - ele1 + 1;
+                int num2 = p.first;
+                if(max_length<length && num2-num1==1) max_length = length;
+                ele1 = v[0];
+                num1 = p.first;
             }
         }
-        return max_ele;
+        return max_length;
     }
 };
