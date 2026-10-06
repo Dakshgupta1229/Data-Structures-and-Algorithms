@@ -3,26 +3,22 @@ public:
     int longestConsecutive(vector<int>& nums) {
         if(nums.size()==0) return 0;
         set<int> s;
+        int max_len = 0;
         for(int i=0;i<nums.size();i++){
             s.insert(nums[i]);
         }
-        int start = INT_MIN;
+        int first = INT_MIN;
         int count = 1;
-        int max_len = 0;
         for(auto p:s){
-            cout<<p<<" ";
-        }
-        cout<<endl;
-        for(auto p:s){
-            if(start==INT_MIN) start = p;
-            else if(p-start==1){
+            if(first==INT_MIN) first = p;
+            else if(p-first==1){
                 count++;
-                start = p;
+                first = p;
             }
             else{
                 if(max_len<count) max_len = count;
+                first = p;
                 count = 1;
-                start = p;
             }
         }
         if(max_len<count) max_len = count;
