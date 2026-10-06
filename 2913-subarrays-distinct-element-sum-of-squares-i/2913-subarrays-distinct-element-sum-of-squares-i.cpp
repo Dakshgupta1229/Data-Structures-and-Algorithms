@@ -6,8 +6,8 @@ public:
             set<int> s;
             for(int j=i;j<nums.size();j++){
                 s.insert(nums[j]);
-                int size = s.size();
-                sum = sum + pow(size,2);
+                int n = s.size();
+                sum = sum + (n*n);
             }
         }
         return sum;
