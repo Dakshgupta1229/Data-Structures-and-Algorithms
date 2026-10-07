@@ -12,11 +12,12 @@ public:
                 if(sum>0) k--;
                 else if(sum<0) j++;
                 else{
-                    v.push_back({nums[i],nums[j],nums[k]});
+                    vector<int> temp = {nums[i],nums[j],nums[k]};
+                    v.push_back(temp);
                     j++;
                     k--;
                     while(j<k && nums[j]==nums[j-1]) j++;
-                    while(k>j && nums[k]==nums[k+1]) k--;
+                    while(j<k && nums[k]==nums[k+1]) k--;
                 }
             }
         }
