@@ -11,14 +11,13 @@ public:
         while(low<=high){
             int mid = low + (high-low)/2;
             int count = 0;
-            int n = bloomDay.size();
             int pairs = 0;
             for(int i=0;i<bloomDay.size();i++){
                 if(bloomDay[i]<=mid){
                     count++;
                 }
                 else count = 0;
-                if(count==k){
+                if(count>=k){
                     pairs++;
                     count = 0;
                 }
