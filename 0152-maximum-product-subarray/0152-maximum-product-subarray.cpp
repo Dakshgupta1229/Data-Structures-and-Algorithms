@@ -8,7 +8,7 @@ public:
             if(prefix==0) prefix = 1;
             if(suffix==0) suffix = 1;
             prefix = prefix * nums[i];
-            suffix = suffix * nums[nums.size()-i-1];
+            suffix = suffix * nums[nums.size()-1-i];
             max_product = max(max_product,max(prefix,suffix));
         }
         return max_product;
