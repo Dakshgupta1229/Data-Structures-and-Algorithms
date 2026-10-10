@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0054-spiral-matrix) |
+| [0074-search-a-2d-matrix](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0078-subsets) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -187,6 +188,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0004-median-of-two-sorted-arrays](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0004-median-of-two-sorted-arrays) |
 | [0033-search-in-rotated-sorted-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0033-search-in-rotated-sorted-array) |
 | [0069-sqrtx](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0069-sqrtx) |
+| [0074-search-a-2d-matrix](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0074-search-a-2d-matrix) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0162-find-peak-element) |
@@ -391,6 +393,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0048-rotate-image](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0054-spiral-matrix) |
+| [0074-search-a-2d-matrix](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0074-search-a-2d-matrix) |
 | [0200-number-of-islands](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0200-number-of-islands) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0240-search-a-2d-matrix-ii) |
 | [0733-flood-fill](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0733-flood-fill) |
