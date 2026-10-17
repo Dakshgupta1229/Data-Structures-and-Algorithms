@@ -12,14 +12,14 @@
 class Solution {
 public:
 
-    void traverse(TreeNode* root,vector<int> &v){
+    void traverse(TreeNode* root,vector<int> &v1){
         if(root==NULL) return;
         if(root->left==NULL && root->right==NULL){
-            v.push_back(root->val);
+            v1.push_back(root->val);
             return;
         }
-        traverse(root->left,v);
-        traverse(root->right,v);
+        traverse(root->left,v1);
+        traverse(root->right,v1);
     }
 
     bool leafSimilar(TreeNode* root1, TreeNode* root2) {
