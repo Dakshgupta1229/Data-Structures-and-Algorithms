@@ -29,7 +29,7 @@ class Solution {
     public int minDepth(TreeNode root) {
         int[] arr = {Integer.MAX_VALUE};
         traverse(root,0,arr);
-        if(arr[0]==Integer.MAX_VALUE) return 0;
+        if(arr[0]==Integer.MAX_VALUE) arr[0] = 0;
         return arr[0];
     }
 }
