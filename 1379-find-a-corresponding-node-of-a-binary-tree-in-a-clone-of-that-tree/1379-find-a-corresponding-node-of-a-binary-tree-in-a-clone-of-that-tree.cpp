@@ -15,6 +15,7 @@ public:
         if(original==target) return cloned;
         TreeNode* left_tree = getTargetCopy(original->left,cloned->left,target);
         if(left_tree!=NULL) return left_tree;
-        return getTargetCopy(original->right,cloned->right,target);
+        TreeNode* right_tree = getTargetCopy(original->right,cloned->right,target);
+        return right_tree;
     }
 };
