@@ -18,7 +18,6 @@ public:
             flag = false;
             return;
         }
-        if(flag==false) return;
         traverse(root->left,value,flag);
         traverse(root->right,value,flag);
     }
@@ -27,6 +26,5 @@ public:
         bool flag = true;
         traverse(root,root->val,flag);
         return flag;
-
     }
 };
