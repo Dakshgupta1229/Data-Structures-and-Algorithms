@@ -15,17 +15,17 @@
  */
 class Solution {
 
-    void traverse(TreeNode root,List<Integer> list,int []arr){
+    void traverse(TreeNode root,List<Integer> list,int[] arr){
         if(root==null) return;
         if(root.left==null && root.right==null){
             list.add(root.val);
+            int n = 0;
             int idx = 0;
-            int sum = 0;
             for(int i=list.size()-1;i>=0;i--){
-                sum = sum + ((int)Math.pow(2,idx) * list.get(i));
+                n = n + (int)(Math.pow(2,idx) * list.get(i));
                 idx++;
             }
-            arr[0] = arr[0] + sum;
+            arr[0] = arr[0] + n;
             list.remove(list.size()-1);
             return;
         }
