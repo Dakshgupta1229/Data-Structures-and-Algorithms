@@ -20,7 +20,9 @@ public:
     void traverse(TreeNode* root,int &max_length){
         if(root==NULL) return;
         int sum = level(root->left) + level(root->right);
-        if(max_length<sum) max_length = sum;
+        if(max_length<sum){
+            max_length = sum;
+        }
         traverse(root->left,max_length);
         traverse(root->right,max_length);
     }
