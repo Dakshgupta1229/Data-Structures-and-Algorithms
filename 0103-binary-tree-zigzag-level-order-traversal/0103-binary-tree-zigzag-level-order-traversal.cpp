@@ -12,8 +12,8 @@
 class Solution {
 public:
     vector<vector<int>> zigzagLevelOrder(TreeNode* root) {
+        if(root==NULL) return {};
         vector<vector<int>> v;
-        if(root==NULL) return v;
         queue<TreeNode*> q;
         q.push(root);
         int count = 0;
