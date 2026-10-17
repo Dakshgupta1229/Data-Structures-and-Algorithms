@@ -12,20 +12,21 @@
 class Solution {
 public:
 
-    void traverse(TreeNode* root,int count,int &min_ele){
+    void traverse(TreeNode* root,int count,int &min_depth){
         if(root==NULL) return;
         if(root->left==NULL && root->right==NULL){
             count++;
-            if(min_ele>count) min_ele = count;
+            if(min_depth>count) min_depth = count;
+            return;
         }
-        traverse(root->left,count+1,min_ele);
-        traverse(root->right,count+1,min_ele);
+        traverse(root->left,count+1,min_depth);
+        traverse(root->right,count+1,min_depth);
     }
 
     int minDepth(TreeNode* root) {
-        int min_ele = INT_MAX;
-        traverse(root,0,min_ele);
-        if(min_ele==INT_MAX) return 0;
-        return min_ele;
+        int min_depth = INT_MAX;
+        traverse(root,0,min_depth);
+        if(min_depth==INT_MAX) return 0;
+        return min_depth;
     }
 };
