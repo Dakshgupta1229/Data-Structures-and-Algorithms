@@ -25,13 +25,14 @@ public:
             flag = false;
             return;
         }
+        if(flag==false) return;
         traverse(root->left,flag);
         traverse(root->right,flag);
     }
 
     bool isBalanced(TreeNode* root) {
-        bool flag = true;
-        traverse(root,flag);
-        return flag;
+        bool result = true;
+        traverse(root,result);
+        return result;
     }
 };
