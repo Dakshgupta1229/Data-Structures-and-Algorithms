@@ -12,7 +12,6 @@
 class Solution {
 public:
     vector<double> averageOfLevels(TreeNode* root) {
-        if(root==NULL) return {};
         vector<double> v;
         queue<TreeNode*> q;
         q.push(root);
@@ -26,8 +25,7 @@ public:
                 if(temp->left!=NULL) q.push(temp->left);
                 if(temp->right!=NULL) q.push(temp->right);
             }
-            double result = sum/(double)n;
-            v.push_back(result);
+            v.push_back(sum/(double)n);
         }
         return v;
     }
