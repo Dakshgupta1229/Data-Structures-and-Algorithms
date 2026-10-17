@@ -15,7 +15,7 @@
  */
 class Solution {
 
-    public void traverse(TreeNode root1,TreeNode root2,int[] arr){
+    void traverse(TreeNode root1,TreeNode root2,int []arr){
         if(root1==null && root2==null) return;
         if(root1==null || root2==null){
             arr[0] = 1;
@@ -25,6 +25,7 @@ class Solution {
             arr[0] = 1;
             return;
         }
+        if(arr[0]==1) return;
         traverse(root1.left,root2.right,arr);
         traverse(root1.right,root2.left,arr);
     }
