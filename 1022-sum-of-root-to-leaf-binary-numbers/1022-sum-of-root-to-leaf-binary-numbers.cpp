@@ -16,12 +16,10 @@ public:
         if(root==NULL) return;
         if(root->left==NULL && root->right==NULL){
             v.push_back(root->val);
-            
-            int idx = 0;
-            for(int i=v.size()-1;i>=0;i--){
-                sum = sum + ((int)pow(2,idx) * v[i]);
-                idx++;
+            for(int i=1;i<v.size();i++){
+                v[i] = (2* v[i-1]) + v[i];
             }
+            sum = sum + v[v.size()-1];
             return;
         }
         v.push_back(root->val);
@@ -30,8 +28,8 @@ public:
     }
 
     int sumRootToLeaf(TreeNode* root) {
-        vector<int> v;
         int sum = 0;
+        vector<int> v;
         traverse(root,v,sum);
         return sum;
     }
