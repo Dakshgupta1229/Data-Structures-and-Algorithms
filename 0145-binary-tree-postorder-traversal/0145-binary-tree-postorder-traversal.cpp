@@ -12,10 +12,10 @@
 class Solution {
 public:
     vector<int> postorderTraversal(TreeNode* root) {
-        vector<int> v;
-        if(root==NULL) return v;
+        if(root==NULL) return {};
         stack<TreeNode*> st;
         st.push(root);
+        vector<int> v;
         while(st.size()>0){
             TreeNode* temp = st.top();
             st.pop();
