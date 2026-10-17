@@ -31,11 +31,9 @@ public:
             count++;
         }
         for(auto p:m){
-            cout<<"Vertical: "<<p.first<<endl;
             map<int,vector<int>> m1 = p.second;
             vector<int> v2;
             for(auto p1:m1){
-                cout<<"Level: "<<p1.first<<endl;
                 vector<int> v1 = p1.second;
                 sort(v1.begin(),v1.end());
                 for(int i=0;i<v1.size();i++) v2.push_back(v1[i]);
