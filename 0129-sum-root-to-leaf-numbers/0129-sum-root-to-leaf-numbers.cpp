@@ -16,9 +16,8 @@ public:
         if(root==NULL) return;
         if(root->left==NULL && root->right==NULL){
             str = str + to_string(root->val);
-            int num = stoi(str);
-            sum = sum + num;
-            return;
+            int n = stoi(str);
+            sum = sum + n;
         }
         traverse(root->left,str+to_string(root->val),sum);
         traverse(root->right,str+to_string(root->val),sum);
