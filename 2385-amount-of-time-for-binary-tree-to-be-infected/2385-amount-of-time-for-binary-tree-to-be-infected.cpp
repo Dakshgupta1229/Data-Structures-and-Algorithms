@@ -11,46 +11,49 @@
  */
 class Solution {
 public:
-
-    void traverse(TreeNode* root,map<TreeNode*,TreeNode*> &m,TreeNode* &temp,int target){
-        if(root==NULL) return;
-        if(root->val==target) temp = root;
-        if(root->left!=NULL) m[root->left] = root;
-        if(root->right!=NULL) m[root->right] = root;
-        traverse(root->left,m,temp,target);
-        traverse(root->right,m,temp,target);
-    }
-
     int amountOfTime(TreeNode* root, int start) {
         map<TreeNode*,TreeNode*> m;
-        TreeNode* temp = NULL;
-        traverse(root,m,temp,start);
+        stack<TreeNode*> st;
+        st.push(root);
+        TreeNode* target= NULL;
+        while(st.size()>0){
+            TreeNode* temp = st.top();
+            st.pop();
+            if(temp->val==start) target = temp;
+            if(temp->left!=NULL){
+                m[temp->left] = temp;
+                st.push(temp->left);
+            }
+            if(temp->right!=NULL){
+                m[temp->right] = temp;
+                st.push(temp->right);
+            }
+        }
         queue<pair<TreeNode*,int>> q;
-        q.push({temp,0});
+        q.push({target,0});
         set<TreeNode*> s;
-        s.insert(temp);
-        int count = 0;
-        int value = 0;
+        s.insert(target);
+        int ans = 0;
         while(q.size()>0){
             auto it = q.front();
             q.pop();
             TreeNode* temp = it.first;
-            int curr = it.second;
-            value = curr;
+            int value = it.second;
+            ans = value;
+            if(m.find(temp)!=m.end() && s.find(m[temp])==s.end()){
+                q.push({m[temp],value+1});
+                s.insert(m[temp]);
+            }
             if(temp->left!=NULL && s.find(temp->left)==s.end()){
-                q.push({temp->left,curr+1});
+                q.push({temp->left,value+1});
                 s.insert(temp->left);
             }
             if(temp->right!=NULL && s.find(temp->right)==s.end()){
-                q.push({temp->right,curr+1});
+                q.push({temp->right,value+1});
                 s.insert(temp->right);
             }
-            if(m.find(temp)!=m.end() && s.find(m[temp])==s.end()){
-                q.push({m[temp],curr+1});
-                s.insert(m[temp]);
-            }
-
         }
-        return value;
+        return ans;
+
     }
 };
