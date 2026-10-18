@@ -13,9 +13,9 @@ class Solution {
 public:
     void flatten(TreeNode* root) {
         if(root==NULL) return;
+        vector<TreeNode*> v;
         stack<TreeNode*> st;
         st.push(root);
-        vector<TreeNode*> v;
         while(st.size()>0){
             TreeNode* temp = st.top();
             st.pop();
@@ -23,12 +23,15 @@ public:
             if(temp->right!=NULL) st.push(temp->right);
             if(temp->left!=NULL) st.push(temp->left);
         }
-        TreeNode* temp = v[0];
-        root = temp;
-        for(int i=1;i<v.size();i++){
-            temp->right = v[i];
+        TreeNode* newroot = new TreeNode(10);
+        TreeNode* t = newroot;
+        for(int i=0;i<v.size();i++){
+            TreeNode* temp = v[i];
             temp->left = NULL;
-            temp = v[i];
+            temp->right = NULL;
+            newroot->right = temp;
+            newroot = newroot->right;
         }
+        root = t->right;
     }
 };
