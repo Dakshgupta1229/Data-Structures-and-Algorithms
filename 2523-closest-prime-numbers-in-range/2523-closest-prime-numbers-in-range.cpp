@@ -1,34 +1,32 @@
 class Solution {
 public:
     vector<int> closestPrimes(int left, int right) {
-        vector<int> sieve(right+1,1);
+        vector<bool> sieve(right+1,1);
         sieve[0] = 0;
         sieve[1] = 0;
         for(int i=2;i<=sqrt(right);i++){
-            for(int j=i*i;j<=right;j+=i){
+            for(int j=i*i;j<sieve.size();j+=i){
                 sieve[j] = 0;
             }
         }
-        int min_dist = INT_MAX;
-        int first = -1;
-        int second = -1;
-        int s1 = -1;
-        int s2 = -1;
+        vector<int> v;
         for(int i=left;i<=right;i++){
-            if(sieve[i]==1 && first==-1){
-                first = i;
-            }
-            else if(sieve[i]==1 && second==-1){
-                second = i;
-                if(min_dist>(second-first)){
-                    min_dist = second - first;
-                    s1 = first;
-                    s2 = second;
-                }
-                first = i;
-                second = -1;
-            }
+            if(sieve[i]==1) v.push_back(i);
         }
-        return {s1,s2};
+        if(v.size()<=1) return {-1,-1};
+        int first = v[0];
+        int min_diff = INT_MAX;
+        int res1 = -1;
+        int res2 = -1;
+        for(int i=1;i<v.size();i++){
+            int second = v[i];
+            if(min_diff>second-first){
+                min_diff = second - first;
+                res1 = first;
+                res2 = second;
+            }
+            first = second;
+        }
+        return {res1,res2};
     }
 };
