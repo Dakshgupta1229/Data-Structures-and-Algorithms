@@ -133,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0171-excel-sheet-column-number](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0171-excel-sheet-column-number) |
 | [0205-isomorphic-strings](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0205-isomorphic-strings) |
 | [0257-binary-tree-paths](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0257-binary-tree-paths) |
+| [0290-word-pattern](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0290-word-pattern) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0459-repeated-substring-pattern](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0459-repeated-substring-pattern) |
 | [0541-reverse-string-ii](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0541-reverse-string-ii) |
@@ -326,6 +327,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0205-isomorphic-strings](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0205-isomorphic-strings) |
 | [0229-majority-element-ii](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0268-missing-number) |
+| [0290-word-pattern](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0290-word-pattern) |
 | [0560-subarray-sum-equals-k](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0560-subarray-sum-equals-k) |
 | [0594-longest-harmonious-subsequence](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0594-longest-harmonious-subsequence) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0653-two-sum-iv-input-is-a-bst) |
