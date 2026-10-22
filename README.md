@@ -82,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2091-removing-minimum-and-maximum-from-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2091-removing-minimum-and-maximum-from-array) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2221-find-triangular-sum-of-an-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2221-find-triangular-sum-of-an-array) |
+| [2294-partition-array-such-that-maximum-difference-is-k](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2294-partition-array-such-that-maximum-difference-is-k) |
 | [2326-spiral-matrix-iv](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2326-spiral-matrix-iv) |
 | [2389-longest-subsequence-with-limited-sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2389-longest-subsequence-with-limited-sum) |
 | [2410-maximum-matching-of-players-with-trainers](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2410-maximum-matching-of-players-with-trainers) |
@@ -179,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1402-reducing-dishes](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1402-reducing-dishes) |
 | [1710-maximum-units-on-a-truck](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1710-maximum-units-on-a-truck) |
 | [2091-removing-minimum-and-maximum-from-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2091-removing-minimum-and-maximum-from-array) |
+| [2294-partition-array-such-that-maximum-difference-is-k](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2294-partition-array-such-that-maximum-difference-is-k) |
 | [2389-longest-subsequence-with-limited-sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2389-longest-subsequence-with-limited-sum) |
 | [2405-optimal-partition-of-string](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2405-optimal-partition-of-string) |
 | [2410-maximum-matching-of-players-with-trainers](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2410-maximum-matching-of-players-with-trainers) |
@@ -207,6 +209,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1710-maximum-units-on-a-truck](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1710-maximum-units-on-a-truck) |
 | [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1984-minimum-difference-between-highest-and-lowest-of-k-scores) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2089-find-target-indices-after-sorting-array) |
+| [2294-partition-array-such-that-maximum-difference-is-k](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2294-partition-array-such-that-maximum-difference-is-k) |
 | [2389-longest-subsequence-with-limited-sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2389-longest-subsequence-with-limited-sum) |
 | [2410-maximum-matching-of-players-with-trainers](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2410-maximum-matching-of-players-with-trainers) |
 | [2583-kth-largest-sum-in-a-binary-tree](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2583-kth-largest-sum-in-a-binary-tree) |
