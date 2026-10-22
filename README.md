@@ -151,6 +151,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2062-count-vowel-substrings-of-a-string](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2062-count-vowel-substrings-of-a-string) |
 | [2405-optimal-partition-of-string](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2405-optimal-partition-of-string) |
 | [2483-minimum-penalty-for-a-shop](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2483-minimum-penalty-for-a-shop) |
+| [3746-minimum-string-length-after-balanced-removals](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3746-minimum-string-length-after-balanced-removals) |
 | [4006-count-valid-prefixes](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4006-count-valid-prefixes) |
 ## Dynamic Programming
 |  |
@@ -406,6 +407,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0229-majority-element-ii) |
 | [0594-longest-harmonious-subsequence](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0594-longest-harmonious-subsequence) |
+| [3746-minimum-string-length-after-balanced-removals](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3746-minimum-string-length-after-balanced-removals) |
 | [3978-unique-middle-element](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3978-unique-middle-element) |
 | [4006-count-valid-prefixes](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4006-count-valid-prefixes) |
 ## Backtracking
@@ -587,6 +589,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1472-design-browser-history](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1472-design-browser-history) |
 | [2816-double-a-number-represented-as-a-linked-list](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2816-double-a-number-represented-as-a-linked-list) |
+| [3746-minimum-string-length-after-balanced-removals](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3746-minimum-string-length-after-balanced-removals) |
 ## Tree
 |  |
 | ------- |
