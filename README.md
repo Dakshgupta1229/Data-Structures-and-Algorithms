@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0733-flood-fill) |
 | [0786-k-th-smallest-prime-fraction](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0786-k-th-smallest-prime-fraction) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0852-peak-index-in-a-mountain-array) |
+| [0860-lemonade-change](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0860-lemonade-change) |
 | [0861-score-after-flipping-matrix](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0861-score-after-flipping-matrix) |
 | [0867-transpose-matrix](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0867-transpose-matrix) |
 | [0875-koko-eating-bananas](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0875-koko-eating-bananas) |
@@ -161,6 +162,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0011-container-with-most-water) |
 | [0455-assign-cookies](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0455-assign-cookies) |
 | [0678-valid-parenthesis-string](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0678-valid-parenthesis-string) |
+| [0860-lemonade-change](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0860-lemonade-change) |
 | [0861-score-after-flipping-matrix](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0861-score-after-flipping-matrix) |
 | [1013-partition-array-into-three-parts-with-equal-sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1013-partition-array-into-three-parts-with-equal-sum) |
 | [1402-reducing-dishes](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1402-reducing-dishes) |
