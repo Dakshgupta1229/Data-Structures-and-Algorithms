@@ -962,6 +962,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Database
 |  |
 | ------- |
+| [0176-second-highest-salary](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0176-second-highest-salary) |
 | [0595-big-countries](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0595-big-countries) |
 | [1068-product-sales-analysis-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1068-product-sales-analysis-i) |
 | [1148-article-views-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1148-article-views-i) |
