@@ -959,4 +959,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0881-boats-to-save-people](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0881-boats-to-save-people) |
+## Database
+|  |
+| ------- |
+| [1757-recyclable-and-low-fat-products](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1757-recyclable-and-low-fat-products) |
 <!---LeetCode Topics End-->
