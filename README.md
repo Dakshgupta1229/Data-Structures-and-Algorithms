@@ -110,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3982-sum-of-integers-with-maximum-digit-range](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3982-sum-of-integers-with-maximum-digit-range) |
 | [4014-minimum-total-price-after-applying-discounts](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4014-minimum-total-price-after-applying-discounts) |
 | [4020-elevator-requests-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4020-elevator-requests-i) |
+| [4024-nearest-available-drone](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4024-nearest-available-drone) |
 | [4048-count-values-with-equally-spaced-occurrences-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4048-count-values-with-equally-spaced-occurrences-i) |
 | [4065-rearrange-array-by-removing-distinct-values](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4065-rearrange-array-by-removing-distinct-values) |
 ## Prefix Sum
@@ -513,6 +514,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2778-sum-of-squares-of-special-elements](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2778-sum-of-squares-of-special-elements) |
 | [3345-smallest-divisible-digit-product-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3345-smallest-divisible-digit-product-i) |
 | [3483-unique-3-digit-even-numbers](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3483-unique-3-digit-even-numbers) |
+| [4024-nearest-available-drone](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4024-nearest-available-drone) |
 ## Boyer–Moore Majority Vote Algorithm
 |  |
 | ------- |
