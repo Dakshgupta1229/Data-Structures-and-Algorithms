@@ -110,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [4014-minimum-total-price-after-applying-discounts](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4014-minimum-total-price-after-applying-discounts) |
 | [4020-elevator-requests-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4020-elevator-requests-i) |
 | [4048-count-values-with-equally-spaced-occurrences-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4048-count-values-with-equally-spaced-occurrences-i) |
+| [4065-rearrange-array-by-removing-distinct-values](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4065-rearrange-array-by-removing-distinct-values) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -222,6 +223,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3727-maximum-alternating-sum-of-squares](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3727-maximum-alternating-sum-of-squares) |
 | [3731-find-missing-elements](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3731-find-missing-elements) |
 | [4014-minimum-total-price-after-applying-discounts](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4014-minimum-total-price-after-applying-discounts) |
+| [4065-rearrange-array-by-removing-distinct-values](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4065-rearrange-array-by-removing-distinct-values) |
 ## Binary Search
 |  |
 | ------- |
@@ -323,6 +325,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2507-smallest-value-after-replacing-with-sum-of-prime-factors](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2507-smallest-value-after-replacing-with-sum-of-prime-factors) |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3069-distribute-elements-into-two-arrays-i) |
 | [4020-elevator-requests-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4020-elevator-requests-i) |
+| [4065-rearrange-array-by-removing-distinct-values](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4065-rearrange-array-by-removing-distinct-values) |
 ## Hash Table
 |  |
 | ------- |
@@ -363,6 +366,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3718-smallest-missing-multiple-of-k](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3718-smallest-missing-multiple-of-k) |
 | [3731-find-missing-elements](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3731-find-missing-elements) |
 | [4048-count-values-with-equally-spaced-occurrences-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4048-count-values-with-equally-spaced-occurrences-i) |
+| [4065-rearrange-array-by-removing-distinct-values](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4065-rearrange-array-by-removing-distinct-values) |
 ## Union-Find
 |  |
 | ------- |
@@ -412,6 +416,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3746-minimum-string-length-after-balanced-removals](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3746-minimum-string-length-after-balanced-removals) |
 | [3978-unique-middle-element](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3978-unique-middle-element) |
 | [4006-count-valid-prefixes](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4006-count-valid-prefixes) |
+| [4065-rearrange-array-by-removing-distinct-values](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4065-rearrange-array-by-removing-distinct-values) |
 ## Backtracking
 |  |
 | ------- |
@@ -562,6 +567,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0023-merge-k-sorted-lists](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0023-merge-k-sorted-lists) |
 | [0658-find-k-closest-elements](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0658-find-k-closest-elements) |
 | [0786-k-th-smallest-prime-fraction](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0786-k-th-smallest-prime-fraction) |
+| [4065-rearrange-array-by-removing-distinct-values](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4065-rearrange-array-by-removing-distinct-values) |
 ## Merge Sort
 |  |
 | ------- |
@@ -988,4 +994,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1683-invalid-tweets](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1683-invalid-tweets) |
 | [1729-find-followers-count](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1729-find-followers-count) |
 | [1757-recyclable-and-low-fat-products](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1757-recyclable-and-low-fat-products) |
+## Ordered Set
+|  |
+| ------- |
+| [4065-rearrange-array-by-removing-distinct-values](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4065-rearrange-array-by-removing-distinct-values) |
 <!---LeetCode Topics End-->
