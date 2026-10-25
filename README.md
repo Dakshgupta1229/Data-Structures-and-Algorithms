@@ -109,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3982-sum-of-integers-with-maximum-digit-range](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3982-sum-of-integers-with-maximum-digit-range) |
 | [4014-minimum-total-price-after-applying-discounts](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4014-minimum-total-price-after-applying-discounts) |
 | [4020-elevator-requests-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4020-elevator-requests-i) |
+| [4048-count-values-with-equally-spaced-occurrences-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4048-count-values-with-equally-spaced-occurrences-i) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -361,6 +362,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3483-unique-3-digit-even-numbers](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3483-unique-3-digit-even-numbers) |
 | [3718-smallest-missing-multiple-of-k](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3718-smallest-missing-multiple-of-k) |
 | [3731-find-missing-elements](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3731-find-missing-elements) |
+| [4048-count-values-with-equally-spaced-occurrences-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4048-count-values-with-equally-spaced-occurrences-i) |
 ## Union-Find
 |  |
 | ------- |
