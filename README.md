@@ -92,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2761-prime-pairs-with-target-sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2761-prime-pairs-with-target-sum) |
 | [2778-sum-of-squares-of-special-elements](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2778-sum-of-squares-of-special-elements) |
 | [2799-count-complete-subarrays-in-an-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2799-count-complete-subarrays-in-an-array) |
+| [2855-minimum-right-shifts-to-sort-the-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2855-minimum-right-shifts-to-sort-the-array) |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3069-distribute-elements-into-two-arrays-i) |
