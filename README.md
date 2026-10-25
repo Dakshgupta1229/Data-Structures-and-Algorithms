@@ -112,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [4020-elevator-requests-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4020-elevator-requests-i) |
 | [4024-nearest-available-drone](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4024-nearest-available-drone) |
 | [4048-count-values-with-equally-spaced-occurrences-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4048-count-values-with-equally-spaced-occurrences-i) |
+| [4056-number-of-intersecting-interval-pairs-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4056-number-of-intersecting-interval-pairs-i) |
 | [4065-rearrange-array-by-removing-distinct-values](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4065-rearrange-array-by-removing-distinct-values) |
 ## Prefix Sum
 |  |
@@ -228,6 +229,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3727-maximum-alternating-sum-of-squares](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3727-maximum-alternating-sum-of-squares) |
 | [3731-find-missing-elements](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3731-find-missing-elements) |
 | [4014-minimum-total-price-after-applying-discounts](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4014-minimum-total-price-after-applying-discounts) |
+| [4056-number-of-intersecting-interval-pairs-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4056-number-of-intersecting-interval-pairs-i) |
 | [4065-rearrange-array-by-removing-distinct-values](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4065-rearrange-array-by-removing-distinct-values) |
 ## Binary Search
 |  |
@@ -257,6 +259,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1901-find-a-peak-element-ii](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1901-find-a-peak-element-ii) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2089-find-target-indices-after-sorting-array) |
 | [2389-longest-subsequence-with-limited-sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2389-longest-subsequence-with-limited-sum) |
+| [4056-number-of-intersecting-interval-pairs-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4056-number-of-intersecting-interval-pairs-i) |
 ## Sliding Window
 |  |
 | ------- |
@@ -515,6 +518,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3345-smallest-divisible-digit-product-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3345-smallest-divisible-digit-product-i) |
 | [3483-unique-3-digit-even-numbers](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3483-unique-3-digit-even-numbers) |
 | [4024-nearest-available-drone](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4024-nearest-available-drone) |
+| [4056-number-of-intersecting-interval-pairs-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4056-number-of-intersecting-interval-pairs-i) |
 ## Boyer–Moore Majority Vote Algorithm
 |  |
 | ------- |
