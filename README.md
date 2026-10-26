@@ -147,6 +147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0290-word-pattern](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0290-word-pattern) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0459-repeated-substring-pattern](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0459-repeated-substring-pattern) |
+| [0521-longest-uncommon-subsequence-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0521-longest-uncommon-subsequence-i) |
 | [0541-reverse-string-ii](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0541-reverse-string-ii) |
 | [0678-valid-parenthesis-string](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0678-valid-parenthesis-string) |
 | [0988-smallest-string-starting-from-leaf](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0988-smallest-string-starting-from-leaf) |
