@@ -28,6 +28,7 @@ class Solution {
             for(int j=0;j<isConnected[i].length;j++){
                 if(isConnected[i][j]==1){
                     adj.get(i).add(j);
+                    adj.get(j).add(i);
                 }
             }
         }
