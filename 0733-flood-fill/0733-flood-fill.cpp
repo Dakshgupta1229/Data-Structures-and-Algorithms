@@ -1,35 +1,28 @@
 class Solution {
 public:
     vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int color) {
-        if(image[sr][sc]==color) return image;
+        int old_color = image[sr][sc];
         vector<vector<int>> visited(image.size(),vector<int>(image[0].size(),0));
         queue<pair<int,int>> q;
         q.push({sr,sc});
         visited[sr][sc] = 1;
-        int value = image[sr][sc];
         while(q.size()>0){
-            auto it = q.front();
+            int row = q.front().first;
+            int column = q.front().second;
             q.pop();
-            int i1 = it.first;
-            int j1 = it.second;
-            image[i1][j1] = color;
-            if(i1-1>=0 && image[i1-1][j1]==value && visited[i1-1][j1]==0){
-                visited[i1-1][j1] = 1;
-                q.push({i1-1,j1});
-            }
-            if(i1+1<image.size() && image[i1+1][j1]==value && visited[i1+1][j1]==0){
-                visited[i1+1][j1] = 1;
-                q.push({i1+1,j1});
-            }
-            if(j1-1>=0 && image[i1][j1-1]==value && visited[i1][j1-1]==0){
-                visited[i1][j1-1] = 1;
-                q.push({i1,j1-1});
-            }
-            if(j1+1<image[0].size() && image[i1][j1+1]==value && visited[i1][j1+1]==0){
-                visited[i1][j1+1] = 1;
-                q.push({i1,j1+1});
+            image[row][column] = color;
+            int delrow[] = {-1,0,1,0};
+            int delcol[] = {0,-1,0,1};
+            for(int i=0;i<4;i++){
+                int newrow = row + delrow[i];
+                int newcol = column + delcol[i];
+                if(newrow>=0 && newrow<image.size() && newcol>=0 && newcol<image[0].size() && image[newrow][newcol]==old_color && visited[newrow][newcol]==0){
+                    visited[newrow][newcol] = 1;
+                    q.push({newrow,newcol});
+                }
             }
         }
         return image;
+
     }
 };
