@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0268-missing-number) |
 | [0455-assign-cookies](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0455-assign-cookies) |
 | [0485-max-consecutive-ones](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0485-max-consecutive-ones) |
+| [0542-01-matrix](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0560-subarray-sum-equals-k) |
 | [0594-longest-harmonious-subsequence](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0594-longest-harmonious-subsequence) |
 | [0658-find-k-closest-elements](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0658-find-k-closest-elements) |
@@ -175,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0152-maximum-product-subarray](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0152-maximum-product-subarray) |
+| [0542-01-matrix](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0542-01-matrix) |
 | [0650-2-keys-keyboard](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0650-2-keys-keyboard) |
 | [0678-valid-parenthesis-string](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0678-valid-parenthesis-string) |
 | [1402-reducing-dishes](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1402-reducing-dishes) |
@@ -472,6 +474,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0074-search-a-2d-matrix) |
 | [0200-number-of-islands](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0200-number-of-islands) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0240-search-a-2d-matrix-ii) |
+| [0542-01-matrix](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0733-flood-fill) |
 | [0861-score-after-flipping-matrix](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0861-score-after-flipping-matrix) |
 | [0867-transpose-matrix](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0867-transpose-matrix) |
@@ -880,6 +883,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0513-find-bottom-left-tree-value](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0513-find-bottom-left-tree-value) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0530-minimum-absolute-difference-in-bst) |
+| [0542-01-matrix](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0547-number-of-provinces) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0653-two-sum-iv-input-is-a-bst) |
