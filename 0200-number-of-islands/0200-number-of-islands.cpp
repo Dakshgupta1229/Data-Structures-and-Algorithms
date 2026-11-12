@@ -1,25 +1,33 @@
 class Solution {
 public:
 
-    void bfs(int row,int column,vector<vector<char>> &grid,vector<vector<int>> &visited){
+    void bfs(vector<vector<char>>& grid,vector<vector<int>> &visited,int row,int column){
+        visited[row][column] = 1;
         queue<pair<int,int>> q;
         q.push({row,column});
-        visited[row][column] = 1;
         while(q.size()>0){
-            int r1 = q.front().first;
-            int c1 = q.front().second;
+            int r = q.front().first;
+            int c = q.front().second;
+            grid[r][c] = '0';
             q.pop();
-            int delrow[] = {-1,0,1,0};
-            int delcol[] = {0,-1,0,1};
-                for(int i=0;i<4;i++){
-                    int n_row1 = r1 + delrow[i];
-                    int n_col1 = c1 + delcol[i];
-                    if(n_row1>=0 && n_col1>=0 && n_row1<grid.size() && n_col1<grid[0].size() && grid[n_row1][n_col1]=='1' && visited[n_row1][n_col1]!=1){
-                        q.push({n_row1,n_col1});
-                        visited[n_row1][n_col1] = 1;
-                    }
-                }
+            if(r-1>=0 && r<grid.size() && c>=0 && c<grid[0].size() && visited[r-1][c]!=1 && grid[r-1][c]=='1'){
+                q.push({r-1,c});
+                visited[r-1][c] = 1;
+            }
+            if(r>=0 && r<grid.size() && c-1>=0 && c<grid[0].size() && visited[r][c-1]!=1 && grid[r][c-1]=='1'){
+                q.push({r,c-1});
+                visited[r][c-1] = 1;
+            }
+            if(r+1<grid.size() && r>=0 && c>=0 && c<grid[0].size() && grid[r+1][c]=='1' && visited[r+1][c]!=1){
+                q.push({r+1,c});
+                visited[r+1][c] = 1;
+            }
+            if(r>=0 && r<grid.size() && c>=0 && c+1<grid[0].size() && grid[r][c+1]=='1' && visited[r][c+1]!=1){
+                q.push({r,c+1});
+                visited[r][c+1] = 1;
+            }
         }
+        
     }
 
     int numIslands(vector<vector<char>>& grid) {
@@ -27,9 +35,9 @@ public:
         int count = 0;
         for(int i=0;i<grid.size();i++){
             for(int j=0;j<grid[i].size();j++){
-                if(grid[i][j]=='1' && visited[i][j]==0){
+                if(grid[i][j]=='1' && visited[i][j]!=1){
+                    bfs(grid,visited,i,j);
                     count++;
-                    bfs(i,j,grid,visited);
                 }
             }
         }
