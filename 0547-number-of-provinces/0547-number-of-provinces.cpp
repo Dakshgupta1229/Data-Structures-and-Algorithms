@@ -1,34 +1,38 @@
 class Solution {
 public:
 
-    void dfs(vector<vector<int>> &adj,vector<int> &visited,int start){
+    void bfs(vector<vector<int>> &adj,vector<int> &visited,int start){
+        queue<int> q;
+        q.push(start);
         visited[start] = 1;
-        vector<int> v1 = adj[start];
-        for(int i=0;i<v1.size();i++){
-            int ele = v1[i];
-            if(visited[ele]!=1){
-                dfs(adj,visited,ele);
+        while(q.size()>0){
+            int ele = q.front();
+            q.pop();
+            for(int i=0;i<adj[ele].size();i++){
+                int value = adj[ele][i];
+                if(visited[value]!=1){
+                    q.push(value);
+                    visited[value] = 1;
+                }
             }
         }
     }
 
     int findCircleNum(vector<vector<int>>& isConnected) {
-        int n = isConnected.size();
-        vector<vector<int>> adj(n);
-        for(int i=0;i<n;i++){
+        vector<vector<int>> adj(isConnected.size()+1);
+        for(int i=0;i<isConnected.size();i++){
             for(int j=0;j<isConnected[i].size();j++){
-                if(isConnected[i][j]==1){
-                    adj[i].push_back(j);
-                    adj[j].push_back(i);
+                if(isConnected[i][j]==1 && i!=j){
+                    adj[i+1].push_back(j+1);
                 }
             }
         }
-        vector<int> visited(n,0);
         int count = 0;
-        for(int i=0;i<n;i++){
+        vector<int> visited(adj.size(),0);
+        for(int i=1;i<adj.size();i++){
             if(visited[i]!=1){
                 count++;
-                dfs(adj,visited,i);
+                bfs(adj,visited,i);
             }
         }
         return count;
