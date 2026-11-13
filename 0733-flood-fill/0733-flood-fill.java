@@ -10,7 +10,6 @@ class Pair{
 
 class Solution {
     public int[][] floodFill(int[][] image, int sr, int sc, int color) {
-        int old_color = image[sr][sc];
         int[][] visited = new int[image.length][image[0].length];
         for(int i=0;i<visited.length;i++){
             for(int j=0;j<visited[i].length;j++){
@@ -18,22 +17,29 @@ class Solution {
             }
         }
         Queue<Pair> q = new LinkedList<Pair>();
+        int initial = image[sr][sc];
         q.offer(new Pair(sr,sc));
         visited[sr][sc] = 1;
         while(q.size()>0){
-            int row = q.peek().first;
-            int column = q.peek().second;
+            int r = q.peek().first;
+            int c = q.peek().second;
+            image[r][c] = color;
             q.poll();
-            image[row][column] = color;
-            int[] delrow = {-1,0,1,0};
-            int[] delcol = {0,-1,0,1};
-            for(int i=0;i<4;i++){
-                int newrow = row + delrow[i];
-                int newcol = column + delcol[i];
-                if(newrow>=0 && newrow<image.length && newcol>=0 && newcol<image[0].length && image[newrow][newcol]==old_color && visited[newrow][newcol]!=1){
-                    visited[newrow][newcol] = 1;
-                    q.offer(new Pair(newrow,newcol));
-                }
+            if(r-1>=0 && c>=0 && image[r-1][c]==initial && visited[r-1][c]!=1){
+                q.offer(new Pair(r-1,c));
+                visited[r-1][c] = 1;
+            }
+            if(r>=0 && c-1>=0 && image[r][c-1]==initial && visited[r][c-1]!=1){
+                q.offer(new Pair(r,c-1));
+                visited[r][c-1] = 1;
+            }
+            if(r+1<image.length && c>=0 && image[r+1][c]==initial && visited[r+1][c]!=1){
+                q.offer(new Pair(r+1,c));
+                visited[r+1][c] = 1;
+            }
+            if(r>=0 && c+1<image[0].length && image[r][c+1]==initial && visited[r][c+1]!=1){
+                q.offer(new Pair(r,c+1));
+                visited[r][c+1] = 1;
             }
         }
         return image;
