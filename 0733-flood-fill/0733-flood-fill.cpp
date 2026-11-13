@@ -1,28 +1,34 @@
 class Solution {
 public:
     vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int color) {
-        int old_color = image[sr][sc];
+        int initial = image[sr][sc];
         vector<vector<int>> visited(image.size(),vector<int>(image[0].size(),0));
         queue<pair<int,int>> q;
         q.push({sr,sc});
         visited[sr][sc] = 1;
         while(q.size()>0){
-            int row = q.front().first;
-            int column = q.front().second;
+            int r = q.front().first;
+            int c = q.front().second;
+            image[r][c] = color;
             q.pop();
-            image[row][column] = color;
-            int delrow[] = {-1,0,1,0};
-            int delcol[] = {0,-1,0,1};
-            for(int i=0;i<4;i++){
-                int newrow = row + delrow[i];
-                int newcol = column + delcol[i];
-                if(newrow>=0 && newrow<image.size() && newcol>=0 && newcol<image[0].size() && image[newrow][newcol]==old_color && visited[newrow][newcol]==0){
-                    visited[newrow][newcol] = 1;
-                    q.push({newrow,newcol});
-                }
+            if(r-1>=0 && c>=0 && image[r-1][c]==initial && visited[r-1][c]!=1){
+                q.push({r-1,c});
+                visited[r-1][c] = 1;
+            }
+            if(r>=0 && c-1>=0 && image[r][c-1]==initial && visited[r][c-1]!=1){
+                q.push({r,c-1});
+                visited[r][c-1] = 1;
+            }
+            if(r+1<image.size() && c>=0 && image[r+1][c]==initial && visited[r+1][c]!=1){
+                q.push({r+1,c});
+                visited[r+1][c] = 1;
+            }
+            if(r>=0 && c+1<image[0].size() && image[r][c+1]==initial && visited[r][c+1]!=1){
+                q.push({r,c+1});
+                visited[r][c+1] = 1;
             }
         }
-        return image;
 
+        return image;
     }
 };
