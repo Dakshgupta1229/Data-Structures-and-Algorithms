@@ -5,7 +5,7 @@ class Pair{
         this.first = first;
         this.second = second;
     }
-};
+}
 
 
 class Solution {
@@ -17,33 +17,45 @@ class Solution {
             }
         }
         Queue<Pair> q = new LinkedList<Pair>();
+        int count = 0;
         for(int i=0;i<grid.length;i++){
-            for(int j=0;j<grid[i].length;j++){
-                if(grid[i][j]==2) q.offer(new Pair(i,j));
+            for(int j=0;j<grid[0].length;j++){
+                if(grid[i][j]==2){
+                    q.offer(new Pair(i,j));
+                    visited[i][j] = 1;
+                }
             }
         }
-        int count = 0;
-        while(q.size()>0){
-            boolean flag = false;
+        while(true){
             int n = q.size();
-            while(true){
-                if(n==0) break;
-                n--;
-                int row = q.peek().first;
-                int column = q.peek().second;
+            if(n==0) break;
+            boolean flag = false;
+            while(n>0){
+                int r = q.peek().first;
+                int c = q.peek().second;
+                grid[r][c] = 0;
                 q.poll();
-                int delrow[] = {-1,0,1,0};
-                int delcol[] = {0,-1,0,1};
-                for(int i=0;i<4;i++){
-                    int newrow = row + delrow[i];
-                    int newcol = column + delcol[i];
-                    if(newrow>=0 && newrow<grid.length && newcol>=0 && newcol<grid[0].length && grid[newrow][newcol]==1 && visited[newrow][newcol]!=1){
-                        grid[newrow][newcol]  = 2;
-                        visited[newrow][newcol] = 1;
-                        q.offer(new Pair(newrow,newcol));
-                        flag = true;
-                    }
+                if(r-1>=0 && c>=0 && grid[r-1][c]==1 && visited[r-1][c]!=1){
+                    q.offer(new Pair(r-1,c));
+                    visited[r-1][c] = 1;
+                    flag = true;
                 }
+                if(r>=0 && c-1>=0 && grid[r][c-1]==1 && visited[r][c-1]!=1){
+                    q.offer(new Pair(r,c-1));
+                    visited[r][c-1] = 1;
+                    flag = true;
+                }
+                if(r+1<grid.length && c>=0 && grid[r+1][c]==1 && visited[r+1][c]!=1){
+                    q.offer(new Pair(r+1,c));
+                    visited[r+1][c] = 1;
+                    flag = true;
+                }
+                if(r>=0 && c+1<grid[0].length && grid[r][c+1]==1 && visited[r][c+1]!=1){
+                    q.offer(new Pair(r,c+1));
+                    visited[r][c+1] = 1;
+                    flag = true;
+                }
+                n--;
             }
             if(flag==true) count++;
         }
