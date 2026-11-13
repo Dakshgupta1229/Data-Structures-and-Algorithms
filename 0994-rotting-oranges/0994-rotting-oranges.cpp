@@ -2,45 +2,53 @@ class Solution {
 public:
     int orangesRotting(vector<vector<int>>& grid) {
         vector<vector<int>> visited(grid.size(),vector<int>(grid[0].size(),0));
+        int count = 0;
         queue<pair<int,int>> q;
         for(int i=0;i<grid.size();i++){
-            for(int j=0;j<grid[i].size();j++){
+            for(int j=0;j<grid[0].size();j++){
                 if(grid[i][j]==2){
                     q.push({i,j});
+                    visited[i][j] = 1;
                 }
             }
         }
-        int count = 0;
-        while(q.size()>0){
-            bool flag = false;
+        while(true){
             int n = q.size();
+            if(n==0) break;
+            bool flag = false;
             while(n--){
-                int row = q.front().first;
-                int column = q.front().second;
+                int r = q.front().first;
+                int c = q.front().second;
+                grid[r][c] = 0;
                 q.pop();
-                int delrow[] = {-1,0,1,0};
-                int delcol[] = {0,-1,0,1};
-                for(int i=0;i<4;i++){
-                    int newrow = row + delrow[i];
-                    int newcol = column + delcol[i];
-                    if(newrow>=0 && newrow<grid.size() && newcol>=0 && newcol<grid[0].size() && grid[newrow][newcol]==1 && visited[newrow][newcol]!=1){
-                        grid[newrow][newcol] = 2;
-                        visited[newrow][newcol] = 1;
-                        q.push({newrow,newcol});
-                        flag = true;
-                    }
+                if(r>=0 && c+1<grid[0].size() && grid[r][c+1]==1 && visited[r][c+1]!=1){
+                    q.push({r,c+1});
+                    visited[r][c+1] = 1;
+                    flag = true;
+                }
+                if(r-1>=0 && c>=0 && grid[r-1][c]==1 && visited[r-1][c]!=1){
+                    q.push({r-1,c});
+                    visited[r-1][c] = 1;
+                    flag = true;
+                }
+                if(r>=0 && c-1>=0 && grid[r][c-1]==1 && visited[r][c-1]!=1){
+                    q.push({r,c-1});
+                    visited[r][c-1] = 1;
+                    flag = true;
+                }
+                if(r+1<grid.size() && c>=0 && grid[r+1][c]==1 && visited[r+1][c]!=1){
+                    q.push({r+1,c});
+                    visited[r+1][c] = 1;
+                    flag = true;
                 }
             }
             if(flag==true) count++;
         }
         for(int i=0;i<grid.size();i++){
-            for(int j=0;j<grid[i].size();j++){
-                if(grid[i][j]==1){
-                    return -1;
-                }
+            for(int j=0;j<grid[0].size();j++){
+                if(grid[i][j]==1) return -1;
             }
         }
-
         return count;
     }
 };
