@@ -13,8 +13,8 @@ class Pair{
 class Solution {
     public int[][] updateMatrix(int[][] mat) {
         int[][] visited = new int[mat.length][mat[0].length];
-        for(int i=0;i<mat.length;i++){
-            for(int j=0;j<mat[0].length;j++){
+        for(int i=0;i<visited.length;i++){
+            for(int j=0;j<visited[i].length;j++){
                 visited[i][j] = 0;
             }
         }
@@ -32,14 +32,14 @@ class Solution {
             int row = q.peek().first;
             int column = q.peek().second;
             int dist = q.peek().third;
-            q.poll();
             distance[row][column] = dist;
+            q.poll();
             int[] delrow = {-1,0,1,0};
             int[] delcol = {0,-1,0,1};
             for(int i=0;i<4;i++){
                 int newrow = row + delrow[i];
                 int newcol = column + delcol[i];
-                if(newrow>=0 && newrow<mat.length && newcol>=0 && newcol<mat[0].length && visited[newrow][newcol]!=1){
+                if(newrow>=0 && newcol>=0 && newrow<mat.length && newcol<mat[0].length && visited[newrow][newcol]!=1){
                     q.offer(new Pair(newrow,newcol,dist+1));
                     visited[newrow][newcol] = 1;
                 }
