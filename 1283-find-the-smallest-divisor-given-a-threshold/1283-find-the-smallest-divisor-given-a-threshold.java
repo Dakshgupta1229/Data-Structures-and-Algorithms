@@ -2,21 +2,21 @@ class Solution {
     public int smallestDivisor(int[] nums, int threshold) {
         int low = 1;
         int high = 1000000;
-        int idx = -1;
+        int ans = -1;
         while(low<=high){
             int mid = low + (high-low)/2;
             int sum = 0;
             for(int i=0;i<nums.length;i++){
-                float ele = (float)nums[i]/(float)mid;
-                int n = (int)(Math.ceil(ele));
-                sum = sum + n;
+                double ele = (double)nums[i]/(double)mid;
+                sum = sum + (int)Math.ceil(ele);
             }
+            System.out.println(sum + " " + mid);
             if(sum<=threshold){
-                idx = mid;
+                ans = mid;
                 high = mid - 1;
             }
             else low = mid + 1;
         }
-        return idx;
+        return ans;
     }
 }
