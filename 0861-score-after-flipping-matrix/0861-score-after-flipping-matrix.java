@@ -22,14 +22,15 @@ class Solution {
                 }
             }
         }
+        for(int i=0;i<grid.length;i++){
+            for(int j=1;j<grid[0].length;j++){
+                grid[i][j] =  2* grid[i][j-1] + grid[i][j];
+            }
+        }
         int sum = 0;
         for(int i=0;i<grid.length;i++){
-            for(int j=1;j<grid[i].length;j++){
-                grid[i][j] = 2 * grid[i][j-1] + grid[i][j];
-            }
-            sum = sum + grid[i][grid[i].length-1];
+            sum = sum + grid[i][grid[0].length-1];
         }
-
         return sum;
     }
 }
