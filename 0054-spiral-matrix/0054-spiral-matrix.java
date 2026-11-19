@@ -1,10 +1,10 @@
 class Solution {
     public List<Integer> spiralOrder(int[][] matrix) {
-        List<Integer> list = new ArrayList();
+        List<Integer> list = new ArrayList<>();
         int min_row = 0;
-        int max_row = matrix.length - 1;
+        int max_row = matrix.length-1;
         int min_column = 0;
-        int max_column = matrix[0].length - 1;
+        int max_column = matrix[0].length-1;
         while(min_row<=max_row && min_column<=max_column){
             for(int i=min_column;i<=max_column;i++){
                 list.add(matrix[min_row][i]);
