@@ -1,6 +1,5 @@
 class Solution {
     public int search(int[] nums, int target) {
-        if(nums.length==0) return -1;
         if(nums.length==1){
             if(nums[0]==target) return 0;
             else return -1;
@@ -15,17 +14,17 @@ class Solution {
         int high = nums.length - 1;
         while(low<=high){
             int mid = low + (high-low)/2;
-            if(mid==0) low++;
-            else if(mid==nums.length-1) high--;
-            else if(nums[mid]>nums[mid+1] && nums[mid]>nums[mid-1]){
+            if(mid==0) low = mid + 1;
+            else if(mid==nums.length-1) high = mid - 1;
+            else if(nums[mid]<=nums[mid-1] && nums[mid]<=nums[mid+1]){
                 pivot_idx = mid;
                 break;
             }
-            else if(nums[mid]<nums[mid+1] && nums[mid]<nums[mid-1]){
-                pivot_idx = mid - 1;
+            else if(nums[mid]>=nums[mid-1] && nums[mid]>=nums[mid+1]){
+                pivot_idx = mid+1;
                 break;
             }
-            else if(nums[mid]>nums[low]) low = mid + 1;
+            else if(nums[mid]>nums[0]) low = mid + 1;
             else high = mid - 1;
         }
         if(pivot_idx==-1){
@@ -40,14 +39,14 @@ class Solution {
         }
         else{
             low = 0;
-            high = pivot_idx;
+            high = pivot_idx-1;
             while(low<=high){
                 int mid = low + (high-low)/2;
                 if(nums[mid]==target) return mid;
                 else if(nums[mid]>target) high = mid - 1;
                 else low = mid + 1;
             }
-            low = pivot_idx+1;
+            low = pivot_idx;
             high = nums.length-1;
             while(low<=high){
                 int mid = low + (high-low)/2;
