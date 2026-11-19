@@ -1,24 +1,21 @@
 class Solution {
     public boolean isIsomorphic(String s, String t) {
-        if(s.length()!=t.length()) return false;
-        int[] arr1 = new int[256];
-        int[] arr2 = new int[256];
-        Arrays.fill(arr1,1000);
-        Arrays.fill(arr2,1000);
+        int[] ascii1 = new int[254];
+        Arrays.fill(ascii1,1024);
+        int[] ascii2 = new int[254];
+        Arrays.fill(ascii2,1024);
         for(int i=0;i<s.length();i++){
-            int index = (int)(s.charAt(i));
-            if(arr1[index]==1000){
-                arr1[index] = (int)(s.charAt(i) - t.charAt(i));
-            }
-            else if(arr1[index]==(int)(s.charAt(i)-t.charAt(i))) continue;
+            int index = (int)s.charAt(i);
+            int diff = (int)s.charAt(i) - (int)t.charAt(i);
+            if(ascii1[index]==1024) ascii1[index] = diff;
+            else if(ascii1[index]==diff) continue;
             else return false;
         }
         for(int i=0;i<t.length();i++){
-            int index = (int)(t.charAt(i));
-            if(arr2[index]==1000){
-                arr2[index] = (int)(t.charAt(i) - s.charAt(i));
-            }
-            else if(arr2[index]==(int)(t.charAt(i) - s.charAt(i))) continue;
+            int index = (int)t.charAt(i);
+            int diff = (int)t.charAt(i) - (int)s.charAt(i);
+            if(ascii2[index]==1024) ascii2[index] = diff;
+            else if(ascii2[index]==diff) continue;
             else return false;
         }
         return true;
