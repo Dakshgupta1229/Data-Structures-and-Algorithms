@@ -3,7 +3,7 @@ class Solution {
         Map<Integer,List<Integer>> map = new HashMap<>();
         for(int i=0;i<mat.length;i++){
             for(int j=0;j<mat[i].length;j++){
-                map.computeIfAbsent(i-j,k -> new ArrayList<>()).add(mat[i][j]);
+                map.computeIfAbsent(i-j,k -> new ArrayList()).add(mat[i][j]);
             }
         }
         for(Integer p:map.keySet()){
@@ -11,7 +11,8 @@ class Solution {
         }
         for(int i=mat.length-1;i>=0;i--){
             for(int j=mat[i].length-1;j>=0;j--){
-                List<Integer> list = map.get(i-j);
+                int ele = i-j;
+                List<Integer> list = map.get(ele);
                 mat[i][j] = list.get(list.size()-1);
                 list.remove(list.size()-1);
             }
