@@ -1,28 +1,29 @@
 class Solution {
     public boolean wordPattern(String pattern, String s) {
-        String[] arr1 = s.split(" ");
-        char[] arr2 = pattern.toCharArray();
-        if(arr1.length!=arr2.length) return false;
-        Map<String,Character> map = new HashMap<>();
-        for(int i=0;i<arr1.length;i++){
-            if(!map.containsKey(arr1[i])){
-                map.put(arr1[i],arr2[i]);
+        Map<Character,String> map = new HashMap<>();
+        String[] str = s.split(" ");
+        if(str.length!=pattern.length()) return false;
+        for(int i=0;i<pattern.length();i++){
+            char ch = pattern.charAt(i);
+            if(!map.containsKey(ch)){
+                map.put(ch,str[i]);
             }
             else{
-                if(map.get(arr1[i])==arr2[i]) continue;
-                else return false;
-            }
-        }
-        Map<Character,String> map1 = new HashMap<>();
-        for(int i=0;i<arr2.length;i++){
-            if(!map1.containsKey(arr2[i])){
-                map1.put(arr2[i],arr1[i]);
-            }
-            else{
-                if(map1.get(arr2[i]).equals(arr1[i])) continue;
+                if(map.get(ch).equals((str[i]))) continue;
                 else{
                     return false;
                 }
+            }
+        }
+        Map<String,Character> map2 = new HashMap<>();
+        for(int i=0;i<str.length;i++){
+            String stt = str[i];
+            if(!map2.containsKey(stt)){
+                map2.put(stt,pattern.charAt(i));
+            }
+            else{
+                if(map2.get(stt).equals((pattern.charAt(i)))) continue;
+                else return false;
             }
         }
         return true;
