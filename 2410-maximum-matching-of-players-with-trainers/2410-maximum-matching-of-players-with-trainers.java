@@ -6,7 +6,7 @@ class Solution {
         int j=0;
         int count = 0;
         while(i<players.length && j<trainers.length){
-            if(trainers[j]>=players[i]){
+            if(players[i]<=trainers[j]){
                 count++;
                 i++;
                 j++;
