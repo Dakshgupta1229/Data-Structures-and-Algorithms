@@ -2,14 +2,13 @@ class Solution {
     public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> list = new ArrayList<>();
         for(int i=0;i<numRows;i++){
-            List<Integer> l = new ArrayList<>();
             int current = 1;
-            l.add(current);
-            for(int j=0;j<i;j++){
+            List<Integer> list2 = new ArrayList<>();
+            for(int j=0;j<=i;j++){
+                list2.add(current);
                 current = current * (i-j)/(j+1);
-                l.add(current);
             }
-            list.add(l);
+            list.add(list2);
         }
         return list;
     }
