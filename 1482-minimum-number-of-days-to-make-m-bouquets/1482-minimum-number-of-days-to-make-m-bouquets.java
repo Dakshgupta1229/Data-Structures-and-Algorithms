@@ -1,10 +1,12 @@
 class Solution {
     public int minDays(int[] bloomDay, int m, int k) {
+        int min_ele = Integer.MAX_VALUE;
         int max_ele = Integer.MIN_VALUE;
         for(int i=0;i<bloomDay.length;i++){
+            if(min_ele>bloomDay[i]) min_ele = bloomDay[i];
             if(max_ele<bloomDay[i]) max_ele = bloomDay[i];
         }
-        int low = 1;
+        int low = min_ele;
         int high = max_ele;
         int ans = -1;
         while(low<=high){
@@ -16,7 +18,7 @@ class Solution {
                     count++;
                 }
                 else count = 0;
-                if(count>=k){
+                if(count==k){
                     pairs++;
                     count = 0;
                 }
