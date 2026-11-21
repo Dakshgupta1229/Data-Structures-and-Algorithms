@@ -1,17 +1,25 @@
 class Solution {
     public int numberOfSubstrings(String s) {
+        int i=0;
+        int j=0;
+        int count_a = 0;
+        int count_b = 0;
+        int count_c = 0;
         int sum = 0;
-        int first = -1;
-        int second = -1;
-        int third = -1;
-        for(int i=0;i<s.length();i++){
-            if(s.charAt(i)=='a') first = i;
-            else if(s.charAt(i)=='b') second = i;
-            else third = i;
-            if(first!=-1 && second!=-1 && third!=-1){
-                int min_ele = Math.min(first,Math.min(second,third));
-                sum = sum + min_ele + 1;
+        while(j<s.length()){
+            char ch = s.charAt(j);
+            if(ch=='a') count_a++;
+            else if(ch=='b') count_b++;
+            else count_c++;
+            while(count_a>=1 && count_b>=1 && count_c>=1 && i<s.length()){
+                sum = sum + (s.length()-j);
+                char ch2 = s.charAt(i);
+                if(ch2=='a') count_a--;
+                else if(ch2=='b') count_b--;
+                else count_c--;
+                i++;
             }
+            j++;
         }
         return sum;
     }
