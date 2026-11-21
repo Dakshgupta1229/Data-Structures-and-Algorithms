@@ -452,6 +452,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3622-check-divisibility-by-digit-sum-and-product](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3622-check-divisibility-by-digit-sum-and-product) |
 | [3736-minimum-moves-to-equal-array-elements-iii](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3736-minimum-moves-to-equal-array-elements-iii) |
 | [3870-count-commas-in-range](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3870-count-commas-in-range) |
+| [3918-sum-of-primes-between-number-and-its-reverse](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3918-sum-of-primes-between-number-and-its-reverse) |
 | [3982-sum-of-integers-with-maximum-digit-range](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3982-sum-of-integers-with-maximum-digit-range) |
 ## Segment Tree
 |  |
@@ -495,6 +496,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2761-prime-pairs-with-target-sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2761-prime-pairs-with-target-sum) |
 | [3115-maximum-prime-difference](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3115-maximum-prime-difference) |
 | [3618-split-array-by-prime-indices](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3618-split-array-by-prime-indices) |
+| [3918-sum-of-primes-between-number-and-its-reverse](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3918-sum-of-primes-between-number-and-its-reverse) |
 ## Bit Manipulation
 |  |
 | ------- |
