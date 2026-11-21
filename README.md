@@ -87,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1685-sum-of-absolute-differences-in-a-sorted-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1685-sum-of-absolute-differences-in-a-sorted-array) |
 | [1710-maximum-units-on-a-truck](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1710-maximum-units-on-a-truck) |
 | [1901-find-a-peak-element-ii](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1901-find-a-peak-element-ii) |
+| [1909-remove-one-element-to-make-the-array-strictly-increasing](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1909-remove-one-element-to-make-the-array-strictly-increasing) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [1980-find-unique-binary-string](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1980-find-unique-binary-string) |
