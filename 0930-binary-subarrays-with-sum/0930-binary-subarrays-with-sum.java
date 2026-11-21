@@ -10,10 +10,8 @@ class Solution {
             if(map.containsKey(rem)){
                 count = count + map.get(rem);
             }
-            if(map.containsKey(sum)){
-                map.put(sum,map.get(sum)+1);
-            }
-            else map.put(sum,1);
+            if(!map.containsKey(sum)) map.put(sum,1);
+            else map.put(sum,map.get(sum)+1);
         }
         return count;
     }
