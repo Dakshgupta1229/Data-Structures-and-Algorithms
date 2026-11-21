@@ -3,26 +3,32 @@ class Solution {
         Arrays.sort(nums);
         List<List<Integer>> list = new ArrayList<>();
         for(int i=0;i<nums.length;i++){
-            if(i>0 && nums[i]==nums[i-1]) continue;
+            while(i>0 && i<nums.length && nums[i]==nums[i-1]) i++;
             for(int j=i+1;j<nums.length;j++){
-                if(j>i+1 && nums[j]==nums[j-1]) continue;
+                while(j>i+1 && j<nums.length && nums[j]==nums[j-1]) j++;
                 int k=j+1;
                 int l=nums.length-1;
                 while(k<l){
                     long sum = (long)nums[i] + (long)nums[j] + (long)nums[k] + (long)nums[l];
-                    if(sum>target) l--;
-                    else if(sum<target) k++;
-                    else{
-                        List<Integer> temp = new ArrayList<>();
-                        temp.add(nums[i]);
-                        temp.add(nums[j]);
-                        temp.add(nums[k]);
-                        temp.add(nums[l]);
-                        list.add(temp);
+                    if(sum==(long)target){
+                        List<Integer> list2 = new ArrayList<>();
+                        list2.add(nums[i]);
+                        list2.add(nums[j]);
+                        list2.add(nums[k]);
+                        list2.add(nums[l]);
+                        list.add(list2);
                         k++;
                         l--;
-                        while(k<l && nums[k]==nums[k-1]) k++;
-                        while(k<l && nums[l]==nums[l+1]) l--;
+                        while(k>=0 && k<nums.length && nums[k-1]==nums[k]) k++;
+                        while(l>=0 && l+1<nums.length && nums[l]==nums[l+1]) l--;
+                    }
+                    else if(sum<(long)target){
+                        k++;
+                        while(k>=0 && k<nums.length && nums[k-1]==nums[k]) k++;
+                    }
+                    else{
+                        l--;
+                        while(l>=0 && l+1<nums.length && nums[l]==nums[l+1]) l--;
                     }
                 }
             }
