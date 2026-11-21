@@ -3,23 +3,24 @@ class Solution {
         int[] prefix = new int[customers.length()+1];
         int[] suffix = new int[customers.length()+1];
         prefix[0] = 0;
-        suffix[suffix.length-1] = 0;
         for(int i=0;i<customers.length();i++){
-            if(customers.charAt(i)=='N') prefix[i+1] = 1 + prefix[i];
-            else prefix[i+1] = 0 + prefix[i];
+            if(customers.charAt(i)=='N') prefix[i+1] = prefix[i] + 1;
+            else prefix[i+1] = prefix[i];
         }
+        suffix[suffix.length-1] = 0;
         for(int i=customers.length()-1;i>=0;i--){
-            if(customers.charAt(i)=='Y') suffix[i] = 1 + suffix[i+1];
-            else suffix[i] = 0 + suffix[i+1];
+            if(customers.charAt(i)=='Y') suffix[i] = suffix[i+1] + 1;
+            else suffix[i] = suffix[i+1];
         }
-        int min_ele = Integer.MAX_VALUE;
-        int idx = -1;
+        int value = Integer.MAX_VALUE;
+        int index = -1;
         for(int i=0;i<prefix.length;i++){
-            if(min_ele>(prefix[i] + suffix[i])){
-                min_ele = prefix[i] + suffix[i];
-                idx = i;
+            int sum = prefix[i] + suffix[i];
+            if(value>sum){
+                value = sum;
+                index = i;
             }
         }
-        return idx;
+        return index;
     }
 }
