@@ -2,21 +2,22 @@ class Solution {
     public int maxSatisfaction(int[] satisfaction) {
         Arrays.sort(satisfaction);
         int[] suffix = Arrays.copyOf(satisfaction,satisfaction.length);
-        for(int i=suffix.length-2;i>=0;i--){
+        for(int i=satisfaction.length-2;i>=0;i--){
             suffix[i] = suffix[i] + suffix[i+1];
         }
-        int idx = -1;
-        for(int i=suffix.length-1;i>=0;i--){
-            if(suffix[i]<0){
-                idx = i;
+        int pivot_idx = -1;
+        for(int i=0;i<satisfaction.length;i++){
+            if(suffix[i]>=0){
+                pivot_idx = i;
                 break;
             }
         }
+        if(pivot_idx==-1) return 0;
         int sum = 0;
-        int cnt = 1;
-        for(int i=idx+1;i<suffix.length;i++){
-            sum = sum + (satisfaction[i] * cnt);
-            cnt++;
+        int index = 1;
+        for(int i=pivot_idx;i<satisfaction.length;i++){
+            sum = sum + (satisfaction[i] * index);
+            index++;
         }
         return sum;
     }
