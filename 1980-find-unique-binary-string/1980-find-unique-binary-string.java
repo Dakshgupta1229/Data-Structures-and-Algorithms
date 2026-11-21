@@ -1,26 +1,23 @@
 class Solution {
 
-    void traverse(String str,Set<String> set,int n,String[] result){
-        if(str.length()>n) return;
+    void generate(int n,String str,List<String> list){
         if(str.length()==n){
-            if(!set.contains(str)){
-                result[0] = str;
-                return;
-            }
+            list.add(str);
+            return;
         }
-        if(!(result[0].equals(""))) return;
-        traverse(str+'1',set,n,result);
-        traverse(str+'0',set,n,result);
+        generate(n,str+'1',list);
+        generate(n,str+'0',list);
     }
 
     public String findDifferentBinaryString(String[] nums) {
-        String[] result = {""};
+        List<String> list = new ArrayList<>();
+        generate(nums.length,"",list);
         Set<String> set = new HashSet<>();
-        for(int i=0;i<nums.length;i++){
-            set.add(nums[i]);
+        for(int i=0;i<nums.length;i++) set.add(nums[i]);
+        for(int i=0;i<list.size();i++){
+            if(!set.contains(list.get(i))) return list.get(i);
         }
-        String str = "";
-        traverse(str,set,nums.length,result);
-        return result[0];
+        return "";
+        
     }
 }
