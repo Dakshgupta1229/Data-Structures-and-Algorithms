@@ -3,13 +3,13 @@ class Solution {
         for(int i=1;i<nums.length;i++){
             nums[i] = nums[i] + nums[i-1];
         }
-        int min_ele = Integer.MAX_VALUE;
+        int min_value = Integer.MAX_VALUE;
         for(int i=0;i<nums.length;i++){
-            if(min_ele>nums[i] && nums[i]<0){
-                min_ele = nums[i];
+            if(min_value>nums[i]){
+                min_value = nums[i];
             }
         }
-        if(min_ele==Integer.MAX_VALUE) return 1;
-        return Math.abs(min_ele) + 1;
+        if(min_value<0) return Math.abs(min_value) + 1;
+        return 1;
     }
 }
