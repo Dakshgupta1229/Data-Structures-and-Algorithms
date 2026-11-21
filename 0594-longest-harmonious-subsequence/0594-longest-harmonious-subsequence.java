@@ -1,31 +1,30 @@
 class Solution {
     public int findLHS(int[] nums) {
         Arrays.sort(nums);
-        TreeMap<Integer,List<Integer>> map = new TreeMap<>();
+        Map<Integer,List<Integer>> map = new TreeMap<>();
         for(int i=0;i<nums.length;i++){
-            map.putIfAbsent(nums[i],new ArrayList<>());
-            map.get(nums[i]).add(i);
+            map.computeIfAbsent(nums[i],k -> new ArrayList<>()).add(i);
         }
-        int num1 = Integer.MIN_VALUE;
-        int ele1 = Integer.MIN_VALUE;
-        int max_len = 0;
-        for(Map.Entry<Integer,List<Integer>> entry:map.entrySet()){
-            int value = entry.getKey();
-            List<Integer> list = entry.getValue();
-            if(ele1==Integer.MIN_VALUE){
-                ele1 = list.get(0);
-                num1 = value;
+        int ele = Integer.MIN_VALUE;
+        int max_length = 0;
+        for(Integer p:map.keySet()){
+            if(ele==Integer.MIN_VALUE){
+                ele = p;
             }
             else{
-                int ele2 = list.get(list.size()-1);
-                int num2 = value;
-                if(num2-num1==1 && max_len<ele2-ele1+1){
-                    max_len = ele2 - ele1 + 1;
+                if((p-ele)==1){
+                    System.out.println(p+" "+ele);
+                    List<Integer> list1 = map.get(p);
+                    List<Integer> list2 = map.get(ele);
+                    if(max_length<list1.get(list1.size()-1)-list2.get(0)+1){
+                        max_length = list1.get(list1.size()-1) - list2.get(0) + 1;
+                    }
                 }
-                ele1 = list.get(0);
-                num1 = value;
+                ele = p;
             }
         }
-        return max_len;
+        return max_length;
+
+
     }
 }
