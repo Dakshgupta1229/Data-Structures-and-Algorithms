@@ -2,17 +2,17 @@ class Solution {
     public List<Integer> majorityElement(int[] nums) {
         List<Integer> list = new ArrayList<>();
         int count1 = 0;
-        int count2 = 0;
         int ele1 = Integer.MIN_VALUE;
+        int count2 = 0;
         int ele2 = Integer.MIN_VALUE;
         for(int i=0;i<nums.length;i++){
             if(count1==0 && ele2!=nums[i]){
-                count1++;
                 ele1 = nums[i];
+                count1 = 1;
             }
             else if(count2==0 && ele1!=nums[i]){
-                count2++;
                 ele2 = nums[i];
+                count2 = 1;
             }
             else if(ele1==nums[i]) count1++;
             else if(ele2==nums[i]) count2++;
@@ -21,14 +21,14 @@ class Solution {
                 count2--;
             }
         }
-        count1 = 0;
-        count2 = 0;
+        int count3 = 0;
+        int count4 = 0;
         for(int i=0;i<nums.length;i++){
-            if(nums[i]==ele1) count1++;
-            if(nums[i]==ele2) count2++;
+            if(nums[i]==ele1) count3++;
+            if(nums[i]==ele2) count4++;
         }
-        if(count1>nums.length/3) list.add(ele1);
-        if(count2>nums.length/3) list.add(ele2);
+        if(count3>(nums.length/3)) list.add(ele1);
+        if(count4>(nums.length/3)) list.add(ele2);
         return list;
     }
 }
