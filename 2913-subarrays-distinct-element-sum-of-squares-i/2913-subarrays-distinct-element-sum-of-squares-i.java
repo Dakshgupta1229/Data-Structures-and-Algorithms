@@ -6,7 +6,7 @@ class Solution {
             for(int j=i;j<nums.size();j++){
                 set.add(nums.get(j));
                 int n = set.size();
-                sum = sum + (n*n);
+                sum = sum + (int)Math.pow(n,2);
             }
         }
         return sum;
