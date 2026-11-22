@@ -126,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3903-smallest-stable-index-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3903-smallest-stable-index-i) |
 | [3978-unique-middle-element](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3978-unique-middle-element) |
 | [3982-sum-of-integers-with-maximum-digit-range](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3982-sum-of-integers-with-maximum-digit-range) |
+| [4010-maximize-pair-strength-using-gcd](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4010-maximize-pair-strength-using-gcd) |
 | [4014-minimum-total-price-after-applying-discounts](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4014-minimum-total-price-after-applying-discounts) |
 | [4020-elevator-requests-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4020-elevator-requests-i) |
 | [4024-nearest-available-drone](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4024-nearest-available-drone) |
@@ -468,6 +469,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3870-count-commas-in-range](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3870-count-commas-in-range) |
 | [3918-sum-of-primes-between-number-and-its-reverse](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3918-sum-of-primes-between-number-and-its-reverse) |
 | [3982-sum-of-integers-with-maximum-digit-range](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3982-sum-of-integers-with-maximum-digit-range) |
+| [4010-maximize-pair-strength-using-gcd](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4010-maximize-pair-strength-using-gcd) |
 ## Segment Tree
 |  |
 | ------- |
@@ -512,6 +514,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3115-maximum-prime-difference](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3115-maximum-prime-difference) |
 | [3618-split-array-by-prime-indices](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3618-split-array-by-prime-indices) |
 | [3918-sum-of-primes-between-number-and-its-reverse](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3918-sum-of-primes-between-number-and-its-reverse) |
+| [4010-maximize-pair-strength-using-gcd](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4010-maximize-pair-strength-using-gcd) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -589,6 +592,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3200-maximum-height-of-a-triangle](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3200-maximum-height-of-a-triangle) |
 | [3345-smallest-divisible-digit-product-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3345-smallest-divisible-digit-product-i) |
 | [3483-unique-3-digit-even-numbers](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3483-unique-3-digit-even-numbers) |
+| [4010-maximize-pair-strength-using-gcd](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4010-maximize-pair-strength-using-gcd) |
 | [4024-nearest-available-drone](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4024-nearest-available-drone) |
 | [4056-number-of-intersecting-interval-pairs-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4056-number-of-intersecting-interval-pairs-i) |
 ## Boyer–Moore Majority Vote Algorithm
