@@ -177,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [1980-find-unique-binary-string](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1980-find-unique-binary-string) |
 | [2062-count-vowel-substrings-of-a-string](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2062-count-vowel-substrings-of-a-string) |
+| [2124-check-if-all-as-appears-before-all-bs](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2124-check-if-all-as-appears-before-all-bs) |
 | [2259-remove-digit-from-number-to-maximize-result](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2259-remove-digit-from-number-to-maximize-result) |
 | [2405-optimal-partition-of-string](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2405-optimal-partition-of-string) |
 | [2483-minimum-penalty-for-a-shop](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2483-minimum-penalty-for-a-shop) |
