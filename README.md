@@ -175,6 +175,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1763-longest-nice-substring](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1763-longest-nice-substring) |
+| [1897-redistribute-characters-to-make-all-strings-equal](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1897-redistribute-characters-to-make-all-strings-equal) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [1980-find-unique-binary-string](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1980-find-unique-binary-string) |
 | [2062-count-vowel-substrings-of-a-string](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2062-count-vowel-substrings-of-a-string) |
@@ -404,6 +405,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1261-find-elements-in-a-contaminated-binary-tree) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1763-longest-nice-substring](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1763-longest-nice-substring) |
+| [1897-redistribute-characters-to-make-all-strings-equal](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1897-redistribute-characters-to-make-all-strings-equal) |
 | [1980-find-unique-binary-string](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1980-find-unique-binary-string) |
 | [2062-count-vowel-substrings-of-a-string](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2062-count-vowel-substrings-of-a-string) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
@@ -474,6 +476,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0229-majority-element-ii) |
 | [0594-longest-harmonious-subsequence](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0594-longest-harmonious-subsequence) |
+| [1897-redistribute-characters-to-make-all-strings-equal](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1897-redistribute-characters-to-make-all-strings-equal) |
 | [3746-minimum-string-length-after-balanced-removals](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3746-minimum-string-length-after-balanced-removals) |
 | [3978-unique-middle-element](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3978-unique-middle-element) |
 | [4006-count-valid-prefixes](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4006-count-valid-prefixes) |
