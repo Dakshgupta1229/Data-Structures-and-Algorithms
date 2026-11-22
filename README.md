@@ -174,6 +174,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
+| [1763-longest-nice-substring](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1763-longest-nice-substring) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [1980-find-unique-binary-string](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1980-find-unique-binary-string) |
 | [2062-count-vowel-substrings-of-a-string](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2062-count-vowel-substrings-of-a-string) |
@@ -312,6 +313,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
+| [1763-longest-nice-substring](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1763-longest-nice-substring) |
 | [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1984-minimum-difference-between-highest-and-lowest-of-k-scores) |
 | [2799-count-complete-subarrays-in-an-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2799-count-complete-subarrays-in-an-array) |
 | [3364-minimum-positive-sum-subarray](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3364-minimum-positive-sum-subarray) |
@@ -327,6 +329,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0148-sort-list](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0169-majority-element) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0240-search-a-2d-matrix-ii) |
+| [1763-longest-nice-substring](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1763-longest-nice-substring) |
 ## Two Pointers
 |  |
 | ------- |
@@ -400,6 +403,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1248-count-number-of-nice-subarrays](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1248-count-number-of-nice-subarrays) |
 | [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1261-find-elements-in-a-contaminated-binary-tree) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1358-number-of-substrings-containing-all-three-characters) |
+| [1763-longest-nice-substring](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1763-longest-nice-substring) |
 | [1980-find-unique-binary-string](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1980-find-unique-binary-string) |
 | [2062-count-vowel-substrings-of-a-string](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2062-count-vowel-substrings-of-a-string) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
@@ -511,6 +515,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0222-count-complete-tree-nodes](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0222-count-complete-tree-nodes) |
 | [0268-missing-number](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0268-missing-number) |
 | [0861-score-after-flipping-matrix](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0861-score-after-flipping-matrix) |
+| [1763-longest-nice-substring](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1763-longest-nice-substring) |
 | [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3211-generate-binary-strings-without-adjacent-zeros) |
 ## Matrix
 |  |
