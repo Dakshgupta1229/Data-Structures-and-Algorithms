@@ -1,20 +1,22 @@
 class Solution {
-    public int maximumPrimeDifference(int[] nums) {
-        int[] sieve = new int[100+1];
-        Arrays.fill(sieve,1);
-        sieve[0] = 0;
-        sieve[1] = 0;
-        for(int i=2;i<=Math.sqrt(100);i++){
-            for(int j=i*i;j<sieve.length;j+=i){
-                sieve[j] = 0;
+
+    boolean isPrime(int num){
+        boolean flag = true;
+        for(int i=2;i<=Math.sqrt(num);i++){
+            if(num%i==0){
+                flag = false;
+                break;
             }
         }
-        int first = -1;
-        int second = -1;
+        if(flag==true && num!=1) return true;
+        return false;
+    }
+
+    public int maximumPrimeDifference(int[] nums) {
+        List<Integer> list = new ArrayList<>();
         for(int i=0;i<nums.length;i++){
-            if(sieve[nums[i]]==1 && first==-1) first = i;
-            if(sieve[nums[i]]==1) second = i;
+            if(isPrime(nums[i])) list.add(i);
         }
-        return Math.abs(first-second);
+        return list.get(list.size()-1) - list.get(0);
     }
 }
