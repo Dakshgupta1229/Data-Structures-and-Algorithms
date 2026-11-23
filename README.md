@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0875-koko-eating-bananas](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0875-koko-eating-bananas) |
 | [0881-boats-to-save-people](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0881-boats-to-save-people) |
 | [0904-fruit-into-baskets](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0904-fruit-into-baskets) |
+| [0908-smallest-range-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0908-smallest-range-i) |
 | [0930-binary-subarrays-with-sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0930-binary-subarrays-with-sum) |
 | [0994-rotting-oranges](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0994-rotting-oranges) |
 | [1004-max-consecutive-ones-iii](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1004-max-consecutive-ones-iii) |
@@ -451,6 +452,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0507-perfect-number](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0507-perfect-number) |
 | [0633-sum-of-square-numbers](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0633-sum-of-square-numbers) |
 | [0650-2-keys-keyboard](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0650-2-keys-keyboard) |
+| [0908-smallest-range-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0908-smallest-range-i) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1248-count-number-of-nice-subarrays) |
 | [1352-product-of-the-last-k-numbers](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1352-product-of-the-last-k-numbers) |
 | [1588-sum-of-all-odd-length-subarrays](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1588-sum-of-all-odd-length-subarrays) |
