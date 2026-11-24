@@ -194,6 +194,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3211-generate-binary-strings-without-adjacent-zeros) |
 | [3216-lexicographically-smallest-string-after-a-swap](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3216-lexicographically-smallest-string-after-a-swap) |
 | [3746-minimum-string-length-after-balanced-removals](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3746-minimum-string-length-after-balanced-removals) |
+| [3955-valid-binary-strings-with-cost-limit](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3955-valid-binary-strings-with-cost-limit) |
 | [4006-count-valid-prefixes](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4006-count-valid-prefixes) |
 ## Dynamic Programming
 |  |
@@ -509,6 +510,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0988-smallest-string-starting-from-leaf](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0988-smallest-string-starting-from-leaf) |
 | [1980-find-unique-binary-string](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1980-find-unique-binary-string) |
 | [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3211-generate-binary-strings-without-adjacent-zeros) |
+| [3955-valid-binary-strings-with-cost-limit](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3955-valid-binary-strings-with-cost-limit) |
 ## Combinatorics
 |  |
 | ------- |
@@ -539,6 +541,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0861-score-after-flipping-matrix](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0861-score-after-flipping-matrix) |
 | [1763-longest-nice-substring](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1763-longest-nice-substring) |
 | [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3211-generate-binary-strings-without-adjacent-zeros) |
+| [3955-valid-binary-strings-with-cost-limit](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3955-valid-binary-strings-with-cost-limit) |
 ## Matrix
 |  |
 | ------- |
@@ -607,6 +610,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3345-smallest-divisible-digit-product-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3345-smallest-divisible-digit-product-i) |
 | [3411-maximum-subarray-with-equal-products](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3411-maximum-subarray-with-equal-products) |
 | [3483-unique-3-digit-even-numbers](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3483-unique-3-digit-even-numbers) |
+| [3955-valid-binary-strings-with-cost-limit](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3955-valid-binary-strings-with-cost-limit) |
 | [4010-maximize-pair-strength-using-gcd](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4010-maximize-pair-strength-using-gcd) |
 | [4024-nearest-available-drone](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4024-nearest-available-drone) |
 | [4056-number-of-intersecting-interval-pairs-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4056-number-of-intersecting-interval-pairs-i) |
