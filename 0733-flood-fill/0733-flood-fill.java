@@ -9,39 +9,38 @@ class Pair{
 
 
 class Solution {
+    void bfs(int row,int column,int[][] image,int col,int[][] visited,int color){
+        visited[row][column] = 1;
+        Queue<Pair> q = new LinkedList<>();
+        q.offer(new Pair(row,column));
+        while(q.size()>0){
+            int r1 = q.peek().first;
+            int r2 = q.peek().second;
+            image[r1][r2] = color;
+            q.poll();
+            int[] delrow = {-1,0,1,0};
+            int[] delcolumn = {0,-1,0,1};
+            for(int i=0;i<4;i++){
+                int new_row = r1 + delrow[i];
+                int new_column = r2 + delcolumn[i];
+                if(new_row>=0 && new_row<image.length && new_column>=0 && new_column<image[0].length && image[new_row][new_column]==col && visited[new_row][new_column]!=1){
+                    visited[new_row][new_column] = 1;
+                    q.offer(new Pair(new_row,new_column));
+                }
+            }
+        }
+
+    }
+
     public int[][] floodFill(int[][] image, int sr, int sc, int color) {
         int[][] visited = new int[image.length][image[0].length];
-        for(int i=0;i<visited.length;i++){
-            for(int j=0;j<visited[i].length;j++){
+        for(int i=0;i<image.length;i++){
+            for(int j=0;j<image[i].length;j++){
                 visited[i][j] = 0;
             }
         }
-        Queue<Pair> q = new LinkedList<Pair>();
-        int initial = image[sr][sc];
-        q.offer(new Pair(sr,sc));
-        visited[sr][sc] = 1;
-        while(q.size()>0){
-            int r = q.peek().first;
-            int c = q.peek().second;
-            image[r][c] = color;
-            q.poll();
-            if(r-1>=0 && c>=0 && image[r-1][c]==initial && visited[r-1][c]!=1){
-                q.offer(new Pair(r-1,c));
-                visited[r-1][c] = 1;
-            }
-            if(r>=0 && c-1>=0 && image[r][c-1]==initial && visited[r][c-1]!=1){
-                q.offer(new Pair(r,c-1));
-                visited[r][c-1] = 1;
-            }
-            if(r+1<image.length && c>=0 && image[r+1][c]==initial && visited[r+1][c]!=1){
-                q.offer(new Pair(r+1,c));
-                visited[r+1][c] = 1;
-            }
-            if(r>=0 && c+1<image[0].length && image[r][c+1]==initial && visited[r][c+1]!=1){
-                q.offer(new Pair(r,c+1));
-                visited[r][c+1] = 1;
-            }
-        }
+        int col = image[sr][sc];
+        bfs(sr,sc,image,col,visited,color);
         return image;
     }
 }
