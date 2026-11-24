@@ -89,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1539-kth-missing-positive-number](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1539-kth-missing-positive-number) |
 | [1552-magnetic-force-between-two-balls](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1552-magnetic-force-between-two-balls) |
 | [1588-sum-of-all-odd-length-subarrays](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1588-sum-of-all-odd-length-subarrays) |
+| [1630-arithmetic-subarrays](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1630-arithmetic-subarrays) |
 | [1685-sum-of-absolute-differences-in-a-sorted-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1685-sum-of-absolute-differences-in-a-sorted-array) |
 | [1710-maximum-units-on-a-truck](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1710-maximum-units-on-a-truck) |
 | [1901-find-a-peak-element-ii](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1901-find-a-peak-element-ii) |
@@ -271,6 +272,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1403-minimum-subsequence-in-non-increasing-order](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1403-minimum-subsequence-in-non-increasing-order) |
 | [1508-range-sum-of-sorted-subarray-sums](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1508-range-sum-of-sorted-subarray-sums) |
 | [1552-magnetic-force-between-two-balls](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1552-magnetic-force-between-two-balls) |
+| [1630-arithmetic-subarrays](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1630-arithmetic-subarrays) |
 | [1710-maximum-units-on-a-truck](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1710-maximum-units-on-a-truck) |
 | [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1984-minimum-difference-between-highest-and-lowest-of-k-scores) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2089-find-target-indices-after-sorting-array) |
@@ -430,6 +432,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1248-count-number-of-nice-subarrays](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1248-count-number-of-nice-subarrays) |
 | [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1261-find-elements-in-a-contaminated-binary-tree) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1358-number-of-substrings-containing-all-three-characters) |
+| [1630-arithmetic-subarrays](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1630-arithmetic-subarrays) |
 | [1763-longest-nice-substring](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1763-longest-nice-substring) |
 | [1897-redistribute-characters-to-make-all-strings-equal](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1897-redistribute-characters-to-make-all-strings-equal) |
 | [1980-find-unique-binary-string](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1980-find-unique-binary-string) |
