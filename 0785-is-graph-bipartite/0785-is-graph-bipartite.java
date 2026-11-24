@@ -1,21 +1,16 @@
 class Solution {
 
-    public boolean bfs(int[][] graph,int[] visited,int start){
-        visited[start] = 0;
-        Queue<Integer> q = new LinkedList<>();
-        q.offer(start);
-        while(q.size()>0){
-            int ele = q.peek();
-            q.poll();
-            for(int i=0;i<graph[ele].length;i++){
-                int value = graph[ele][i];
-                if(visited[value]==-1){
-                    if(visited[ele]==0) visited[value] = 1;
-                    else visited[value] = 0;
-                    q.offer(value);
-                }
-                else if(visited[value]==visited[ele]) return true;
+    boolean dfs(int start,int parent,int[][] graph,int[] visited){
+        if(parent==-1) visited[start] = 0;
+        else if(visited[parent]==0) visited[start] = 1;
+        else if(visited[parent]==1) visited[start] = 0;
+        for(int i=0;i<graph[start].length;i++){
+            int ele = graph[start][i];
+            if(visited[ele]==-1){
+                boolean result = dfs(ele,start,graph,visited);
+                if(result==true) return true;
             }
+            else if(visited[ele]==visited[start]) return true;
         }
         return false;
     }
@@ -25,9 +20,11 @@ class Solution {
         Arrays.fill(visited,-1);
         for(int i=0;i<graph.length;i++){
             if(visited[i]==-1){
-                if(bfs(graph,visited,i)) return false;
+                boolean result = dfs(i,-1,graph,visited);
+                if(result==true) return false;
             }
         }
+
         return true;
     }
 }
