@@ -191,6 +191,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2405-optimal-partition-of-string](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2405-optimal-partition-of-string) |
 | [2483-minimum-penalty-for-a-shop](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2483-minimum-penalty-for-a-shop) |
 | [2609-find-the-longest-balanced-substring-of-a-binary-string](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2609-find-the-longest-balanced-substring-of-a-binary-string) |
+| [2914-minimum-number-of-changes-to-make-binary-string-beautiful](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2914-minimum-number-of-changes-to-make-binary-string-beautiful) |
 | [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3211-generate-binary-strings-without-adjacent-zeros) |
 | [3216-lexicographically-smallest-string-after-a-swap](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3216-lexicographically-smallest-string-after-a-swap) |
 | [3746-minimum-string-length-after-balanced-removals](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3746-minimum-string-length-after-balanced-removals) |
