@@ -7,55 +7,43 @@ class Pair{
     }
 }
 
-
 class Solution {
     public int orangesRotting(int[][] grid) {
         int[][] visited = new int[grid.length][grid[0].length];
-        for(int i=0;i<visited.length;i++){
-            for(int j=0;j<visited[i].length;j++){
+        for(int i=0;i<grid.length;i++){
+            for(int j=0;j<grid[i].length;j++){
                 visited[i][j] = 0;
             }
         }
-        Queue<Pair> q = new LinkedList<Pair>();
-        int count = 0;
+        Queue<Pair> q = new LinkedList<>();
         for(int i=0;i<grid.length;i++){
-            for(int j=0;j<grid[0].length;j++){
+            for(int j=0;j<grid[i].length;j++){
                 if(grid[i][j]==2){
-                    q.offer(new Pair(i,j));
                     visited[i][j] = 1;
+                    q.offer(new Pair(i,j));
                 }
             }
         }
-        while(true){
+        int count = 0;
+        while(q.size()>0){
             int n = q.size();
-            if(n==0) break;
             boolean flag = false;
-            while(n>0){
-                int r = q.peek().first;
-                int c = q.peek().second;
-                grid[r][c] = 0;
+            for(int i=0;i<n;i++){
+                int r1 = q.peek().first;
+                int r2 = q.peek().second;
+                grid[r1][r2] = 2;
                 q.poll();
-                if(r-1>=0 && c>=0 && grid[r-1][c]==1 && visited[r-1][c]!=1){
-                    q.offer(new Pair(r-1,c));
-                    visited[r-1][c] = 1;
-                    flag = true;
+                int[] delrow = {-1,0,1,0};
+                int[] delcol = {0,-1,0,1};
+                for(int j=0;j<4;j++){
+                    int new_row = r1 + delrow[j];
+                    int new_column = r2 + delcol[j];
+                    if(new_row>=0 && new_row<grid.length && new_column>=0 && new_column<grid[0].length && grid[new_row][new_column]==1 && visited[new_row][new_column]!=1){
+                        flag = true;
+                        visited[new_row][new_column] = 1;
+                        q.offer(new Pair(new_row,new_column));
+                    }
                 }
-                if(r>=0 && c-1>=0 && grid[r][c-1]==1 && visited[r][c-1]!=1){
-                    q.offer(new Pair(r,c-1));
-                    visited[r][c-1] = 1;
-                    flag = true;
-                }
-                if(r+1<grid.length && c>=0 && grid[r+1][c]==1 && visited[r+1][c]!=1){
-                    q.offer(new Pair(r+1,c));
-                    visited[r+1][c] = 1;
-                    flag = true;
-                }
-                if(r>=0 && c+1<grid[0].length && grid[r][c+1]==1 && visited[r][c+1]!=1){
-                    q.offer(new Pair(r,c+1));
-                    visited[r][c+1] = 1;
-                    flag = true;
-                }
-                n--;
             }
             if(flag==true) count++;
         }
