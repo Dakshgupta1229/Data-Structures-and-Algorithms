@@ -6,51 +6,43 @@ class Pair{
         this.second = second;
     }
 }
-
-
 class Solution {
 
-    public void bfs(char[][] grid,int[][] visited,int row,int column){
-        visited[row][column] = 1;
-        Queue<Pair> q = new LinkedList<Pair>();
+    void bfs(int row,int column,char[][] grid,int[][] visited){
+        Queue<Pair> q = new LinkedList<>();
         q.offer(new Pair(row,column));
+        visited[row][column] = 1;
         while(q.size()>0){
-            int r = q.peek().first;
-            int c = q.peek().second;
+            int r1 = q.peek().first;
+            int r2 = q.peek().second;
             q.poll();
-                if(r-1>=0 && c>=0 && grid[r-1][c]=='1' && visited[r-1][c]!=1){
-                    q.offer(new Pair(r-1,c));
-                    visited[r-1][c] = 1;
+            int[] delrow = {-1,0,1,0};
+            int[] delcol = {0,-1,0,1};
+            for(int i=0;i<4;i++){
+                int new_row = r1 + delrow[i];
+                int new_col = r2 + delcol[i];
+                if(new_row>=0 && new_row<visited.length && new_col>=0 && new_col<visited[0].length && grid[new_row][new_col]=='1' && visited[new_row][new_col]!=1){
+                    visited[new_row][new_col] = 1;
+                    q.offer(new Pair(new_row,new_col));
                 }
-                if(r>=0 && c-1>=0 && grid[r][c-1]=='1' && visited[r][c-1]!=1){
-                    q.offer(new Pair(r,c-1));
-                    visited[r][c-1] = 1;
-                }
-                if(r+1<grid.length && c>=0 && grid[r+1][c]=='1' && visited[r+1][c]!=1){
-                    q.offer(new Pair(r+1,c));
-                    visited[r+1][c] = 1;
-                }
-                if(row>=0 && c+1<grid[0].length && grid[r][c+1]=='1' && visited[r][c+1]!=1){
-                    q.offer(new Pair(r,c+1));
-                    visited[r][c+1] = 1;
-                }
+            }
         }
+
     }
 
     public int numIslands(char[][] grid) {
         int[][] visited = new int[grid.length][grid[0].length];
-        for(int i=0;i<visited.length;i++){
-            for(int j=0;j<visited[i].length;j++){
+        for(int i=0;i<grid.length;i++){
+            for(int j=0;j<grid[i].length;j++){
                 visited[i][j] = 0;
             }
         }
-
         int count = 0;
         for(int i=0;i<grid.length;i++){
             for(int j=0;j<grid[i].length;j++){
                 if(grid[i][j]=='1' && visited[i][j]!=1){
                     count++;
-                    bfs(grid,visited,i,j);
+                    bfs(i,j,grid,visited);
                 }
             }
         }
