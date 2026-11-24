@@ -1,42 +1,44 @@
 class Solution {
 
-    public void bfs(ArrayList<ArrayList<Integer>> list,int[] visited,int start){
+    void bfs(int start,List<List<Integer>> list,int[] visited){
         Queue<Integer> q = new LinkedList<>();
         q.offer(start);
         visited[start] = 1;
         while(q.size()>0){
             int ele = q.peek();
             q.poll();
-            ArrayList<Integer> list2 = list.get(ele);
+            List<Integer> list2 = list.get(ele);
             for(int i=0;i<list2.size();i++){
-                int value = list2.get(i);
-                if(visited[value]!=1){
-                    visited[value] = 1;
-                    q.offer(value);
+                int val = list2.get(i);
+                if(visited[val]!=1){
+                    visited[val] = 1;
+                    q.offer(val);
                 }
             }
         }
     }
 
     public int findCircleNum(int[][] isConnected) {
-        ArrayList<ArrayList<Integer>> list = new ArrayList<ArrayList<Integer>>();
-        for(int i=0;i<isConnected.length+1;i++){
-            list.add(new ArrayList<Integer>());
+        List<List<Integer>> list = new ArrayList<>();
+        for(int i=0;i<isConnected.length;i++){
+            list.add(new ArrayList<>());
         }
         for(int i=0;i<isConnected.length;i++){
             for(int j=0;j<isConnected[i].length;j++){
-                if(isConnected[i][j]==1 && i!=j){
-                    list.get(i+1).add(j+1);
+                if(isConnected[i][j]==1){
+                    if(i!=j){
+                        list.get(i).add(j);
+                    }
                 }
             }
         }
-        int count = 0;
-        int[] visited = new int[isConnected.length+1];
+        int[] visited = new int[list.size()];
         Arrays.fill(visited,0);
-        for(int i=1;i<isConnected.length+1;i++){
+        int count = 0;
+        for(int i=0;i<list.size();i++){
             if(visited[i]!=1){
                 count++;
-                bfs(list,visited,i);
+                bfs(i,list,visited);
             }
         }
         return count;
