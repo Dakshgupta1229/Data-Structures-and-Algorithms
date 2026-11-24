@@ -9,10 +9,8 @@ class Solution {
         return num2;
     }
     int find_lcm(int num1,int num2){
-        for(int i=Math.max(num1,num2);i<50000;i+=Math.max(num1,num2)){
-            if(i%num1==0 && i%num2==0) return i;
-        }
-        return 1;
+        int result = (num1*num2)/find(num1,num2);
+        return result;
     }
 
     public int maxLength(int[] nums) {
