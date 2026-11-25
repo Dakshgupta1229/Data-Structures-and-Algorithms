@@ -205,6 +205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2486-append-characters-to-string-to-make-subsequence](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2486-append-characters-to-string-to-make-subsequence) |
 | [2609-find-the-longest-balanced-substring-of-a-binary-string](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2609-find-the-longest-balanced-substring-of-a-binary-string) |
 | [2914-minimum-number-of-changes-to-make-binary-string-beautiful](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2914-minimum-number-of-changes-to-make-binary-string-beautiful) |
+| [2938-separate-black-and-white-balls](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2938-separate-black-and-white-balls) |
 | [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3211-generate-binary-strings-without-adjacent-zeros) |
 | [3216-lexicographically-smallest-string-after-a-swap](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3216-lexicographically-smallest-string-after-a-swap) |
 | [3746-minimum-string-length-after-balanced-removals](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3746-minimum-string-length-after-balanced-removals) |
@@ -249,6 +250,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2405-optimal-partition-of-string](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2405-optimal-partition-of-string) |
 | [2410-maximum-matching-of-players-with-trainers](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2410-maximum-matching-of-players-with-trainers) |
 | [2486-append-characters-to-string-to-make-subsequence](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2486-append-characters-to-string-to-make-subsequence) |
+| [2938-separate-black-and-white-balls](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2938-separate-black-and-white-balls) |
 | [3216-lexicographically-smallest-string-after-a-swap](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3216-lexicographically-smallest-string-after-a-swap) |
 | [3487-maximum-unique-subarray-sum-after-deletion](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3487-maximum-unique-subarray-sum-after-deletion) |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3727-maximum-alternating-sum-of-squares) |
@@ -399,6 +401,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2149-rearrange-array-elements-by-sign](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2410-maximum-matching-of-players-with-trainers](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2410-maximum-matching-of-players-with-trainers) |
 | [2486-append-characters-to-string-to-make-subsequence](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2486-append-characters-to-string-to-make-subsequence) |
+| [2938-separate-black-and-white-balls](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2938-separate-black-and-white-balls) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 | [4014-minimum-total-price-after-applying-discounts](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4014-minimum-total-price-after-applying-discounts) |
 ## Simulation
