@@ -164,6 +164,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [1480-running-sum-of-1d-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1480-running-sum-of-1d-array) |
 | [1508-range-sum-of-sorted-subarray-sums](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1508-range-sum-of-sorted-subarray-sums) |
+| [1525-number-of-good-ways-to-split-a-string](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1525-number-of-good-ways-to-split-a-string) |
 | [1588-sum-of-all-odd-length-subarrays](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1588-sum-of-all-odd-length-subarrays) |
 | [1685-sum-of-absolute-differences-in-a-sorted-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1685-sum-of-absolute-differences-in-a-sorted-array) |
 | [2389-longest-subsequence-with-limited-sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2389-longest-subsequence-with-limited-sum) |
@@ -195,6 +196,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
+| [1525-number-of-good-ways-to-split-a-string](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1525-number-of-good-ways-to-split-a-string) |
 | [1763-longest-nice-substring](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1763-longest-nice-substring) |
 | [1897-redistribute-characters-to-make-all-strings-equal](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1897-redistribute-characters-to-make-all-strings-equal) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
@@ -232,6 +234,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0678-valid-parenthesis-string](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0678-valid-parenthesis-string) |
 | [1402-reducing-dishes](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1402-reducing-dishes) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
+| [1525-number-of-good-ways-to-split-a-string](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1525-number-of-good-ways-to-split-a-string) |
 ## Greedy
 |  |
 | ------- |
@@ -451,6 +454,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1248-count-number-of-nice-subarrays](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1248-count-number-of-nice-subarrays) |
 | [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1261-find-elements-in-a-contaminated-binary-tree) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1358-number-of-substrings-containing-all-three-characters) |
+| [1525-number-of-good-ways-to-split-a-string](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1525-number-of-good-ways-to-split-a-string) |
 | [1630-arithmetic-subarrays](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1630-arithmetic-subarrays) |
 | [1763-longest-nice-substring](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1763-longest-nice-substring) |
 | [1897-redistribute-characters-to-make-all-strings-equal](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1897-redistribute-characters-to-make-all-strings-equal) |
@@ -588,6 +592,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0222-count-complete-tree-nodes](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0222-count-complete-tree-nodes) |
 | [0268-missing-number](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0268-missing-number) |
 | [0861-score-after-flipping-matrix](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0861-score-after-flipping-matrix) |
+| [1525-number-of-good-ways-to-split-a-string](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1525-number-of-good-ways-to-split-a-string) |
 | [1763-longest-nice-substring](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1763-longest-nice-substring) |
 | [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3211-generate-binary-strings-without-adjacent-zeros) |
 | [3955-valid-binary-strings-with-cost-limit](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3955-valid-binary-strings-with-cost-limit) |
