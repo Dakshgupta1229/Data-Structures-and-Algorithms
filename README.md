@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0268-missing-number) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0455-assign-cookies](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0455-assign-cookies) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0485-max-consecutive-ones](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0485-max-consecutive-ones) |
 | [0542-01-matrix](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0560-subarray-sum-equals-k) |
@@ -260,6 +261,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0268-missing-number) |
 | [0455-assign-cookies](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0455-assign-cookies) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0594-longest-harmonious-subsequence](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0594-longest-harmonious-subsequence) |
 | [0658-find-k-closest-elements](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0658-find-k-closest-elements) |
 | [0786-k-th-smallest-prime-fraction](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0786-k-th-smallest-prime-fraction) |
@@ -479,6 +481,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0268-missing-number) |
 | [0292-nim-game](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0292-nim-game) |
 | [0382-linked-list-random-node](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0382-linked-list-random-node) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0507-perfect-number](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0507-perfect-number) |
 | [0598-range-addition-ii](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0598-range-addition-ii) |
 | [0633-sum-of-square-numbers](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0633-sum-of-square-numbers) |
