@@ -192,6 +192,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0541-reverse-string-ii](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0541-reverse-string-ii) |
 | [0678-valid-parenthesis-string](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0678-valid-parenthesis-string) |
 | [0696-count-binary-substrings](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0696-count-binary-substrings) |
+| [0791-custom-sort-string](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0791-custom-sort-string) |
 | [0988-smallest-string-starting-from-leaf](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0988-smallest-string-starting-from-leaf) |
 | [1021-remove-outermost-parentheses](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1021-remove-outermost-parentheses) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
@@ -279,6 +280,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0594-longest-harmonious-subsequence](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0594-longest-harmonious-subsequence) |
 | [0658-find-k-closest-elements](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0658-find-k-closest-elements) |
 | [0786-k-th-smallest-prime-fraction](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0786-k-th-smallest-prime-fraction) |
+| [0791-custom-sort-string](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0791-custom-sort-string) |
 | [0881-boats-to-save-people](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0881-boats-to-save-people) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1005-maximize-sum-of-array-after-k-negations](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1005-maximize-sum-of-array-after-k-negations) |
@@ -448,6 +450,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0560-subarray-sum-equals-k) |
 | [0594-longest-harmonious-subsequence](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0594-longest-harmonious-subsequence) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0791-custom-sort-string](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0791-custom-sort-string) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0904-fruit-into-baskets](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0930-binary-subarrays-with-sum) |
