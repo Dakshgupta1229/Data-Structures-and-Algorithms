@@ -215,6 +215,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2938-separate-black-and-white-balls](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2938-separate-black-and-white-balls) |
 | [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3211-generate-binary-strings-without-adjacent-zeros) |
 | [3216-lexicographically-smallest-string-after-a-swap](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3216-lexicographically-smallest-string-after-a-swap) |
+| [3713-longest-balanced-substring-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3713-longest-balanced-substring-i) |
 | [3746-minimum-string-length-after-balanced-removals](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3746-minimum-string-length-after-balanced-removals) |
 | [3913-sort-vowels-by-frequency](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3913-sort-vowels-by-frequency) |
 | [3955-valid-binary-strings-with-cost-limit](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3955-valid-binary-strings-with-cost-limit) |
@@ -476,6 +477,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3471-find-the-largest-almost-missing-integer](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3471-find-the-largest-almost-missing-integer) |
 | [3483-unique-3-digit-even-numbers](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3483-unique-3-digit-even-numbers) |
 | [3487-maximum-unique-subarray-sum-after-deletion](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3487-maximum-unique-subarray-sum-after-deletion) |
+| [3713-longest-balanced-substring-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3713-longest-balanced-substring-i) |
 | [3718-smallest-missing-multiple-of-k](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3718-smallest-missing-multiple-of-k) |
 | [3719-longest-balanced-subarray-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3719-longest-balanced-subarray-i) |
 | [3731-find-missing-elements](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3731-find-missing-elements) |
@@ -552,6 +554,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0594-longest-harmonious-subsequence](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0594-longest-harmonious-subsequence) |
 | [1897-redistribute-characters-to-make-all-strings-equal](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1897-redistribute-characters-to-make-all-strings-equal) |
 | [2150-find-all-lonely-numbers-in-the-array](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2150-find-all-lonely-numbers-in-the-array) |
+| [3713-longest-balanced-substring-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3713-longest-balanced-substring-i) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3746-minimum-string-length-after-balanced-removals](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3746-minimum-string-length-after-balanced-removals) |
 | [3913-sort-vowels-by-frequency](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3913-sort-vowels-by-frequency) |
@@ -671,6 +674,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3345-smallest-divisible-digit-product-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3345-smallest-divisible-digit-product-i) |
 | [3411-maximum-subarray-with-equal-products](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3411-maximum-subarray-with-equal-products) |
 | [3483-unique-3-digit-even-numbers](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3483-unique-3-digit-even-numbers) |
+| [3713-longest-balanced-substring-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3713-longest-balanced-substring-i) |
 | [3955-valid-binary-strings-with-cost-limit](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3955-valid-binary-strings-with-cost-limit) |
 | [4010-maximize-pair-strength-using-gcd](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4010-maximize-pair-strength-using-gcd) |
 | [4024-nearest-available-drone](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4024-nearest-available-drone) |
