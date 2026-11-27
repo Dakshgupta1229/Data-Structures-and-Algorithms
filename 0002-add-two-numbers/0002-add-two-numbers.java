@@ -10,47 +10,55 @@
  */
 class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        ListNode result = new ListNode(100);
-        ListNode r = result;
+        ListNode temp = new ListNode(1000);
+        ListNode t = temp;
         int carry = 0;
         while(l1!=null && l2!=null){
             int sum = l1.val + l2.val + carry;
-            int digit = sum%10;
-            sum = sum/10;
-            if(sum!=0) carry = sum;
+            int digit = sum;
+            if(sum>=10){
+                digit = digit%10;
+                carry = 1;
+            }
             else carry = 0;
-            ListNode t = new ListNode(digit);
-            result.next = t;
-            result = result.next;
+            ListNode tt = new ListNode(digit);
+            temp.next = tt;
+            temp = temp.next;
             l1 = l1.next;
             l2 = l2.next;
         }
         while(l1!=null){
             int sum = l1.val + carry;
-            int digit = sum%10;
-            sum = sum/10;
-            if(sum!=0) carry = sum;
+            int digit = sum;
+            if(sum>=10){
+                digit = digit%10;
+                carry = 1;
+            }
             else carry = 0;
-            ListNode t = new ListNode(digit);
-            result.next = t;
-            result = result.next;
+            ListNode tt = new ListNode(digit);
+            temp.next = tt;
+            temp = temp.next;
             l1 = l1.next;
         }
         while(l2!=null){
             int sum = l2.val + carry;
-            int digit = sum%10;
-            sum = sum/10;
-            if(sum!=0) carry = sum;
+            int digit = sum;
+            if(sum>=10){
+                digit = digit%10;
+                carry = 1;
+            }
             else carry = 0;
-            ListNode t = new ListNode(digit);
-            result.next = t;
-            result = result.next;
+            ListNode tt = new ListNode(digit);
+            temp.next = tt;
+            temp = temp.next;
             l2 = l2.next;
         }
         if(carry!=0){
-            ListNode t = new ListNode(carry);
-            result.next = t;
+            ListNode tt = new ListNode(carry);
+            temp.next = tt;
+            temp = temp.next;
         }
-        return r.next;
+        temp.next = null;
+        return t.next;
     }
 }
