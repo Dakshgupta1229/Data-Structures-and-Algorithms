@@ -9,35 +9,20 @@
  * }
  */
 class Solution {
-    ListNode head;
-    int n;
+    List<Integer> list = new ArrayList<>();
     public Solution(ListNode head) {
-        this.head = head;
-        this.n = size(head);
-    }
-
-    public int size(ListNode head){
-        int count = 0;
-        while(head!=null){
-            count++;
-            head = head.next;
+        ListNode temp = head;
+        while(temp!=null){
+            list.add(temp.val);
+            temp = temp.next;
         }
-        return count;
     }
     
     public int getRandom() {
-        int low = 1;
-        int high = n;
-        Random random = new Random();
-        int num = random.nextInt(low + high - 1) + low;
-        int count = 1;
-        ListNode temp = head;
-        while(temp!=null){
-            if(count==num) return temp.val;
-            temp = temp.next;
-            count++;
-        }
-        return -1;
+        int min = 0;
+        int max = list.size()-1;
+        int number = (int)(Math.random() * (max-min+1)) + min;
+        return list.get(number);
     }
 }
 
