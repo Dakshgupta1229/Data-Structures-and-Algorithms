@@ -10,22 +10,21 @@
  */
 class Solution {
     public ListNode oddEvenList(ListNode head) {
-        ListNode odd = new ListNode(100);
+        ListNode odd = new ListNode(1000);
         ListNode o = odd;
-        ListNode even = new ListNode(100);
+        ListNode even = new ListNode(1000);
         ListNode e = even;
         int count = 1;
         while(head!=null){
             if(count%2!=0){
                 odd.next = head;
                 odd = odd.next;
-                head = head.next;
             }
             else{
                 even.next = head;
                 even = even.next;
-                head = head.next;
             }
+            head = head.next;
             count++;
         }
         even.next = null;
