@@ -12,14 +12,14 @@ class Solution {
     public void reorderList(ListNode head) {
         ListNode slow = head;
         ListNode fast = head;
-        while(fast!=null && fast.next!=null){
+        while(fast.next!=null && fast.next.next!=null){
             slow = slow.next;
             fast = fast.next.next;
         }
-        ListNode temp = slow.next;
+        ListNode curr = slow.next;
         slow.next = null;
-        ListNode curr = temp;
         ListNode prev = null;
+        ListNode temp = null;
         while(curr!=null){
             temp = curr.next;
             curr.next = prev;
