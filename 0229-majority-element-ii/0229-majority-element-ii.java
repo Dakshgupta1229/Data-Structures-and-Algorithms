@@ -8,11 +8,11 @@ class Solution {
         for(int i=0;i<nums.length;i++){
             if(count1==0 && ele2!=nums[i]){
                 ele1 = nums[i];
-                count1 = 1;
+                count1++;
             }
             else if(count2==0 && ele1!=nums[i]){
                 ele2 = nums[i];
-                count2 = 1;
+                count2++;
             }
             else if(ele1==nums[i]) count1++;
             else if(ele2==nums[i]) count2++;
@@ -24,11 +24,11 @@ class Solution {
         int count3 = 0;
         int count4 = 0;
         for(int i=0;i<nums.length;i++){
-            if(nums[i]==ele1) count3++;
-            if(nums[i]==ele2) count4++;
+            if(ele1==nums[i]) count3++;
+            if(ele2==nums[i]) count4++;
         }
-        if(count3>(nums.length/3)) list.add(ele1);
-        if(count4>(nums.length/3)) list.add(ele2);
+        if(count3>nums.length/3) list.add(ele1);
+        if(count4>nums.length/3) list.add(ele2);
         return list;
     }
 }
