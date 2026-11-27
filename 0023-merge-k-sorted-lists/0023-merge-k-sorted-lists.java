@@ -9,39 +9,42 @@
  * }
  */
 class Solution {
-
-    public ListNode merge(ListNode list1,ListNode list2){
-        ListNode temp = new ListNode(100);
-        ListNode t= temp;
-        while(list1!=null && list2!=null){
-            if(list1.val < list2.val){
+    public ListNode mergeKLists(ListNode[] lists) {
+        if(lists.length==0) return null;
+        List<ListNode> list = new ArrayList<>();
+        for(int i=0;i<lists.length;i++){
+            list.add(lists[i]);
+        }
+        while(list.size()>1){
+            ListNode list1 = list.get(list.size()-1);
+            ListNode list2 = list.get(list.size()-2);
+            list.remove(list.size()-1);
+            list.remove(list.size()-1);
+            ListNode temp = new ListNode(100);
+            ListNode t = temp;
+            while(list1!=null && list2!=null){
+                if(list1.val<=list2.val){
+                    temp.next = list1;
+                    list1 = list1.next;
+                }
+                else{
+                    temp.next = list2;
+                    list2 = list2.next;
+                }
+                temp = temp.next;
+            }
+            while(list1!=null){
                 temp.next = list1;
                 temp = temp.next;
                 list1 = list1.next;
             }
-            else{
+            while(list2!=null){
                 temp.next = list2;
                 temp = temp.next;
                 list2 = list2.next;
             }
+            list.add(t.next);
         }
-        if(list1!=null) temp.next = list1;
-        if(list2!=null) temp.next = list2;
-        return t.next;
-    }
-
-    public ListNode mergeKLists(ListNode[] lists) {
-        if(lists.length==0) return null;
-        ArrayList<ListNode> arr = new ArrayList<>();
-        for(int i=0;i<lists.length;i++) arr.add(lists[i]);
-        while(arr.size()>1){
-            ListNode list1 = arr.get(arr.size()- 1);
-            ListNode list2 = arr.get(arr.size() - 2);
-            arr.remove(arr.size() - 1);
-            arr.remove(arr.size() - 1);
-            ListNode result = merge(list1,list2);
-            arr.add(result);
-        }
-        return arr.get(0);
+        return list.get(0);
     }
 }
