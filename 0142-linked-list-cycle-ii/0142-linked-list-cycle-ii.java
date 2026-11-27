@@ -24,11 +24,10 @@ public class Solution {
         }
         if(flag==false) return null;
         ListNode temp = head;
-        while(temp!=null){
-            if(slow==temp) return temp;
-            slow = slow.next;
+        while(true){
+            if(temp==slow) return temp;
             temp = temp.next;
+            slow = slow.next;
         }
-        return null;
     }
 }
