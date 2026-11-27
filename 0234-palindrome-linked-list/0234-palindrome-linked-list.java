@@ -16,10 +16,10 @@ class Solution {
             slow = slow.next;
             fast = fast.next.next;
         }
-        ListNode temp = slow.next;
+        ListNode curr = slow.next;
         slow.next = null;
-        ListNode curr = temp;
         ListNode prev = null;
+        ListNode temp = null;
         while(curr!=null){
             temp = curr.next;
             curr.next = prev;
