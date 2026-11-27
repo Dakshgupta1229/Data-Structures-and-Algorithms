@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0056-merge-intervals) |
 | [0074-search-a-2d-matrix](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0074-search-a-2d-matrix) |
+| [0075-sort-colors](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0078-subsets) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0090-subsets-ii](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0090-subsets-ii) |
@@ -274,6 +275,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0016-3sum-closest](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0018-4sum) |
 | [0056-merge-intervals](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0056-merge-intervals) |
+| [0075-sort-colors](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0075-sort-colors) |
 | [0148-sort-list](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0229-majority-element-ii) |
@@ -394,6 +396,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0031-next-permutation](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0031-next-permutation) |
 | [0042-trapping-rain-water](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0042-trapping-rain-water) |
 | [0061-rotate-list](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0061-rotate-list) |
+| [0075-sort-colors](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0075-sort-colors) |
 | [0086-partition-list](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0086-partition-list) |
 | [0141-linked-list-cycle](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0142-linked-list-cycle-ii) |
@@ -1159,6 +1162,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0056-merge-intervals](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0056-merge-intervals) |
+| [0075-sort-colors](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0075-sort-colors) |
 | [0455-assign-cookies](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0455-assign-cookies) |
 ## Newton's Method
 |  |
@@ -1253,4 +1257,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0207-course-schedule) |
+## Bubble Sort
+|  |
+| ------- |
+| [0075-sort-colors](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0075-sort-colors) |
 <!---LeetCode Topics End-->
