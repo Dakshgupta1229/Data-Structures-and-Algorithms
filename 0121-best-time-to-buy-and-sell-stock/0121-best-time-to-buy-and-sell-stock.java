@@ -1,15 +1,14 @@
 class Solution {
     public int maxProfit(int[] prices) {
-        int ele = -1;
         int max_profit = 0;
-        int[] next_greatest = new int[prices.length];
-        next_greatest[prices.length-1] = ele;
-        for(int i=prices.length-1;i>=1;i--){
-            if(ele<prices[i]) ele = prices[i];
-            next_greatest[i-1] = ele;
-        }
-        for(int i=0;i<prices.length-1;i++){
-            if(max_profit < (next_greatest[i] - prices[i])) max_profit = next_greatest[i] - prices[i];
+        int next_greater = prices[prices.length-1];
+        for(int i=prices.length-2;i>=0;i--){
+            if(prices[i]<=next_greater){
+                if(max_profit<next_greater-prices[i]){
+                    max_profit = next_greater - prices[i];
+                }
+            }
+            if(next_greater<prices[i]) next_greater = prices[i];
         }
         return max_profit;
     }
