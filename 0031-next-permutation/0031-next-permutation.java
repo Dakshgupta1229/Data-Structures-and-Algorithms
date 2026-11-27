@@ -11,16 +11,16 @@ class Solution {
             Arrays.sort(nums);
         }
         else{
-            int i1=pivot_idx+1;
-            int j1=nums.length-1;
-            while(i1<j1){
-                int temp = nums[i1];
-                nums[i1] = nums[j1];
-                nums[j1] = temp;
-                i1++;
-                j1--;
+            int i=pivot_idx+1;
+            int j=nums.length-1;
+            while(i<j){
+                int temp = nums[i];
+                nums[i] = nums[j];
+                nums[j] = temp;
+                i++;
+                j--;
             }
-            for(int i=pivot_idx+1;i<nums.length;i++){
+            for(i=pivot_idx+1;i<nums.length;i++){
                 if(nums[i]>nums[pivot_idx]){
                     int temp = nums[i];
                     nums[i] = nums[pivot_idx];
