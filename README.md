@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0455-assign-cookies) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0485-max-consecutive-ones](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0485-max-consecutive-ones) |
+| [0493-reverse-pairs](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0493-reverse-pairs) |
 | [0542-01-matrix](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0560-subarray-sum-equals-k) |
 | [0594-longest-harmonious-subsequence](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0594-longest-harmonious-subsequence) |
@@ -328,6 +329,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0222-count-complete-tree-nodes](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0222-count-complete-tree-nodes) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0240-search-a-2d-matrix-ii) |
 | [0268-missing-number](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0268-missing-number) |
+| [0493-reverse-pairs](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0493-reverse-pairs) |
 | [0633-sum-of-square-numbers](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0633-sum-of-square-numbers) |
 | [0658-find-k-closest-elements](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0658-find-k-closest-elements) |
 | [0713-subarray-product-less-than-k](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0713-subarray-product-less-than-k) |
@@ -383,6 +385,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0148-sort-list](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0169-majority-element) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0240-search-a-2d-matrix-ii) |
+| [0493-reverse-pairs](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0493-reverse-pairs) |
 | [1763-longest-nice-substring](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/1763-longest-nice-substring) |
 | [3719-longest-balanced-subarray-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3719-longest-balanced-subarray-i) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3737-count-subarrays-with-majority-element-i) |
@@ -552,6 +555,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Segment Tree
 |  |
 | ------- |
+| [0493-reverse-pairs](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0493-reverse-pairs) |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
 | [3719-longest-balanced-subarray-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3719-longest-balanced-subarray-i) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3737-count-subarrays-with-majority-element-i) |
@@ -756,6 +760,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0023-merge-k-sorted-lists) |
 | [0148-sort-list](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0148-sort-list) |
+| [0493-reverse-pairs](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0493-reverse-pairs) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/3737-count-subarrays-with-majority-element-i) |
 ## Tournament Sort
 |  |
@@ -1174,6 +1179,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Indexed Tree
 |  |
 | ------- |
+| [0493-reverse-pairs](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0493-reverse-pairs) |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
 ## Timsort
 |  |
@@ -1209,6 +1215,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Ordered Set
 |  |
 | ------- |
+| [0493-reverse-pairs](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0493-reverse-pairs) |
 | [4065-rearrange-array-by-removing-distinct-values](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/4065-rearrange-array-by-removing-distinct-values) |
 ## Graph Coloring
 |  |
@@ -1264,4 +1271,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0075-sort-colors) |
+## Treap
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/Dakshgupta1229/Data-Structures-and-Algorithms/tree/master/0493-reverse-pairs) |
 <!---LeetCode Topics End-->
